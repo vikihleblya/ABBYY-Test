@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		07F7EEE2EEF9115B5B4A124A /* Pods_ABBYY_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B91F1692D81C1666404F787 /* Pods_ABBYY_Test.framework */; };
+		7007AD1422749FD80080BBFD /* Task+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7007AD1222749FD80080BBFD /* Task+CoreDataClass.swift */; };
+		7007AD1522749FD80080BBFD /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7007AD1322749FD80080BBFD /* Task+CoreDataProperties.swift */; };
+		7007AD172274A38C0080BBFD /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7007AD162274A38C0080BBFD /* CoreDataManager.swift */; };
 		70FAAC7E22747EC800A3C6E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FAAC7D22747EC800A3C6E0 /* AppDelegate.swift */; };
 		70FAAC8322747EC800A3C6E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70FAAC8122747EC800A3C6E0 /* Main.storyboard */; };
 		70FAAC8622747EC800A3C6E0 /* ABBYY_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70FAAC8422747EC800A3C6E0 /* ABBYY_Test.xcdatamodeld */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7007AD1222749FD80080BBFD /* Task+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7007AD1322749FD80080BBFD /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7007AD162274A38C0080BBFD /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		70FAAC7A22747EC800A3C6E0 /* ABBYY Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ABBYY Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70FAAC7D22747EC800A3C6E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70FAAC8222747EC800A3C6E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,6 +52,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7007AD0D22749FB90080BBFD /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				7007AD1222749FD80080BBFD /* Task+CoreDataClass.swift */,
+				7007AD1322749FD80080BBFD /* Task+CoreDataProperties.swift */,
+				7007AD162274A38C0080BBFD /* CoreDataManager.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
 		70FAAC7122747EC700A3C6E0 = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +83,7 @@
 		70FAAC7C22747EC800A3C6E0 /* ABBYY Test */ = {
 			isa = PBXGroup;
 			children = (
+				7007AD0D22749FB90080BBFD /* Database */,
 				70FAAC7D22747EC800A3C6E0 /* AppDelegate.swift */,
 				70FAAC8122747EC800A3C6E0 /* Main.storyboard */,
 				70FAAC8722747EC900A3C6E0 /* Assets.xcassets */,
@@ -74,8 +91,8 @@
 				70FAAC8C22747EC900A3C6E0 /* Info.plist */,
 				70FAAC8422747EC800A3C6E0 /* ABBYY_Test.xcdatamodeld */,
 				70FAAC922274831E00A3C6E0 /* MainTableViewController.swift */,
-				70FAAC94227485CE00A3C6E0 /* AddNewTaskViewController.swift */,
 				70FAAC962274887200A3C6E0 /* MainTaskTableViewCell.swift */,
+				70FAAC94227485CE00A3C6E0 /* AddNewTaskViewController.swift */,
 			);
 			path = "ABBYY Test";
 			sourceTree = "<group>";
@@ -86,7 +103,6 @@
 				DE93F6262E5B0ACF7060A1A8 /* Pods-ABBYY Test.debug.xcconfig */,
 				AE2F7ECC72BC08E3AC162D3A /* Pods-ABBYY Test.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -177,12 +193,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ABBYY Test/Pods-ABBYY Test-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -222,6 +240,9 @@
 				70FAAC932274831E00A3C6E0 /* MainTableViewController.swift in Sources */,
 				70FAAC972274887200A3C6E0 /* MainTaskTableViewCell.swift in Sources */,
 				70FAAC95227485CE00A3C6E0 /* AddNewTaskViewController.swift in Sources */,
+				7007AD1522749FD80080BBFD /* Task+CoreDataProperties.swift in Sources */,
+				7007AD1422749FD80080BBFD /* Task+CoreDataClass.swift in Sources */,
+				7007AD172274A38C0080BBFD /* CoreDataManager.swift in Sources */,
 				70FAAC7E22747EC800A3C6E0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
