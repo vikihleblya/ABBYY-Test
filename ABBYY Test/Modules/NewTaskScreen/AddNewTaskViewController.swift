@@ -3,6 +3,7 @@ import SwiftDate
 
 class AddNewTaskViewController: UIViewController {
 
+    private var statusForNewTask = "New"
     @IBOutlet var nameTextField: UITextField!
     @IBOutlet var commentTextView: UITextView!
     @IBOutlet var datePicker: UIDatePicker!
@@ -57,6 +58,7 @@ extension AddNewTaskViewController{
         task.comment = commentTextView.text
         task.date = datePicker.date as NSDate
         task.taskName = nameTextField.text
+        task.status = statusForNewTask
         CoreDataManager.instance.saveContext()
     }
 }

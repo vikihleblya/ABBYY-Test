@@ -58,8 +58,53 @@
 				7007AD1222749FD80080BBFD /* Task+CoreDataClass.swift */,
 				7007AD1322749FD80080BBFD /* Task+CoreDataProperties.swift */,
 				7007AD162274A38C0080BBFD /* CoreDataManager.swift */,
+				70FAAC8422747EC800A3C6E0 /* ABBYY_Test.xcdatamodeld */,
 			);
 			path = Database;
+			sourceTree = "<group>";
+		};
+		7007AD182274CE410080BBFD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				70FAAC8122747EC800A3C6E0 /* Main.storyboard */,
+				70FAAC8922747EC900A3C6E0 /* LaunchScreen.storyboard */,
+				70FAAC8722747EC900A3C6E0 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7007AD192274CE790080BBFD /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				70FAAC7D22747EC800A3C6E0 /* AppDelegate.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		7007AD1A2274CE8C0080BBFD /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				7007AD1B2274CEA90080BBFD /* MainScreen */,
+				7007AD1C2274CEB30080BBFD /* NewTaskScreen */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		7007AD1B2274CEA90080BBFD /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				70FAAC922274831E00A3C6E0 /* MainTableViewController.swift */,
+				70FAAC962274887200A3C6E0 /* MainTaskTableViewCell.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		7007AD1C2274CEB30080BBFD /* NewTaskScreen */ = {
+			isa = PBXGroup;
+			children = (
+				70FAAC94227485CE00A3C6E0 /* AddNewTaskViewController.swift */,
+			);
+			path = NewTaskScreen;
 			sourceTree = "<group>";
 		};
 		70FAAC7122747EC700A3C6E0 = {
@@ -83,16 +128,11 @@
 		70FAAC7C22747EC800A3C6E0 /* ABBYY Test */ = {
 			isa = PBXGroup;
 			children = (
+				7007AD192274CE790080BBFD /* Settings */,
+				7007AD182274CE410080BBFD /* Resources */,
+				7007AD1A2274CE8C0080BBFD /* Modules */,
 				7007AD0D22749FB90080BBFD /* Database */,
-				70FAAC7D22747EC800A3C6E0 /* AppDelegate.swift */,
-				70FAAC8122747EC800A3C6E0 /* Main.storyboard */,
-				70FAAC8722747EC900A3C6E0 /* Assets.xcassets */,
-				70FAAC8922747EC900A3C6E0 /* LaunchScreen.storyboard */,
 				70FAAC8C22747EC900A3C6E0 /* Info.plist */,
-				70FAAC8422747EC800A3C6E0 /* ABBYY_Test.xcdatamodeld */,
-				70FAAC922274831E00A3C6E0 /* MainTableViewController.swift */,
-				70FAAC962274887200A3C6E0 /* MainTaskTableViewCell.swift */,
-				70FAAC94227485CE00A3C6E0 /* AddNewTaskViewController.swift */,
 			);
 			path = "ABBYY Test";
 			sourceTree = "<group>";

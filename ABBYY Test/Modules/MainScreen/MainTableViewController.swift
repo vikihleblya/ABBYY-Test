@@ -1,14 +1,15 @@
-//
-//  MainTableViewController.swift
-//  ABBYY Test
-//
-//  Created by Victor on 27/04/2019.
-//  Copyright © 2019 com.example.LoD. All rights reserved.
-//
-
 import UIKit
 
 class MainTableViewController: UITableViewController {
+    private let heightForCell: CGFloat = 73.0
+    private var fetchedResultsController = CoreDataManager.instance.fetchedResultsController(entityName: "Task", keyForSort: "date", ascending: true)
+    private var tasks: [Task] = []{
+        didSet{
+            DispatchQueue.main.async {
+                self.tableView.reloadData()
+            }
+        }
+    }
     @IBAction func goToAddTaskVC(_ sender: Any) {
         guard let addNewTaskVC = storyboard?.instantiateViewController(withIdentifier: "AddNewTaskVC") else {return}
         navigationController?.pushViewController(addNewTaskVC, animated: true)
@@ -24,21 +25,38 @@ class MainTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        do {
+            try fetchedResultsController.performFetch()
+            tasks = fetchedResultsController.fetchedObjects as? [Task] ?? tasks
+        } catch {
+            print(error)
+        }
+    }
+
+    
     // MARK: - Table view data source
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 5
+        if let sections = fetchedResultsController.sections {
+            return sections[section].numberOfObjects
+        } else {
+            return 0
+        }
     }
     
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "taskCell", for: indexPath) as! MainTaskTableViewCell
+        cell.dateLabel.text = tasks[indexPath.row].date?.description
+        cell.taskNameLabel.text = tasks[indexPath.row].taskName
+        cell.statusLabel.text = tasks[indexPath.row].status
         return cell
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 73
+        return heightForCell
     }
 
     /*
