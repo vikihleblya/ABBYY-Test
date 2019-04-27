@@ -2,14 +2,20 @@ import UIKit
 import SwiftDate
 
 class AddNewTaskViewController: UIViewController {
-
     private var statusForNewTask = "New"
+    var task: Task?
+    var isInEditingStyle: Bool = false
     @IBOutlet var nameTextField: UITextField!
     @IBOutlet var commentTextView: UITextView!
     @IBOutlet var datePicker: UIDatePicker!
     @IBOutlet var doneButton: UIButton!
     @IBAction func doneButtonTapped(_ sender: Any) {
-        if checkDataForSave(){
+        if isInEditingStyle && isDataForSaveCorrect(){
+            editCurrentData()
+            navigationController?.popToRootViewController(animated: true)
+            return
+        }
+        if isDataForSaveCorrect(){
             saveNewData()
             navigationController?.popToRootViewController(animated: true)
         }
@@ -17,9 +23,18 @@ class AddNewTaskViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        if isInEditingStyle{
+            fillFieldsToEdit()
+        }
         navigationController?.navigationBar.prefersLargeTitles = false
         changeDoneButton()
         changeCommentTextView()
+    }
+    
+    func fillFieldsToEdit(){
+        nameTextField.text = task?.taskName
+        commentTextView.text = task?.comment
+        datePicker.date = task?.date as! Date
     }
     
     func changeDoneButton(){
@@ -34,7 +49,7 @@ class AddNewTaskViewController: UIViewController {
 }
 
 extension AddNewTaskViewController{
-    func checkDataForSave() -> Bool{
+    func isDataForSaveCorrect() -> Bool{
         if commentTextView.text.isEmpty || nameTextField.text == ""{
             showError(with: "Fill all empty fields")
             return false
@@ -50,6 +65,12 @@ extension AddNewTaskViewController{
         let okAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
         alertController.addAction(okAction)
         present(alertController, animated: true, completion: nil)
+    }
+    
+    func editCurrentData(){
+        task?.date = datePicker.date as NSDate
+        task?.comment = commentTextView.text
+        task?.taskName = nameTextField.text
     }
     
     func saveNewData(){

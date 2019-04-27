@@ -17,15 +17,13 @@ class MainTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
     override func viewWillAppear(_ animated: Bool) {
+        fetchData()
+    }
+
+    func fetchData(){
         do {
             try fetchedResultsController.performFetch()
             tasks = fetchedResultsController.fetchedObjects as? [Task] ?? tasks
@@ -33,7 +31,6 @@ class MainTableViewController: UITableViewController {
             print(error)
         }
     }
-
     
     // MARK: - Table view data source
 
@@ -59,49 +56,39 @@ class MainTableViewController: UITableViewController {
         return heightForCell
     }
 
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
+
+}
+
+extension MainTableViewController{
+    override func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let delete = UIContextualAction(style: .destructive, title: "Delete") { (action, view, nil) in
+            CoreDataManager.instance.persistentContainer.viewContext.delete(self.tasks[indexPath.row])
+            CoreDataManager.instance.saveContext()
+            self.fetchData()
+            self.tableView.deleteRows(at: [indexPath], with: .automatic)            
+        }
+        let edit = UIContextualAction(style: .normal, title: "Edit") { (action, view, nil) in
+            guard let addNewTaskVC = self.storyboard?.instantiateViewController(withIdentifier: "AddNewTaskVC") as? AddNewTaskViewController else {return}
+            addNewTaskVC.task = self.tasks[indexPath.row]
+            addNewTaskVC.isInEditingStyle = true
+            self.navigationController?.pushViewController(addNewTaskVC, animated: true)
+        }
+        edit.backgroundColor = UIColor.orange
+        let configuration = UISwipeActionsConfiguration(actions: [delete, edit])
+        configuration.performsFirstActionWithFullSwipe = false
+        return configuration
     }
-    */
-
-    /*
-    // Override to support editing the table view.
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
-        if editingStyle == .delete {
-            // Delete the row from the data source
-            tableView.deleteRows(at: [indexPath], with: .fade)
-        } else if editingStyle == .insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
+    
+    override func tableView(_ tableView: UITableView, leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let done = UIContextualAction(style: .normal, title: "Mark as done") { (action, view, nil) in
+            
+        }
+        done.backgroundColor = UIColor(displayP3Red: 47.0/255, green: 201.0/255, blue: 97.0/255, alpha: 1)
+        let inProcess = UIContextualAction(style: .normal, title: "Mark as in progress") { (action, view, nil) in
+            
+        }
+        let configuration = UISwipeActionsConfiguration(actions: [done, inProcess])
+        configuration.performsFirstActionWithFullSwipe = false
+        return configuration
     }
-    */
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
-
-    }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the item to be re-orderable.
-        return true
-    }
-    */
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
