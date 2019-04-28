@@ -1,9 +1,10 @@
 import UIKit
+import SwiftDate
 
 class MainTableViewController: UITableViewController {
     private let heightForCell: CGFloat = 73.0
     private var keyForSort = "date"
-    private var keysForSort = ["date", "name", "status"]
+    private var keysForSort = ["date", "taskName", "status"]
     private var fetchedResultsController = CoreDataManager.instance.fetchedResultsController(entityName: "Task", keyForSort: "date", ascending: true)
     private var tasks: [Task] = []{
         didSet{
@@ -16,7 +17,9 @@ class MainTableViewController: UITableViewController {
         let cancel = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
         for key in keysForSort{
             let filter = UIAlertAction(title: "Filter by \(key)", style: .default) { (action) in
-                print("SOME CHANGES")
+                self.fetchedResultsController = CoreDataManager.instance.fetchedResultsController(entityName: "Task", keyForSort: key, ascending: true)
+                self.fetchData()
+                self.reloadTableView()
             }
             actionSheet.addAction(filter)
         }
@@ -114,6 +117,7 @@ extension MainTableViewController{
             self.tasks[indexPath.row].status = "Done"
             CoreDataManager.instance.saveContext()
             completion(true)
+            self.fetchData()
             self.tableView.reloadRows(at: [indexPath], with: .fade)
         }
         done.backgroundColor = UIColor(displayP3Red: 47.0/255, green: 201.0/255, blue: 97.0/255, alpha: 1)
@@ -122,6 +126,7 @@ extension MainTableViewController{
             self.tasks[indexPath.row].status = "In Process"
             CoreDataManager.instance.saveContext()
             completion(true)
+            self.fetchData()
             self.tableView.reloadRows(at: [indexPath], with: .fade)
         }
         
