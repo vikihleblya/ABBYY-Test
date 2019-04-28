@@ -26,7 +26,7 @@ class AddNewTaskViewController: UIViewController {
         if isInEditingStyle{
             fillFieldsToEdit()
         }
-        navigationController?.navigationBar.prefersLargeTitles = false
+        navigationItem.title = "Add new task"
         changeDoneButton()
         changeCommentTextView()
     }
@@ -83,3 +83,4 @@ extension AddNewTaskViewController{
         CoreDataManager.instance.saveContext()
     }
 }
+

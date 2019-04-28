@@ -11,6 +11,7 @@
 		7007AD1422749FD80080BBFD /* Task+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7007AD1222749FD80080BBFD /* Task+CoreDataClass.swift */; };
 		7007AD1522749FD80080BBFD /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7007AD1322749FD80080BBFD /* Task+CoreDataProperties.swift */; };
 		7007AD172274A38C0080BBFD /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7007AD162274A38C0080BBFD /* CoreDataManager.swift */; };
+		70C8CF7622751E8F0022C9E3 /* InfoTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C8CF7522751E8F0022C9E3 /* InfoTaskViewController.swift */; };
 		70FAAC7E22747EC800A3C6E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FAAC7D22747EC800A3C6E0 /* AppDelegate.swift */; };
 		70FAAC8322747EC800A3C6E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70FAAC8122747EC800A3C6E0 /* Main.storyboard */; };
 		70FAAC8622747EC800A3C6E0 /* ABBYY_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70FAAC8422747EC800A3C6E0 /* ABBYY_Test.xcdatamodeld */; };
@@ -25,6 +26,7 @@
 		7007AD1222749FD80080BBFD /* Task+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataClass.swift"; sourceTree = "<group>"; };
 		7007AD1322749FD80080BBFD /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		7007AD162274A38C0080BBFD /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		70C8CF7522751E8F0022C9E3 /* InfoTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTaskViewController.swift; sourceTree = "<group>"; };
 		70FAAC7A22747EC800A3C6E0 /* ABBYY Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ABBYY Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70FAAC7D22747EC800A3C6E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70FAAC8222747EC800A3C6E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 		7007AD1A2274CE8C0080BBFD /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				70C8CF772275224D0022C9E3 /* InfoTaskScreen */,
 				7007AD1B2274CEA90080BBFD /* MainScreen */,
 				7007AD1C2274CEB30080BBFD /* NewTaskScreen */,
 			);
@@ -105,6 +108,14 @@
 				70FAAC94227485CE00A3C6E0 /* AddNewTaskViewController.swift */,
 			);
 			path = NewTaskScreen;
+			sourceTree = "<group>";
+		};
+		70C8CF772275224D0022C9E3 /* InfoTaskScreen */ = {
+			isa = PBXGroup;
+			children = (
+				70C8CF7522751E8F0022C9E3 /* InfoTaskViewController.swift */,
+			);
+			path = InfoTaskScreen;
 			sourceTree = "<group>";
 		};
 		70FAAC7122747EC700A3C6E0 = {
@@ -188,6 +199,7 @@
 				TargetAttributes = {
 					70FAAC7922747EC800A3C6E0 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -283,6 +295,7 @@
 				7007AD1522749FD80080BBFD /* Task+CoreDataProperties.swift in Sources */,
 				7007AD1422749FD80080BBFD /* Task+CoreDataClass.swift in Sources */,
 				7007AD172274A38C0080BBFD /* CoreDataManager.swift in Sources */,
+				70C8CF7622751E8F0022C9E3 /* InfoTaskViewController.swift in Sources */,
 				70FAAC7E22747EC800A3C6E0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,7 +452,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example..ABBYY-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -458,7 +471,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example..ABBYY-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
