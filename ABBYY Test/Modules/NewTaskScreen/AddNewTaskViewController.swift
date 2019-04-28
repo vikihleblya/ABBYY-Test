@@ -32,7 +32,7 @@ class AddNewTaskViewController: UIViewController {
     }
     
     func fillFieldsToEdit(){
-        nameTextField.text = task?.taskName
+        nameTextField.text = task?.name
         commentTextView.text = task?.comment
         datePicker.date = task?.date as! Date
     }
@@ -70,7 +70,7 @@ extension AddNewTaskViewController{
     func editCurrentData(){
         task?.date = datePicker.date as NSDate
         task?.comment = commentTextView.text
-        task?.taskName = nameTextField.text
+        task?.name = nameTextField.text
     }
     
     func saveNewData(){
@@ -78,7 +78,7 @@ extension AddNewTaskViewController{
         task.id = UUID()
         task.comment = commentTextView.text
         task.date = datePicker.date as NSDate
-        task.taskName = nameTextField.text
+        task.name = nameTextField.text
         task.status = statusForNewTask
         CoreDataManager.instance.saveContext()
     }

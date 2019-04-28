@@ -4,7 +4,7 @@ import SwiftDate
 class MainTableViewController: UITableViewController {
     private let heightForCell: CGFloat = 73.0
     private var keyForSort = "date"
-    private var keysForSort = ["date", "taskName", "status"]
+    private var keysForSort = ["date", "name", "status"]
     private var fetchedResultsController = CoreDataManager.instance.fetchedResultsController(entityName: "Task", keyForSort: "date", ascending: true)
     private var tasks: [Task] = []{
         didSet{
@@ -68,8 +68,11 @@ class MainTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "taskCell", for: indexPath) as! MainTaskTableViewCell
-        cell.dateLabel.text = tasks[indexPath.row].date?.description
-        cell.taskNameLabel.text = tasks[indexPath.row].taskName
+        let date = tasks[indexPath.row].date as! Date
+        let currentRegion = Region(calendar: Calendars.gregorian, zone: TimeZone.current, locale: Locale.current)
+        SwiftDate.defaultRegion = currentRegion
+        cell.dateLabel.text = date.convertToLocalDate()
+        cell.taskNameLabel.text = tasks[indexPath.row].name
         cell.statusLabel.text = tasks[indexPath.row].status
         return cell
     }

@@ -11,7 +11,7 @@ extension Task {
     @NSManaged public var comment: String?
     @NSManaged public var date: NSDate?
     @NSManaged public var id: UUID?
-    @NSManaged public var taskName: String?
+    @NSManaged public var name: String?
     @NSManaged public var status: String?
 
 }

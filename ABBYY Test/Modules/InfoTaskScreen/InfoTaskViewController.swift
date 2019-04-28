@@ -13,7 +13,7 @@ class InfoTaskViewController: UIViewController {
     }
     
     func writeDataInFields(){
-        nameLabel.text = task?.taskName
+        nameLabel.text = task?.name
         statusLabel.text = task?.status
         commentTextView.text = task?.comment
         dateLabel.text = task?.date?.description
