@@ -24,6 +24,12 @@ class MainTableViewController: UITableViewController {
             actionSheet.addAction(filter)
         }
         actionSheet.addAction(cancel)
+        
+        // iPad implementation
+        if let popoverController = actionSheet.popoverPresentationController {
+            popoverController.barButtonItem = sender as? UIBarButtonItem
+        }
+        
         present(actionSheet, animated: true)
     }
     @IBAction func goToAddTaskVC(_ sender: Any) {

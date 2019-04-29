@@ -26,7 +26,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="72.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Task name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lKx-LG-gVz">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Task name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lKx-LG-gVz">
                                             <rect key="frame" x="16" y="11" width="82" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -38,8 +38,8 @@
                                             <color key="textColor" red="0.56078431370000004" green="0.5568627451" blue="0.58039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rW0-3h-0hN">
-                                            <rect key="frame" x="106" y="11" width="253" height="50.5"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rW0-3h-0hN">
+                                            <rect key="frame" x="309" y="26" width="50" height="20.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -49,9 +49,8 @@
                                         <constraint firstItem="lKx-LG-gVz" firstAttribute="leading" secondItem="lXg-r5-NvM" secondAttribute="leadingMargin" id="5GA-7c-8Ei"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="rW0-3h-0hN" secondAttribute="trailing" id="Z3i-ix-o3W"/>
                                         <constraint firstItem="rW0-3h-0hN" firstAttribute="centerY" secondItem="lXg-r5-NvM" secondAttribute="centerY" id="cJi-Qk-DmG"/>
-                                        <constraint firstItem="lKx-LG-gVz" firstAttribute="top" secondItem="rW0-3h-0hN" secondAttribute="top" id="h49-G4-9D1"/>
+                                        <constraint firstItem="rW0-3h-0hN" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="lKx-LG-gVz" secondAttribute="trailing" constant="16" id="cUA-2E-2nu"/>
                                         <constraint firstItem="lKx-LG-gVz" firstAttribute="top" secondItem="lXg-r5-NvM" secondAttribute="topMargin" id="hd5-xU-SNA"/>
-                                        <constraint firstItem="rW0-3h-0hN" firstAttribute="leading" secondItem="lKx-LG-gVz" secondAttribute="trailing" constant="8" id="p0q-pE-QJN"/>
                                         <constraint firstItem="ELU-Sr-QCb" firstAttribute="bottom" secondItem="lXg-r5-NvM" secondAttribute="bottomMargin" id="qB5-bI-ism"/>
                                         <constraint firstItem="ELU-Sr-QCb" firstAttribute="leading" secondItem="lXg-r5-NvM" secondAttribute="leadingMargin" id="yOw-Y6-bTT"/>
                                     </constraints>
