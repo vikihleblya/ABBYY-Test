@@ -17,7 +17,7 @@ class TodayViewController: UIViewController, NCWidgetProviding {
         fetchData()
         guard let task = getNearestTaskByDate() else {return}
         nameTaskLabel.text = task.name
-//        dateTaskLabel.text = task.date?.convertToLocalDate()
+        dateTaskLabel.text = task.date?.convertToLocalDate()
         view.snapshotView(afterScreenUpdates: true)
      }
     

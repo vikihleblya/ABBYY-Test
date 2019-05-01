@@ -1,0 +1,2151 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C7FF21DBCF82C34BF3B85FF1F40E02 /* DateInRegion+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C628B15F0776755C56DC049B071179 /* DateInRegion+Compare.swift */; };
+		00CE85008186CEB755440558D7DEDDE1 /* lang_ms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C32C69D61A169E15A0C98F87866E79B /* lang_ms.swift */; };
+		01C24C69C417503E2B14B31F269C45EE /* Zones.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB9B37299BC70F41B0616E47BC84491 /* Zones.swift */; };
+		01CC3115E253715C36098510EAFDEB2C /* Date+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E4EB86C5CF4AF5FA0E0AA1B4439D02 /* Date+Components.swift */; };
+		02FB225950EEA73C12B14A3D74A2096E /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11832047CBB4CFAE00B4A2A76A25494A /* IQUIView+IQKeyboardToolbar.swift */; };
+		0378853963F3F4D24C2CDA70280B6D1A /* DateComponents+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9592CFAE70D86DD8A99BBA780A13A85 /* DateComponents+Extras.swift */; };
+		03890E8A5C0565880913D598BC213BE7 /* lang_ee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33279CE0707C78BC792C6E7DBE0FF29D /* lang_ee.swift */; };
+		03D4689D09B6A544E6768D83EC1A1E0D /* lang_fur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B27E4B7C9F7946E568528CC8B670A1 /* lang_fur.swift */; };
+		03E7AA8FEF1808D3B46C131986998A3E /* DotNetParserFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B03C8551EC6EFFF5DE4F7C9770E248 /* DotNetParserFormatter.swift */; };
+		0471B6E3F1CF65F9CFF6E5F3F5DF4A97 /* TimePeriodCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA82A63EB8FF88CD9FB4BD69F433AE34 /* TimePeriodCollection.swift */; };
+		05A92D05279C303E4EA9086CDE0412D2 /* Formatter+Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC26E690ACF0B318943C82863DCE012 /* Formatter+Protocols.swift */; };
+		06715CC446474BD3C1FF11D2FBF3DBBA /* DateInRegion+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEF5D31CF9F591DBAE3CE997694BFE1 /* DateInRegion+Create.swift */; };
+		0A23F7B5D82BBCDB7267298DF7E910B6 /* lang_de.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87F15B303A9A260F6183CC72BB5D294 /* lang_de.swift */; };
+		0C22176E6A7A7DAE6B26ECFDD0E614C1 /* lang_he.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF458EB8F83139E8CEAABE7CDF6F7F3 /* lang_he.swift */; };
+		0CDB9D25BE0B7E8C2CE86F4D5E7C0053 /* lang_af.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FCB4D6DDD7FCDDFC2D90147D13F54C /* lang_af.swift */; };
+		0DAE7287FFACC7283EB46310AAAB3ACC /* lang_gl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337018997B36B98884D3F0D3940EA74A /* lang_gl.swift */; };
+		0E150A91D86284BB4337ED6E2C6D2405 /* lang_es_PY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F25174D253F50589E483E2BB3907C7B /* lang_es_PY.swift */; };
+		0E6373F3F2652CA3377532942BB5DD45 /* TimePeriod+Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB41EFCB43C858DCBD21C6A5B7ACA6D /* TimePeriod+Support.swift */; };
+		0EBC5DA49B2F23872DE92B8C33BDC529 /* lang_nl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5311F947B3A5D37827AFBB4D5C5B9AA7 /* lang_nl.swift */; };
+		0EC0D0AC2FF92A25BD505D53D6B720FE /* SwiftDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816CA47569182A75E19148E6D5A3C96A /* SwiftDate.swift */; };
+		0F24B59FAA2B27E2CE46848B9E652A56 /* lang_ar_AE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F70A1B391DC325D5FE75BBE0C77670F /* lang_ar_AE.swift */; };
+		0F7DB8EDE2A56A06C29F1C1A67EE554E /* Calendars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA487911289E00E0DE1A3C19F51C567 /* Calendars.swift */; };
+		1075E86648577D56BD8C4D299350F4CB /* lang_mt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA93D47CD0371C7556CAD344A7B38BB /* lang_mt.swift */; };
+		116C10ED9EE22CDAEBDAEB0DF5A611F7 /* lang_fi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88BA417BDD541E1969C8517EE0366DB /* lang_fi.swift */; };
+		11C232ABB935F69EF8B2DD5F1C38DAC0 /* lang_cy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D00395EFA72208443D45A30C57C4682 /* lang_cy.swift */; };
+		11C36CA0F3B7E8D68257071B70FAE5BF /* AssociatedValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797B803547C786A09CB36945A2C48BBC /* AssociatedValues.swift */; };
+		11F2D9786F5B350EC5F2F92E78998AEE /* lang_si.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5044BE7EA7F9B21E317766A6ECC506 /* lang_si.swift */; };
+		12C5329585140BB3481457693BF56E73 /* lang_kea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B518F3905BA24E639390100D474B61D /* lang_kea.swift */; };
+		12D575ED8FDF197827BB71EF9EC17AB8 /* lang_af.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FCB4D6DDD7FCDDFC2D90147D13F54C /* lang_af.swift */; };
+		146B769497CB8FBA15D5FBA38A458467 /* lang_my.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644E26008B11DE1A0F9DB26F6A4E6BDD /* lang_my.swift */; };
+		15F7DE147AED18EBBC43DB1E171487D3 /* lang_ro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF9B9F1CA693E1F176D0C9DC84729E3 /* lang_ro.swift */; };
+		1761BA4620DF5E29E34C2B7DC567B341 /* lang_nb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654F1667D4B752DAA35118DBD3280762 /* lang_nb.swift */; };
+		1772B449ECC67CEBB93FE439CEFBDE70 /* lang_fr.swift in Sources */ = {isa = PBXBuildFile; fileRef = E637AC3EA0D8703A405977CC888701C5 /* lang_fr.swift */; };
+		17F3C4E77E046B99A39F60264BA0BB5C /* lang_to.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4594B020429ED93BD68D08AC08831B7E /* lang_to.swift */; };
+		1874EA22D8FCB7E615A27FF6F62C985C /* TimeInterval+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AA8D57852F31DCE55E52271BE213A9 /* TimeInterval+Formatter.swift */; };
+		187BAC831A787A9A57851178475C5BDE /* lang_zu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C902694DAA7E76064A3DAE2CCCFA8FCF /* lang_zu.swift */; };
+		19232E37942CEA6BE6CCBF68F9748862 /* lang_te.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431C8D16A15388FEE9D1E20C96B317FB /* lang_te.swift */; };
+		192FA3342317BB7754505BF63CA1DA2D /* lang_ti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0E9F6CD1FC1CC3E1CD037BD13790F5 /* lang_ti.swift */; };
+		19C6041B5981C3015EDADDD72DF0AD13 /* lang_kok.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C1E770D6F26323D66F2120DA577668 /* lang_kok.swift */; };
+		1A266A03DED8AB218186D7FCA7C8DE61 /* lang_ga.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E0B5FC35BAFD1B13B41A0C03C8CEE0 /* lang_ga.swift */; };
+		1B6EF832D2B574256A65A52017B83D06 /* lang_gl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337018997B36B98884D3F0D3940EA74A /* lang_gl.swift */; };
+		1BB15B41F6C5CC89DC05B8146715E8DC /* TimePeriodChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FEBB1DB47D659035A55D5AE486F2F4 /* TimePeriodChain.swift */; };
+		1BCC08C700F9BF33C2A73EBD6DA60CAE /* lang_am.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6196CCAFD980E6A837655E3591E9C9A /* lang_am.swift */; };
+		1C074E319C132D20A46B12CF623BA926 /* Date+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B00767763E8273A683E2BB3309BB0 /* Date+Create.swift */; };
+		1E76F8E0C9223DDD232C48CC055EB897 /* lang_mk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF627A0A1A54F255B49F261B55E1E68 /* lang_mk.swift */; };
+		1E930735FC687A2C1DBF173D643BA376 /* lang_sr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8579A6A23CBDB8622D3A1B3074788C93 /* lang_sr.swift */; };
+		1F5599F1FF3D848BD1342387B8165723 /* lang_sd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3047F345EBFBA7048B8AA250983A13 /* lang_sd.swift */; };
+		1F79F31318B4386EA86D82E6D7CB0D52 /* lang_ro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF9B9F1CA693E1F176D0C9DC84729E3 /* lang_ro.swift */; };
+		1FE528A62918635F42165A3A65A33B49 /* lang_uz.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6F3258A69046208A433E6BDFFC76A2 /* lang_uz.swift */; };
+		20A9452A36B8076D3D62A25C1AA9BF1B /* lang_gd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3FAAC4F4F0830B2B6D7CB2169D7A11 /* lang_gd.swift */; };
+		20B87A6C364622CE50FF774E673364E7 /* lang_ms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C32C69D61A169E15A0C98F87866E79B /* lang_ms.swift */; };
+		214828CD08B8537FEF1928604022E9A9 /* lang_br.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D21FA052ED95CABD189929EEFAEDEDF /* lang_br.swift */; };
+		2235CE6A08C669375D68F74AFB1AB2BF /* lang_zh_Hant_MO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19872A79CC3E58FD682092E7038CA54A /* lang_zh_Hant_MO.swift */; };
+		24AE45BE57E9F7A7EB25DE8CFB03E8F5 /* lang_ga.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E0B5FC35BAFD1B13B41A0C03C8CEE0 /* lang_ga.swift */; };
+		27272B55AA95B8B0D4D34F02FF4B72C1 /* lang_sq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F845281F72F01231D8FCEBFF90B1D13 /* lang_sq.swift */; };
+		275276E8262EFD83EDDE3630E68EAE99 /* lang_bsCyrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABCA4D53FC5C4B8B44C7CA7AD60ABF1 /* lang_bsCyrl.swift */; };
+		281A29431C7F3C4DB22BF814117EEEC6 /* TimePeriodGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136AADD8DC981C7096BCB774EAF384FA /* TimePeriodGroup.swift */; };
+		28754233CF94790C8282B55F21E2AF47 /* lang_hi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB8A5C92F76E09A6AEFE108F83FE39B /* lang_hi.swift */; };
+		293AD090B69B090FC5E78A1B63287199 /* TimePeriodChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FEBB1DB47D659035A55D5AE486F2F4 /* TimePeriodChain.swift */; };
+		2A96344D2F716AC9535854183EE5AFDC /* Date+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = E045BBED871CD444C0CAB3C585E0A29E /* Date+Compare.swift */; };
+		2B8F30800A73858E88F7610934CA99DE /* lang_zh_Hant_HK.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FB0C2774A17305CFC266F2078159B6 /* lang_zh_Hant_HK.swift */; };
+		2C9C5649205F98BE3ACE8DFDF2C66D0F /* TimePeriodProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83B9F8E1DCE5CDB1C90CE4B40760D75 /* TimePeriodProtocol.swift */; };
+		2EA7DC31DF4CF0905FEB56BE481EDC6C /* lang_kok.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C1E770D6F26323D66F2120DA577668 /* lang_kok.swift */; };
+		2EBA02A7CA5DD4B40FDCB0398AEE4ED9 /* lang_lkt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8334B370AC1A8DB03DFF11B6985A41D8 /* lang_lkt.swift */; };
+		30C07F53D870FC78B292E0E4F91FEE9E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C5248F3F8F5DD6FF2489BCA891824D /* QuartzCore.framework */; };
+		30E38CA94EA588C2200968C3AE90E4AC /* lang_lb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCA3D64D8B5506077543695EF915038 /* lang_lb.swift */; };
+		31E7F0F752A6E1576C8057C95F32FDC5 /* lang_zh_Hans_SG.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DFBE87AD751C71F85452C6C32E7651 /* lang_zh_Hans_SG.swift */; };
+		3503197FC60524B67CCB0C30167E4973 /* lang_hu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52C044A1C0477FCEFA2603BD3351D2E /* lang_hu.swift */; };
+		352122C41B22AF9BCAC7693692079889 /* lang_ta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D16F8D4095A11E3291B7B0E5F96B05D /* lang_ta.swift */; };
+		36DD0B1007BF3C7BFE352704D5C415F7 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF2DCCBCDB4A8F3EF407E1FC575DC9A /* IQTextView.swift */; };
+		36F3A30F660FE9FB840A6B71590C24BD /* lang_ar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DFAC4DACAA9B6B9E73D3628FF078BC /* lang_ar.swift */; };
+		3738891249B4254E49A1739A7C8FDFD7 /* Pods-ABBYY_Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B459B52977DC48BA6EF5A194000B684 /* Pods-ABBYY_Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38E50D5F6CC9B3AB27D165AF49D73555 /* lang_jgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B36D27187A3AF5D4DA8CCD67A7CAE3B /* lang_jgo.swift */; };
+		3975E2A36DFE221E61ECF6EA07C5053E /* lang_tk.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56FC1E972AFED44D8AB3A9479486390 /* lang_tk.swift */; };
+		3978C0C1721C62371EC85E175AC2EC5C /* lang_yi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA12F3250C51CCC0B6258F10E68FF909 /* lang_yi.swift */; };
+		3AD9BDED7D3092F3C5ADE0C9638D6E4F /* lang_de.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87F15B303A9A260F6183CC72BB5D294 /* lang_de.swift */; };
+		3AEEA2A3CAFCE090B28904E52EC794F7 /* Pods-ABBYY Test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0E0C7DCB9B712EA04CC0CA404E2718 /* Pods-ABBYY Test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C50C5A0E0593E9CC832FECEFE6E432E /* lang_bs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415241F6E3C38D11C94EC04169A2D18F /* lang_bs.swift */; };
+		3D237135D14B5C2980A7C676303A33C9 /* lang_ee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33279CE0707C78BC792C6E7DBE0FF29D /* lang_ee.swift */; };
+		3DA61309D3675461123EBC6A23106640 /* DateInRegion+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9378786CAEB201400746886007D40B2 /* DateInRegion+Math.swift */; };
+		3DCB9306A764A45B6C4DD6556D6F92F5 /* lang_ksh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704B25C81C6B037616B30009B383EF20 /* lang_ksh.swift */; };
+		3F4F403D0755FE87CB2F3BDC97164B6C /* DateInRegion+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEF5D31CF9F591DBAE3CE997694BFE1 /* DateInRegion+Create.swift */; };
+		3FEBF029A1C1EE8494694501EFB3F943 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A93325A4002B0388390B61D29EAB52 /* Date.swift */; };
+		400A9E1B687DE118ABEC26C0072DF8A9 /* ISOParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536592B9F9A3D9C2EC43299298408925 /* ISOParser.swift */; };
+		402FC27BB79DF8C0B66B0698A9167F67 /* Date+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E4EB86C5CF4AF5FA0E0AA1B4439D02 /* Date+Components.swift */; };
+		4045925801A75242E84AF6DFE9DC731C /* Date+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5DE600E6DE427687479E8F2F6FDF03 /* Date+Math.swift */; };
+		409C239702BCD76B1BA62CD31E5ABBE1 /* lang_fur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B27E4B7C9F7946E568528CC8B670A1 /* lang_fur.swift */; };
+		427AA1E679DD9B4EAF210C822651D3C6 /* lang_gu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A23E08CCBCEFA743B510F8A36623CF /* lang_gu.swift */; };
+		430D9B807BF2E004D46406411F5C6345 /* lang_wae.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9DFC884A839463250A9FE3053FA707 /* lang_wae.swift */; };
+		4467D1C8AABFA6FC321AC7CD6F327B48 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3DB11A8CAA68906ED90D653282AD46 /* IQUITextFieldView+Additions.swift */; };
+		447B4E4F9087459BEA1C2B601BAB368D /* lang_hy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB51A553ECB5A8048237C05229E0C08 /* lang_hy.swift */; };
+		448CC5CA71AF0C4E20F0A83F5DA9EA80 /* lang_ky.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7172D7E30F7C91C1B5673A729FC663DD /* lang_ky.swift */; };
+		45E860A80E984D0940E1A2E02938C1F0 /* lang_as.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E006C81F54D4BEC461741EAAAB7273 /* lang_as.swift */; };
+		4639C1444CC8ABDA95428FC559AC3CBA /* Commons.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB259025960725E15ADEA42DD79BCBA6 /* Commons.swift */; };
+		48B39CADE78407830C210F06BE77B2A4 /* lang_zu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C902694DAA7E76064A3DAE2CCCFA8FCF /* lang_zu.swift */; };
+		49147CC85E43FBE64C84FCFD9BA167C7 /* lang_ru.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E45759023AD1E15E18008AD183622C4 /* lang_ru.swift */; };
+		4922000A88A0DF5F034A0F1A73CCB68D /* lang_lt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92D52CAED1B845800CBF683FE20AF8D /* lang_lt.swift */; };
+		495C8BE02299F5CBC23538B98FE4E685 /* lang_ml.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B033EA43CE59E302551119D5F71F830 /* lang_ml.swift */; };
+		4A3294F2FCFF96D15DA6FD2D5D839788 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F8D5F874BC4EAFFFFD29850B0DBE4B /* IQUIView+Hierarchy.swift */; };
+		4ADFD1CFDDF3BEAF11FB90C47718F3B5 /* lang_ja.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A87C696CD94FE2451EF8D6486FDA2D /* lang_ja.swift */; };
+		4AF071CA5B1640544E26EEB7E571E754 /* Int+DateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B5BC06A63DCB7FF30A79C83100AD24 /* Int+DateComponents.swift */; };
+		4B57F5C8BE5D4B2532CABFC23C422EF6 /* lang_da.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E10600F0908CDAC2BCE2A059174CB9 /* lang_da.swift */; };
+		4C923A657D50809DCA35D2CD2DA5625D /* lang_it.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2CBE169D0049B4FFFFD94745BF75DA /* lang_it.swift */; };
+		4D520A7B617DCCAB09301BCB0A9A8CD7 /* lang_hsb.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD30F7D061B93C14468D2085C6755C6 /* lang_hsb.swift */; };
+		4E3E6EC07A4F261D041BA0C4CA258260 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D5053F2A5215D7472A947EDE5B61B6 /* CoreGraphics.framework */; };
+		4EC758B77C34312B2AADE039F113295B /* lang_or.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4172E322A22D39A35F8D92AEA89BFD6F /* lang_or.swift */; };
+		4F37284113E3D6E4FE12911637D12B79 /* lang_sl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54BB2C2AD1C7BC01B3BA089B2692FB8 /* lang_sl.swift */; };
+		4FBEB2229EEFB19D061639BDACADE569 /* lang_lb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCA3D64D8B5506077543695EF915038 /* lang_lb.swift */; };
+		511FD86AB13DA4211EE307D91F625A2B /* lang_fil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0C9F8F1200B65B3D4E1409111BA9D1 /* lang_fil.swift */; };
+		523323EC5391F54ED9A25A8D1DF5D7B2 /* lang_ur_IN.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC925E13C033E2A1F9BA3BBBB28EC5 /* lang_ur_IN.swift */; };
+		525F8A762572A4DBB7279BD20ABEB0D1 /* lang_eu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9DF788A44CF7DE5E83947BA3427247 /* lang_eu.swift */; };
+		52D6DD07C29BCB54AA565D5077DD0BD8 /* lang_mr.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C37403F17F6D2015A7C714F1D80609 /* lang_mr.swift */; };
+		544D29AB6D3B9B7906F1A657B6729D62 /* lang_ta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D16F8D4095A11E3291B7B0E5F96B05D /* lang_ta.swift */; };
+		54C3F214334D4291544379969E78DE4A /* lang_lkt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8334B370AC1A8DB03DFF11B6985A41D8 /* lang_lkt.swift */; };
+		5584DE21EB19B5785A375ECBF767D63F /* lang_ko.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4981A47593FCEFF2A55D2AE85FAE4B3 /* lang_ko.swift */; };
+		558A716C8BF29F556B2EA7091E0918B5 /* TimePeriodCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA82A63EB8FF88CD9FB4BD69F433AE34 /* TimePeriodCollection.swift */; };
+		5677C54BF14ABA45675F2DEB98AFD0D1 /* IQKeyboardManagerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F7937D6402881073FC97596F1ACD60D /* IQKeyboardManagerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58422BB612E515C3E96F4F8EEB181DC8 /* lang_he.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF458EB8F83139E8CEAABE7CDF6F7F3 /* lang_he.swift */; };
+		584BB36156C7D442E6234029311F2803 /* RelativeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD524FB7F7BACD8653D86027FB1A558 /* RelativeFormatter.swift */; };
+		589011AD7FE5D29D7D2648579930AC7C /* lang_sw.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E0F4DD62CBAD31E99B1ADA4703825F /* lang_sw.swift */; };
+		59D872A87F46DA332CE8235CE148AD76 /* lang_se.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0932D899D341DEE4BF0D663AC816397 /* lang_se.swift */; };
+		59DC171FA55B3AC72F73B70B49069446 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
+		5A5375415B2E9743A84063907DDFB72F /* lang_fr_CA.swift in Sources */ = {isa = PBXBuildFile; fileRef = D647AC7D84091A3255FFE3601F779DBE /* lang_fr_CA.swift */; };
+		5A91EE8DCB559F3401904247E46975A2 /* Pods-ABBYY Test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04392B6434364B7824E9B997F2B3DEDB /* Pods-ABBYY Test-dummy.m */; };
+		5AC0D209B6337977386ACE13E53CA390 /* lang_mr.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C37403F17F6D2015A7C714F1D80609 /* lang_mr.swift */; };
+		5B43CCB233A3BAF715F9C3CE65F58D03 /* lang_pl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60746B182FDEF01CDF324005A04AB6DE /* lang_pl.swift */; };
+		5DAC022CAE530A9CEE2032BFEF12AD37 /* lang_ja.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A87C696CD94FE2451EF8D6486FDA2D /* lang_ja.swift */; };
+		5DAC05AA4C79732010903574585991B7 /* lang_bs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415241F6E3C38D11C94EC04169A2D18F /* lang_bs.swift */; };
+		5E6DF0F937FAEC555EFC7C4E83546004 /* lang_si.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5044BE7EA7F9B21E317766A6ECC506 /* lang_si.swift */; };
+		5EEC80714C8098E50D1038BF7710BD08 /* lang_es.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC196B2369C4A2AD9AEED20AEC9E04A /* lang_es.swift */; };
+		5F1F04583726E59F62A993490161CC6B /* lang_sd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3047F345EBFBA7048B8AA250983A13 /* lang_sd.swift */; };
+		5F645CF5CAF8BD0C1BF8E662C820C878 /* lang_lo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8BF84E63CCAECDAA184B97AC43D46E /* lang_lo.swift */; };
+		5FAD882C47ED44564CC67AD25D2DCF97 /* lang_be.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6294906258FD2BAA4A40C9104EB8284C /* lang_be.swift */; };
+		61083F7F228C8AECDB9D693680478F2A /* lang_hy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB51A553ECB5A8048237C05229E0C08 /* lang_hy.swift */; };
+		614D93A539CF11C627F3054CCDE7D6D1 /* lang_fo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCD22D1246098E8E9405CAADEB416E /* lang_fo.swift */; };
+		622335E67001D66C9400408F5A77BDE0 /* TimePeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2814586CE2A63C142A0C73CADF3216D5 /* TimePeriod.swift */; };
+		633A43974DB81C2CCB1A2C3A7B1BFB37 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1F797761572B177AC0FE8A7C1183D5 /* IQKeyboardManager.swift */; };
+		6519B3F7105299F0E3C35CD49A06ECC5 /* lang_jgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B36D27187A3AF5D4DA8CCD67A7CAE3B /* lang_jgo.swift */; };
+		6568F247DB99CB31A01224676BAD7FFE /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEEA366F1DCF2BD2F9AF236255BF739 /* Region.swift */; };
+		65C904500B7200A1ED25F70996517F06 /* AssociatedValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797B803547C786A09CB36945A2C48BBC /* AssociatedValues.swift */; };
+		66727FF51399AE4AAFE76B5EB014BFEA /* lang_bn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3C1A1E7F53347B0F6336CB9F68858A /* lang_bn.swift */; };
+		69065960086AFC34C80063AABFA9D7E9 /* lang_gu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A23E08CCBCEFA743B510F8A36623CF /* lang_gu.swift */; };
+		6A19A86B0DEF799143C8B3CF2D96F42E /* lang_nn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD54C764C6B69EC1952232070AE59B91 /* lang_nn.swift */; };
+		6A19BB15199DA665662C202C7A9ACD4E /* lang_pt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A949E10BD32BEB16BD24BD9936C9A8 /* lang_pt.swift */; };
+		6A26438D1EDA175B5E7F260FEB86478F /* lang_mzn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3EA57A1161C346BAE5C3B55E6533A5 /* lang_mzn.swift */; };
+		6A7AA72A9FF20EF3DA5B6AB0887704A0 /* lang_bg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F2129E2C1C8885F6F8E2167CF6343C /* lang_bg.swift */; };
+		6BF0773089D9318C6959FC9136F1B697 /* lang_pl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60746B182FDEF01CDF324005A04AB6DE /* lang_pl.swift */; };
+		6D06567942E43C468E00FFF7DC47528A /* SwiftDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816CA47569182A75E19148E6D5A3C96A /* SwiftDate.swift */; };
+		6DAC7D3D5F36F721C0053E39BA0C44C9 /* lang_es.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC196B2369C4A2AD9AEED20AEC9E04A /* lang_es.swift */; };
+		70BCAE80CE8EE86A0FF0C0649319DFA0 /* lang_or.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4172E322A22D39A35F8D92AEA89BFD6F /* lang_or.swift */; };
+		7268CEE26C0450BDBD5EAFCBFC5E6A97 /* lang_ur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4242B5A47D2E48E7A8FD0E331C7E73CE /* lang_ur.swift */; };
+		736F8F0F500F5C6EF06F93D49759DB9C /* lang_hi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB8A5C92F76E09A6AEFE108F83FE39B /* lang_hi.swift */; };
+		75AAD95C28B5A75C9D1EC8CD4964DB4C /* lang_kn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610F891D9B0841B5624D41B2D5FBF0E5 /* lang_kn.swift */; };
+		75E9BFADCA7DB0B44418472612B4DADC /* lang_zh_Hans_HK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7584CCC70A2C72ABE1DF3B2F07FDC5 /* lang_zh_Hans_HK.swift */; };
+		7677170B28DDC56E9858FE3787759018 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEEA366F1DCF2BD2F9AF236255BF739 /* Region.swift */; };
+		770679AF608D1A20E5AD7FBE181D85D3 /* RelativeFormatter+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC0E24115EBE374D35B0E83DB5FC4F3 /* RelativeFormatter+Style.swift */; };
+		7968ECB2B8A5A61E07527111ADAD291C /* lang_mn.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8A2DD4C2B62EC5795FB47F4B2BC05A /* lang_mn.swift */; };
+		7998776E4B46B081A4C8AFD802B53EBD /* lang_es_MX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E0A89CDE65BC0CA83668272B8E4730 /* lang_es_MX.swift */; };
+		79A02C2108EBC3E71850924F2ECD5CC1 /* lang_en.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98400796F0818392585C7C2B1B2823A8 /* lang_en.swift */; };
+		79C0080771AF189E6B942F296C3B547A /* DateInRegion+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9378786CAEB201400746886007D40B2 /* DateInRegion+Math.swift */; };
+		79EA6FCCF87F66FC2C3091C74936E79C /* lang_ur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4242B5A47D2E48E7A8FD0E331C7E73CE /* lang_ur.swift */; };
+		7A66ADBBFCC9E3E53A22B107946C114E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
+		7B308CA88759CC59F07C955791248035 /* RelativeFormatter+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC0E24115EBE374D35B0E83DB5FC4F3 /* RelativeFormatter+Style.swift */; };
+		7C6C891F052511BAC128D49A3F2DACA5 /* lang_et.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E94E562B70C3287D8A5DCA1D660971 /* lang_et.swift */; };
+		7DCAB1BE3B38CCEDD51D0B77C46E2348 /* lang_kea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B518F3905BA24E639390100D474B61D /* lang_kea.swift */; };
+		7E663CC982529014647AC78B43AE38BD /* lang_kk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60519F617AFFAA3A8334F3320F25C7D4 /* lang_kk.swift */; };
+		7F1A4F0907937662A870F01091035803 /* lang_kk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60519F617AFFAA3A8334F3320F25C7D4 /* lang_kk.swift */; };
+		7FB128E91974C04C1B074F62578C7360 /* lang_az.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B47DE8330C7237F4D7577DEB22A5A1 /* lang_az.swift */; };
+		7FD5D58A6B36326CB458121DF96A9B33 /* lang_sv.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E7BE67A3971D4EA2F3C47144E42360 /* lang_sv.swift */; };
+		80AFD9ED8B10BF0398535574A5C28633 /* Formatter+Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC26E690ACF0B318943C82863DCE012 /* Formatter+Protocols.swift */; };
+		80D184759336F98D0638DFBAE30F6E02 /* lang_zh_Hans_MO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D56DC32C9EAD20401F254570E3CA24 /* lang_zh_Hans_MO.swift */; };
+		812CDC8D17362171AF66AEDE8304A6B8 /* lang_cy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D00395EFA72208443D45A30C57C4682 /* lang_cy.swift */; };
+		814B5BCB854B7F18F06594D74BEE6F4D /* lang_fy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F201E06EF5FADA9293D59545B0B81DB /* lang_fy.swift */; };
+		827C76A5A269F3A50CAE4B10E14D0D3F /* lang_lo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8BF84E63CCAECDAA184B97AC43D46E /* lang_lo.swift */; };
+		861131727D2A969E0DAF770F093509EC /* lang_yi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA12F3250C51CCC0B6258F10E68FF909 /* lang_yi.swift */; };
+		8670D36290C565C0756F1F856B3BF1C7 /* TimePeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2814586CE2A63C142A0C73CADF3216D5 /* TimePeriod.swift */; };
+		86AD3861A93810A6341EB8B4F04509D8 /* lang_km.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C2A8DE010C921E84C80540C862DCF9 /* lang_km.swift */; };
+		86EE2AE4C40F144FDA469D191952A63D /* Date+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5DE600E6DE427687479E8F2F6FDF03 /* Date+Math.swift */; };
+		87243B266EE029B78BF2B90D72ED9511 /* lang_km.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C2A8DE010C921E84C80540C862DCF9 /* lang_km.swift */; };
+		874325BD866DE69E3A8CB995A9FF4732 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
+		87B63511C7E22270BCD29065F40919F4 /* lang_ru.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E45759023AD1E15E18008AD183622C4 /* lang_ru.swift */; };
+		8888F3C3FD28681CFBC6EA8A5E3094FB /* DotNetParserFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B03C8551EC6EFFF5DE4F7C9770E248 /* DotNetParserFormatter.swift */; };
+		8928094D7D7924FF30F2CA48AFFF7204 /* DateRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B9685B06EAC05E52B23182830A4D79 /* DateRepresentable.swift */; };
+		8991D2AFA7CB30BDB6DBBE23466E094D /* DateInRegion+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C628B15F0776755C56DC049B071179 /* DateInRegion+Compare.swift */; };
+		8A0E2CB6B41A9E4C58D36A05BE3419BD /* lang_fy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F201E06EF5FADA9293D59545B0B81DB /* lang_fy.swift */; };
+		8B73BFD66526A5B789CA2419C5629D48 /* lang_sk.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC2FD11C0BA45647917FE304AF84AAF /* lang_sk.swift */; };
+		8DE41C7D048FBCB88416C5F70C73451C /* lang_sk.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC2FD11C0BA45647917FE304AF84AAF /* lang_sk.swift */; };
+		8DE64FF49B8806599F8BD88CD28C1BB2 /* lang_tk.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56FC1E972AFED44D8AB3A9479486390 /* lang_tk.swift */; };
+		908BBAEF8B8768D8E4A0B8DD7AF14982 /* lang_bn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3C1A1E7F53347B0F6336CB9F68858A /* lang_bn.swift */; };
+		91735B81331918ADD3E0B5DCEE8AE12E /* lang_kl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC48D43D87C76504FC30BEDC7CDE3DA8 /* lang_kl.swift */; };
+		91A4BC0C287DC7C30F4FC41A6EAB1DA9 /* lang_fr.swift in Sources */ = {isa = PBXBuildFile; fileRef = E637AC3EA0D8703A405977CC888701C5 /* lang_fr.swift */; };
+		92E9BD908B71CFA1C6EDA2FA86BF1635 /* IQKeyboardManagerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 639223095BB04CD7D07E133F327C1098 /* IQKeyboardManagerSwift-dummy.m */; };
+		94BAADFAAD1293620B97FC501D4263DF /* lang_ug.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23F385D1E6AA40781E9529684FBBADB /* lang_ug.swift */; };
+		9536A11A6CF6D50D55E43A241E5C0883 /* DateInRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B4027FB20AD3DC75E1540022E83A8C /* DateInRegion.swift */; };
+		96907B11FB2793CAA2DC59EF9FDFE106 /* TimePeriodGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136AADD8DC981C7096BCB774EAF384FA /* TimePeriodGroup.swift */; };
+		96C7BB217A8859A5B85A9081D799CED2 /* lang_el.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD960D35E846C85A9FACE154364B51B5 /* lang_el.swift */; };
+		970F59265051DE9C0080CEDDA75A0F4B /* lang_es_US.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F6C64CE2BB42F997B7A0BCBDD2BBE4 /* lang_es_US.swift */; };
+		97279175659486E83FDEF67D6723EA5B /* lang_zh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA47C7F7F66870E3079485A942F7F04 /* lang_zh.swift */; };
+		97FC0D9A2F6E7DB60FC888D555D8ACB4 /* lang_ka.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2BB4505C8C20B58ED67FF2551A93FA /* lang_ka.swift */; };
+		986EF56798DE2C7C65737AD9334E517D /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58DF012722DB9DA629DB7CCEFB14D4 /* IQNSArray+Sort.swift */; };
+		99AE0F71703DFB15F8000F4E1C3A9A55 /* lang_gd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3FAAC4F4F0830B2B6D7CB2169D7A11 /* lang_gd.swift */; };
+		99FEAB7C5CCE488C4BF33BF13FC56570 /* Calendars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA487911289E00E0DE1A3C19F51C567 /* Calendars.swift */; };
+		9B1712A0C7AB464B3FB95E0F6C45157F /* lang_se_FI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29D4041E8D34A8C8F695D0945CC7B0C /* lang_se_FI.swift */; };
+		9B954045D3BF6697A3D5C51A8E0B330A /* lang_uk.swift in Sources */ = {isa = PBXBuildFile; fileRef = A143A5CFFE5BE899DF72A92E07BC7C02 /* lang_uk.swift */; };
+		9C4067703DF463C0A9430D76216832A7 /* lang_fo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCD22D1246098E8E9405CAADEB416E /* lang_fo.swift */; };
+		9CB4B96103F441890D931E30FA99A0FA /* SwiftDate-iOS12.1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E94794C2BC0BD573CD1FF8C82DF410D7 /* SwiftDate-iOS12.1-dummy.m */; };
+		9CFC49AC1EFD2E1CB6205FB152F3C38E /* lang_pa.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E4E52D99B3B0B28145E78AF869965 /* lang_pa.swift */; };
+		9D7F6225AD24E3B0DF4BC03FAB15F031 /* lang_to.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4594B020429ED93BD68D08AC08831B7E /* lang_to.swift */; };
+		A08A3EC5A3E781FBECA335D3A9210BD3 /* lang_se.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0932D899D341DEE4BF0D663AC816397 /* lang_se.swift */; };
+		A0D20D81D23A55B6E90B9578226062A5 /* lang_uk.swift in Sources */ = {isa = PBXBuildFile; fileRef = A143A5CFFE5BE899DF72A92E07BC7C02 /* lang_uk.swift */; };
+		A380ABE3F1AF1CA7A14F9449BDC0B73F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
+		A54FF9FCF6A575FD4F0D519915708E9D /* lang_sv.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E7BE67A3971D4EA2F3C47144E42360 /* lang_sv.swift */; };
+		A6A07795B6DB871F7794CC387E542D1B /* lang_es_AR.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD1C5BC98F87A24242A4ADF2FA81C80 /* lang_es_AR.swift */; };
+		A6DA90A3B072822A2FA381B450970A5D /* lang_uz.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6F3258A69046208A433E6BDFFC76A2 /* lang_uz.swift */; };
+		A79B40482A1FFEDBBD989240A2A5C876 /* lang_sah.swift in Sources */ = {isa = PBXBuildFile; fileRef = F711401DB296DC9A7503E63272903BF6 /* lang_sah.swift */; };
+		A7CB763EDFC6A036935EBCCC32124226 /* lang_id.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D70C10D449A97F355BA2A92A084245C /* lang_id.swift */; };
+		A7E50292B20B46FF662DE554409F1A15 /* lang_zh_Hant_MO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19872A79CC3E58FD682092E7038CA54A /* lang_zh_Hant_MO.swift */; };
+		A7FADB8FB926C2AF4A90E4354A65FCE2 /* lang_tr.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65B0B80BDF423D4E97EB2572F61C272 /* lang_tr.swift */; };
+		A89774CBBF660A8289727B684EC87FD2 /* lang_fi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88BA417BDD541E1969C8517EE0366DB /* lang_fi.swift */; };
+		A92624FB928F2CEF3808544E0EEEFFF4 /* SwiftDate-iOS12.1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12DE41ED8C40ACC694BD538813B2B3C9 /* SwiftDate-iOS12.1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA72D163F5EA164C82CCEF7409309A31 /* lang_zh_Hans_SG.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DFBE87AD751C71F85452C6C32E7651 /* lang_zh_Hans_SG.swift */; };
+		AAF623DE231FD268997F135DF8D505B1 /* lang_hsb.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD30F7D061B93C14468D2085C6755C6 /* lang_hsb.swift */; };
+		AC158778B7FF3D18F3DFAFFB27D0BB5D /* lang_dsb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3832715B6D209FD7475F31F71480F281 /* lang_dsb.swift */; };
+		AC8AB6AEDBE84BBE0962F41FEAF38032 /* lang_eu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9DF788A44CF7DE5E83947BA3427247 /* lang_eu.swift */; };
+		AD332F996B2D41DC3B351F9281518B26 /* lang_fr_CA.swift in Sources */ = {isa = PBXBuildFile; fileRef = D647AC7D84091A3255FFE3601F779DBE /* lang_fr_CA.swift */; };
+		B00B068E0BBA97531A03381B26B92D72 /* lang_el.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD960D35E846C85A9FACE154364B51B5 /* lang_el.swift */; };
+		B1774B2B64C03687ADA9947070343D5B /* lang_fil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0C9F8F1200B65B3D4E1409111BA9D1 /* lang_fil.swift */; };
+		B178B38FCD7F99B07422484FC7FD6861 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 218E19384D756836226CA9792A15D604 /* IQKeyboardManager.bundle */; };
+		B1ADF4B21B4E6BA4162F8A0D74AAB024 /* DateInRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B4027FB20AD3DC75E1540022E83A8C /* DateInRegion.swift */; };
+		B28A60F920E9E6BD8E51583B561A9744 /* lang_as.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E006C81F54D4BEC461741EAAAB7273 /* lang_as.swift */; };
+		B2A4A7D1BD7C4D59EA0FF0A49163A387 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2547F2C647B24BCB93B8C72253051C65 /* IQBarButtonItem.swift */; };
+		B31154C717CFCB85FBDD59B3E9416A9B /* TimePeriodProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83B9F8E1DCE5CDB1C90CE4B40760D75 /* TimePeriodProtocol.swift */; };
+		B410B64A26DE5FEA19E7ECB698662A79 /* lang_yue_Hant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D85A0970D5357828405CF0E8D436902 /* lang_yue_Hant.swift */; };
+		B4251D8CE3A84F46147111F1653C8ACB /* lang_az.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B47DE8330C7237F4D7577DEB22A5A1 /* lang_az.swift */; };
+		B563950DF9A543F39E4AC502987F63E9 /* lang_ca.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE9C9BB068B1E59103C9807D5D56995 /* lang_ca.swift */; };
+		B57ED90040A1F9378DE97AE0163A1A1A /* DateInRegion+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75B27A33291C6C85CDA8731129E97B8 /* DateInRegion+Components.swift */; };
+		B6C2004AC2608646164BE54A1CBEB906 /* lang_it.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2CBE169D0049B4FFFFD94745BF75DA /* lang_it.swift */; };
+		B6DB97FE99739F49A1925E6F3D77A6F5 /* lang_ne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2850AFD1D122DADCDDC1D6BB0B5A2781 /* lang_ne.swift */; };
+		B6F37B07CE79CD4FA4F877362E3E2713 /* lang_da.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E10600F0908CDAC2BCE2A059174CB9 /* lang_da.swift */; };
+		B86B88C8932213EF381C535656A99A43 /* lang_nb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654F1667D4B752DAA35118DBD3280762 /* lang_nb.swift */; };
+		B888C49BC46C9A62CBF03A8FAD7126F1 /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FFD2BB3BD6B248C9F6F799811251C /* IQInvocation.swift */; };
+		B89489FEFC70E88457F50F8E10FDD78A /* lang_es_MX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E0A89CDE65BC0CA83668272B8E4730 /* lang_es_MX.swift */; };
+		B8B0ECBF0F607C583F5DEE68BDD862B7 /* DateComponents+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9592CFAE70D86DD8A99BBA780A13A85 /* DateComponents+Extras.swift */; };
+		B8CEE667EC8AB3BF2B00DC1F9EEEA886 /* lang_zh_Hans_HK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7584CCC70A2C72ABE1DF3B2F07FDC5 /* lang_zh_Hans_HK.swift */; };
+		B9EB7147279843AE1558E24AF2C63F4D /* lang_ko.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4981A47593FCEFF2A55D2AE85FAE4B3 /* lang_ko.swift */; };
+		BA61F495C0E45AA2A88D21D51575FF02 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512302FCC464A892B485BCCE710F6B06 /* IQKeyboardReturnKeyHandler.swift */; };
+		BC1D569324895ED223DBB462E2016F8D /* ISOFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60693B9EB7C9520D406B01386377165 /* ISOFormatter.swift */; };
+		BD11DEDCFF6FC7DBF844C3C9FC2A56A6 /* lang_dz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259FBCD6E65741CA42073AFE4BE5FF8C /* lang_dz.swift */; };
+		BD18BF52AF50EF2B8A605988D3D7BA3B /* lang_th.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4499ED2C2F589414ABBA143E25C3B87D /* lang_th.swift */; };
+		BD75675562AB1F316D2AD7DA35CDCAC2 /* Locales.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A911A90056083ED95BB800C1B23316 /* Locales.swift */; };
+		BD961B1B621C1983270FB0323692CDCE /* SwiftDate-iOS12.2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2891CC3B17697DD1F25343982C2FC16 /* SwiftDate-iOS12.2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE68850951F983E71206FA9A82557BD9 /* lang_bsCyrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABCA4D53FC5C4B8B44C7CA7AD60ABF1 /* lang_bsCyrl.swift */; };
+		BE9D7FD9C60E1FDE67553F321405E7E4 /* Locales.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A911A90056083ED95BB800C1B23316 /* Locales.swift */; };
+		BED3FEDC27A7DDB842D9C234170543F7 /* TimeStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473ECD16F839ADA25C01646C0CED218 /* TimeStructures.swift */; };
+		BF689F445D4B849FAF88F6E474FF1A9C /* lang_uz_Cyrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164D28BB4408CEA0CBF8723961031E9C /* lang_uz_Cyrl.swift */; };
+		BFDA8BBCE110C28A848720DC7BD8E8F7 /* Date+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B00767763E8273A683E2BB3309BB0 /* Date+Create.swift */; };
+		C10D3FBD19750B2A41BF3234E80B0313 /* lang_lv.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2FB8E9B1B1481912D4AAD1282B26E9 /* lang_lv.swift */; };
+		C10E06ABF5554850EF30EAF739F2FDD2 /* lang_am.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6196CCAFD980E6A837655E3591E9C9A /* lang_am.swift */; };
+		C250300D68B1AB2383B1D808E2951CA7 /* lang_ti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0E9F6CD1FC1CC3E1CD037BD13790F5 /* lang_ti.swift */; };
+		C271CB6D7C5EF48AA7ECF8FECBD4F6C8 /* lang_zh_Hant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B95851374504ADEC4BDD182CA9F300E /* lang_zh_Hant.swift */; };
+		C3142B70E08C94A5BD216C4962F13D98 /* lang_nn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD54C764C6B69EC1952232070AE59B91 /* lang_nn.swift */; };
+		C3C18C0953DE0DB9F9DB8FAEB686706B /* lang_is.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8488C46017D85AFBCF0FB99741B566D /* lang_is.swift */; };
+		C43443879230AE9A1ADE403BA6C6B26C /* lang_ps.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B96F06F1748CCD99E8DB49618EF02A /* lang_ps.swift */; };
+		C4729A6C5DA09EFD1A71904751208496 /* lang_sw.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E0F4DD62CBAD31E99B1ADA4703825F /* lang_sw.swift */; };
+		C57C79DC37C8183D0DB68BF9FC5AD6A3 /* DateRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B9685B06EAC05E52B23182830A4D79 /* DateRepresentable.swift */; };
+		C585856755BCF68B71D1D7B0F3F57CDC /* lang_nl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5311F947B3A5D37827AFBB4D5C5B9AA7 /* lang_nl.swift */; };
+		C61348343479D4AECA0886156F3F30F7 /* Int+DateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B5BC06A63DCB7FF30A79C83100AD24 /* Int+DateComponents.swift */; };
+		C649BA576BDA2E69554DB26CA49EC520 /* ISOParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536592B9F9A3D9C2EC43299298408925 /* ISOParser.swift */; };
+		C64DC048E1493C34565697AF3675E9EB /* lang_sq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F845281F72F01231D8FCEBFF90B1D13 /* lang_sq.swift */; };
+		C652AAA0CC1E32E5B9895FE684702835 /* lang_ar_AE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F70A1B391DC325D5FE75BBE0C77670F /* lang_ar_AE.swift */; };
+		C653A0850F3E17C9806504490DBE738C /* RelativeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD524FB7F7BACD8653D86027FB1A558 /* RelativeFormatter.swift */; };
+		C7B357C6B600B571D525FF1ABD394CFD /* lang_cs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3037448D973408181CFADBCA1189DB14 /* lang_cs.swift */; };
+		C815A737A1F8E76DF67724906493804A /* String+Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3C6D7DA85A8CA23228ED31717BDF3A /* String+Parser.swift */; };
+		C8CF99675B892B1A07A190875FC20778 /* lang_es_PY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F25174D253F50589E483E2BB3907C7B /* lang_es_PY.swift */; };
+		C8E825C6D0B7DE99B242562BBF152530 /* lang_sr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8579A6A23CBDB8622D3A1B3074788C93 /* lang_sr.swift */; };
+		C956BAD277BB56C7C912CA8A66F24C85 /* lang_tr.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65B0B80BDF423D4E97EB2572F61C272 /* lang_tr.swift */; };
+		C979CC6E15A52E672C5D9EE5FC273520 /* Commons.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB259025960725E15ADEA42DD79BCBA6 /* Commons.swift */; };
+		CAE4EC23568BEC384CBF61988EF5851F /* lang_te.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431C8D16A15388FEE9D1E20C96B317FB /* lang_te.swift */; };
+		CB41E9BEE645609CCDA7B2F614ADCEBD /* lang_mk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF627A0A1A54F255B49F261B55E1E68 /* lang_mk.swift */; };
+		CBE89D799B45FB2A6E8B53EAEB23A886 /* lang_br.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D21FA052ED95CABD189929EEFAEDEDF /* lang_br.swift */; };
+		CC0DAF4DB4170BC61ED9D564C6896964 /* Date+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = E045BBED871CD444C0CAB3C585E0A29E /* Date+Compare.swift */; };
+		CC6CF8891848577C70BDE1F761B3427B /* DateInRegion+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75B27A33291C6C85CDA8731129E97B8 /* DateInRegion+Components.swift */; };
+		CF51B38A0B75120F9605723F63B84EF9 /* lang_dsb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3832715B6D209FD7475F31F71480F281 /* lang_dsb.swift */; };
+		CFE51C63863E4351E2E3661BB8E816F5 /* lang_sr_Latn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE22EBEC4A18F9686167C25E2AB951 /* lang_sr_Latn.swift */; };
+		D10FE911831D9160E5CC8CEECB32B0C0 /* lang_fa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D55EB55102497D1496996B9A79256E /* lang_fa.swift */; };
+		D19F649C97479668776EF0D2FCB3E5C7 /* SwiftDate-iOS12.2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C306D7619F58BD6BD4361D4876F5B065 /* SwiftDate-iOS12.2-dummy.m */; };
+		D26CBA8E6CB3ADB595E6CDF39CF7C62A /* lang_cs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3037448D973408181CFADBCA1189DB14 /* lang_cs.swift */; };
+		D2766FFD261A9FAB1238080A20CA47F8 /* lang_ml.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B033EA43CE59E302551119D5F71F830 /* lang_ml.swift */; };
+		D2A4940F81AD3455E1D30E78A4754141 /* lang_ps.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B96F06F1748CCD99E8DB49618EF02A /* lang_ps.swift */; };
+		D309544B0A8197493054A47544EE5C5F /* lang_ne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2850AFD1D122DADCDDC1D6BB0B5A2781 /* lang_ne.swift */; };
+		D3A177F9BCAD7042B46E0A36CEDDBF8E /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63732082824316F7E97244203C9145FC /* IQTitleBarButtonItem.swift */; };
+		D43FAB9AB307F04C6737C705B6885AC2 /* lang_mzn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3EA57A1161C346BAE5C3B55E6533A5 /* lang_mzn.swift */; };
+		D7D49BAE6EAAD5EC2DAF370BCDE783A2 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC044213BC8F2CF20ED4AB2189E2E7F /* IQToolbar.swift */; };
+		D8B40587AB8EBF94BB298196356CDC18 /* lang_hr.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94FFA375E114F56F57555BE42FBA44 /* lang_hr.swift */; };
+		D8B49C215747F9A430B0DE70F0508D88 /* lang_sr_Latn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE22EBEC4A18F9686167C25E2AB951 /* lang_sr_Latn.swift */; };
+		D8F4B5841E455F5170B1C2FC30863B05 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97855E315D59C49A46C72AA30A668817 /* IQKeyboardManagerConstantsInternal.swift */; };
+		D9C060517699C0F8655F80A195DB0FAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
+		DA094E46DC3EF85088437776AC315552 /* lang_yue_Hans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FB84B63E3E913BF496A8241ECBDD86 /* lang_yue_Hans.swift */; };
+		DD420F096096C518F8E6B44583BF6521 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C737BE39BA10905388F0F6360FFABAA /* IQKeyboardManagerConstants.swift */; };
+		DDAC963022C8D96EBAAD2284780E0276 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9800615D6106F8EA4995B9BA112CB7B0 /* IQUIScrollView+Additions.swift */; };
+		DDB4CF2EBBC71C1E3E7845CF465DDAC3 /* lang_se_FI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29D4041E8D34A8C8F695D0945CC7B0C /* lang_se_FI.swift */; };
+		DE3CBB238803C1981CD7833A4DF6AF3F /* lang_my.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644E26008B11DE1A0F9DB26F6A4E6BDD /* lang_my.swift */; };
+		DFF0D11A371373B119ADA5504CD627C1 /* lang_ca.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE9C9BB068B1E59103C9807D5D56995 /* lang_ca.swift */; };
+		E0DFB9A934DD3BB079EF686DD2141926 /* lang_th.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4499ED2C2F589414ABBA143E25C3B87D /* lang_th.swift */; };
+		E0F90D1E64AB9BD01CEA612AD90A3770 /* Pods-ABBYY_Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF95CA6A10D3677F2A4360F80F5C1DF0 /* Pods-ABBYY_Extension-dummy.m */; };
+		E126C413FFAD655A099C8271750388F6 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A93325A4002B0388390B61D29EAB52 /* Date.swift */; };
+		E30295609F76DE18B7E3DA59A3954E47 /* TimeStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473ECD16F839ADA25C01646C0CED218 /* TimeStructures.swift */; };
+		E312329A9CD2F429C3F52B039147934F /* lang_en.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98400796F0818392585C7C2B1B2823A8 /* lang_en.swift */; };
+		E3334CC660C4BD5E41C1061B9DC56FF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B864BFE95FAE118C4C3A52725C9B261 /* UIKit.framework */; };
+		E40444BF419265D91E82A006BA90C320 /* lang_ka.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2BB4505C8C20B58ED67FF2551A93FA /* lang_ka.swift */; };
+		E5182F039A2251FCFE3E51E34F62F7D9 /* lang_pt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A949E10BD32BEB16BD24BD9936C9A8 /* lang_pt.swift */; };
+		E6D7D756F7F5C547687C6E4F5D32718E /* lang_es_US.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F6C64CE2BB42F997B7A0BCBDD2BBE4 /* lang_es_US.swift */; };
+		E6E8889F75F1A8E3064FC06510C16222 /* lang_mn.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8A2DD4C2B62EC5795FB47F4B2BC05A /* lang_mn.swift */; };
+		E6F520E0D3F93446B9470E2D0853A094 /* lang_sah.swift in Sources */ = {isa = PBXBuildFile; fileRef = F711401DB296DC9A7503E63272903BF6 /* lang_sah.swift */; };
+		E725C678945A64C0F17C4F712EB2C799 /* lang_ur_IN.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC925E13C033E2A1F9BA3BBBB28EC5 /* lang_ur_IN.swift */; };
+		E772B13551CCD9C3E4FBDA9BB4C1D5DB /* lang_zh_Hant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B95851374504ADEC4BDD182CA9F300E /* lang_zh_Hant.swift */; };
+		E7AC0785C28D05F3A4B6FBD130EA2BDB /* lang_is.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8488C46017D85AFBCF0FB99741B566D /* lang_is.swift */; };
+		E87A3854E55D7D70F8F05C93E1666251 /* lang_et.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E94E562B70C3287D8A5DCA1D660971 /* lang_et.swift */; };
+		E9BCE126E093C22DA67717D816C55F0B /* lang_sl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54BB2C2AD1C7BC01B3BA089B2692FB8 /* lang_sl.swift */; };
+		EA93E12D1710E116B002D175B93B9725 /* Zones.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB9B37299BC70F41B0616E47BC84491 /* Zones.swift */; };
+		EBDB488BE6E24310A7EAA94E7B7A3419 /* String+Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3C6D7DA85A8CA23228ED31717BDF3A /* String+Parser.swift */; };
+		ED0F57E338AC6C639B259BFE33DDB7FE /* lang_bg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F2129E2C1C8885F6F8E2167CF6343C /* lang_bg.swift */; };
+		ED3F58753A472624DA482AE1021FE5DA /* lang_ky.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7172D7E30F7C91C1B5673A729FC663DD /* lang_ky.swift */; };
+		ED7C9A397DDDE250E407378761EAC918 /* lang_yue_Hans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FB84B63E3E913BF496A8241ECBDD86 /* lang_yue_Hans.swift */; };
+		EDF155B30ADFB9C8322569BC3328E125 /* lang_es_AR.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD1C5BC98F87A24242A4ADF2FA81C80 /* lang_es_AR.swift */; };
+		EE3AE0525BC96C4F64771E9C44B7BAA4 /* lang_vi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B7D5988668C77CBC71D10B9F2AC45D /* lang_vi.swift */; };
+		EF80D8640F0249C035FB1CC977CAD7BF /* lang_fa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D55EB55102497D1496996B9A79256E /* lang_fa.swift */; };
+		F0A9F7366B446EDAE4716768BCCADE6C /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E78FD5DACD93B3AD5623C8D5E0312F /* IQPreviousNextView.swift */; };
+		F1676A322B14EC2098FBE5A4C557AD33 /* lang_zh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA47C7F7F66870E3079485A942F7F04 /* lang_zh.swift */; };
+		F18D974FFEBCFEF2FF074FAC2C51AA9B /* lang_yue_Hant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D85A0970D5357828405CF0E8D436902 /* lang_yue_Hant.swift */; };
+		F1E37C2ED9CD4199CC15B55AB3661581 /* lang_zh_Hans_MO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D56DC32C9EAD20401F254570E3CA24 /* lang_zh_Hans_MO.swift */; };
+		F41CD24054E587E39C5DB406D460A1F8 /* lang_id.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D70C10D449A97F355BA2A92A084245C /* lang_id.swift */; };
+		F5B5ED9A3FBD438758304F2E9CC80EE2 /* lang_hu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52C044A1C0477FCEFA2603BD3351D2E /* lang_hu.swift */; };
+		F5F3B652F561200FB35A7087125B4C22 /* lang_lt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92D52CAED1B845800CBF683FE20AF8D /* lang_lt.swift */; };
+		F72B5E6D00556C1C220A92A82EC9BCBD /* lang_pa.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E4E52D99B3B0B28145E78AF869965 /* lang_pa.swift */; };
+		F7FF5EC7DC576B37AB1F683225E304DA /* lang_dz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259FBCD6E65741CA42073AFE4BE5FF8C /* lang_dz.swift */; };
+		F852C0100AB6D9D2CE3E28FCA487C67E /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984EBF42A18C117A1F6E88AA43DFBA22 /* IQUIViewController+Additions.swift */; };
+		F87B405B1BAE6331C44D04AAEC23493F /* lang_vi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B7D5988668C77CBC71D10B9F2AC45D /* lang_vi.swift */; };
+		F8B23047ACF1C5DA81A51153A1DDD244 /* lang_be.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6294906258FD2BAA4A40C9104EB8284C /* lang_be.swift */; };
+		F8B254B1A23C7DC9184B1B7D54C59044 /* lang_zh_Hant_HK.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FB0C2774A17305CFC266F2078159B6 /* lang_zh_Hant_HK.swift */; };
+		F92015EA0BFBF1A9DF329B77B68F57BA /* lang_hr.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94FFA375E114F56F57555BE42FBA44 /* lang_hr.swift */; };
+		F972EE616A144F58E368FA5DB4842FBE /* lang_ug.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23F385D1E6AA40781E9529684FBBADB /* lang_ug.swift */; };
+		F9A943E4C8E78C27B60C85B98723051D /* lang_ar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DFAC4DACAA9B6B9E73D3628FF078BC /* lang_ar.swift */; };
+		FA03C9ABCF72EFC0B0C94B854B9F61D5 /* ISOFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60693B9EB7C9520D406B01386377165 /* ISOFormatter.swift */; };
+		FA1171C417BD5EA94B813F645610AB34 /* lang_wae.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9DFC884A839463250A9FE3053FA707 /* lang_wae.swift */; };
+		FAD7322924A63404E074B2FF4CF3F09F /* TimeInterval+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AA8D57852F31DCE55E52271BE213A9 /* TimeInterval+Formatter.swift */; };
+		FAFF57FD765D31AF5DD02783FD2FE7C0 /* lang_kn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610F891D9B0841B5624D41B2D5FBF0E5 /* lang_kn.swift */; };
+		FB0C7FDF01A9AF47101FA797B1B8A30F /* lang_mt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA93D47CD0371C7556CAD344A7B38BB /* lang_mt.swift */; };
+		FB465D11A0A987B9B769A385FD8A715B /* lang_uz_Cyrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164D28BB4408CEA0CBF8723961031E9C /* lang_uz_Cyrl.swift */; };
+		FC410337A54492683754A216226D6C0F /* lang_ksh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704B25C81C6B037616B30009B383EF20 /* lang_ksh.swift */; };
+		FE452F1DAD9E837A174404D6D5EF8759 /* lang_lv.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2FB8E9B1B1481912D4AAD1282B26E9 /* lang_lv.swift */; };
+		FF22FE6728551289831F8C6D3B4E09F2 /* lang_kl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC48D43D87C76504FC30BEDC7CDE3DA8 /* lang_kl.swift */; };
+		FF7C26959D03B838F61ABAEA0E9C4D6E /* TimePeriod+Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB41EFCB43C858DCBD21C6A5B7ACA6D /* TimePeriod+Support.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66C2F34C93DE8F8C83FA1FF505575412 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8B1D91A5EFBA9F9542F2C7B6299FF04;
+			remoteInfo = "SwiftDate-iOS12.2";
+		};
+		79DBC824F1E2328C50E82EB95CDD329D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFF87187B46551C36797F2B899C54212;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
+		9328C535A0D231CBB89095F5D015D92B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F4D61A65A8308C06F8F26A1FABFFB76;
+			remoteInfo = "SwiftDate-iOS12.1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02AA8D57852F31DCE55E52271BE213A9 /* TimeInterval+Formatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TimeInterval+Formatter.swift"; path = "Sources/SwiftDate/Foundation+Extras/TimeInterval+Formatter.swift"; sourceTree = "<group>"; };
+		02B9685B06EAC05E52B23182830A4D79 /* DateRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateRepresentable.swift; path = Sources/SwiftDate/DateRepresentable.swift; sourceTree = "<group>"; };
+		03B47DE8330C7237F4D7577DEB22A5A1 /* lang_az.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_az.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_az.swift; sourceTree = "<group>"; };
+		04392B6434364B7824E9B997F2B3DEDB /* Pods-ABBYY Test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ABBYY Test-dummy.m"; sourceTree = "<group>"; };
+		0473ECD16F839ADA25C01646C0CED218 /* TimeStructures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimeStructures.swift; path = Sources/SwiftDate/Supports/TimeStructures.swift; sourceTree = "<group>"; };
+		06742721D31815C913F8BC0E2089C5FB /* Pods-ABBYY_Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABBYY_Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		0B2B00767763E8273A683E2BB3309BB0 /* Date+Create.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Create.swift"; path = "Sources/SwiftDate/Date/Date+Create.swift"; sourceTree = "<group>"; };
+		0B36D27187A3AF5D4DA8CCD67A7CAE3B /* lang_jgo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_jgo.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_jgo.swift; sourceTree = "<group>"; };
+		0BD524FB7F7BACD8653D86027FB1A558 /* RelativeFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RelativeFormatter.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/RelativeFormatter.swift; sourceTree = "<group>"; };
+		0D16F8D4095A11E3291B7B0E5F96B05D /* lang_ta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ta.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ta.swift; sourceTree = "<group>"; };
+		10A87C696CD94FE2451EF8D6486FDA2D /* lang_ja.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ja.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ja.swift; sourceTree = "<group>"; };
+		11832047CBB4CFAE00B4A2A76A25494A /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+IQKeyboardToolbar.swift"; path = "IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		12DE41ED8C40ACC694BD538813B2B3C9 /* SwiftDate-iOS12.1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftDate-iOS12.1-umbrella.h"; sourceTree = "<group>"; };
+		136AADD8DC981C7096BCB774EAF384FA /* TimePeriodGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriodGroup.swift; path = Sources/SwiftDate/TimePeriod/Groups/TimePeriodGroup.swift; sourceTree = "<group>"; };
+		14FCB4D6DDD7FCDDFC2D90147D13F54C /* lang_af.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_af.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_af.swift; sourceTree = "<group>"; };
+		164D28BB4408CEA0CBF8723961031E9C /* lang_uz_Cyrl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_uz_Cyrl.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_uz_Cyrl.swift; sourceTree = "<group>"; };
+		177159091FFA0E89BC944AD8065B867E /* Pods-ABBYY_Extension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABBYY_Extension-Info.plist"; sourceTree = "<group>"; };
+		17D5053F2A5215D7472A947EDE5B61B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		198057477B8973316EAE8740F60AE1AC /* Pods_ABBYY_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ABBYY_Test.framework; path = "Pods-ABBYY Test.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19872A79CC3E58FD682092E7038CA54A /* lang_zh_Hant_MO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zh_Hant_MO.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zh_Hant_MO.swift; sourceTree = "<group>"; };
+		19B7D5988668C77CBC71D10B9F2AC45D /* lang_vi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_vi.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_vi.swift; sourceTree = "<group>"; };
+		1B6419980D972744E42CF95162A85675 /* SwiftDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftDate.framework; path = "SwiftDate-iOS12.2.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B864BFE95FAE118C4C3A52725C9B261 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1B95851374504ADEC4BDD182CA9F300E /* lang_zh_Hant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zh_Hant.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zh_Hant.swift; sourceTree = "<group>"; };
+		1BC6307B5D5883A6BAC3DA6C9FAFEA15 /* IQKeyboardManagerSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IQKeyboardManagerSwift-Info.plist"; sourceTree = "<group>"; };
+		1C3047F345EBFBA7048B8AA250983A13 /* lang_sd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sd.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sd.swift; sourceTree = "<group>"; };
+		1F0C9F8F1200B65B3D4E1409111BA9D1 /* lang_fil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fil.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fil.swift; sourceTree = "<group>"; };
+		1F0E0C7DCB9B712EA04CC0CA404E2718 /* Pods-ABBYY Test-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ABBYY Test-umbrella.h"; sourceTree = "<group>"; };
+		218E19384D756836226CA9792A15D604 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		23FB84B63E3E913BF496A8241ECBDD86 /* lang_yue_Hans.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_yue_Hans.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_yue_Hans.swift; sourceTree = "<group>"; };
+		2547F2C647B24BCB93B8C72253051C65 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQBarButtonItem.swift; sourceTree = "<group>"; };
+		259FBCD6E65741CA42073AFE4BE5FF8C /* lang_dz.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_dz.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_dz.swift; sourceTree = "<group>"; };
+		2814586CE2A63C142A0C73CADF3216D5 /* TimePeriod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriod.swift; path = Sources/SwiftDate/TimePeriod/TimePeriod.swift; sourceTree = "<group>"; };
+		2850AFD1D122DADCDDC1D6BB0B5A2781 /* lang_ne.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ne.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ne.swift; sourceTree = "<group>"; };
+		2A7867BDF3332A5A3C888C7989A39BBA /* SwiftDate-iOS12.1-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftDate-iOS12.1-prefix.pch"; sourceTree = "<group>"; };
+		2AC044213BC8F2CF20ED4AB2189E2E7F /* IQToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQToolbar.swift; path = IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift; sourceTree = "<group>"; };
+		2B0E9F6CD1FC1CC3E1CD037BD13790F5 /* lang_ti.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ti.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ti.swift; sourceTree = "<group>"; };
+		2BCA3D64D8B5506077543695EF915038 /* lang_lb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_lb.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_lb.swift; sourceTree = "<group>"; };
+		2D70C10D449A97F355BA2A92A084245C /* lang_id.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_id.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_id.swift; sourceTree = "<group>"; };
+		2D72C3C90D9595F1C428DA30E0C43A64 /* SwiftDate-iOS12.1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SwiftDate-iOS12.1.xcconfig"; sourceTree = "<group>"; };
+		2E9DF788A44CF7DE5E83947BA3427247 /* lang_eu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_eu.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_eu.swift; sourceTree = "<group>"; };
+		2F201E06EF5FADA9293D59545B0B81DB /* lang_fy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fy.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fy.swift; sourceTree = "<group>"; };
+		2F2BB4505C8C20B58ED67FF2551A93FA /* lang_ka.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ka.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ka.swift; sourceTree = "<group>"; };
+		2F3FAAC4F4F0830B2B6D7CB2169D7A11 /* lang_gd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_gd.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_gd.swift; sourceTree = "<group>"; };
+		3037448D973408181CFADBCA1189DB14 /* lang_cs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_cs.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_cs.swift; sourceTree = "<group>"; };
+		30C5248F3F8F5DD6FF2489BCA891824D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		31E4EB86C5CF4AF5FA0E0AA1B4439D02 /* Date+Components.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Components.swift"; path = "Sources/SwiftDate/Date/Date+Components.swift"; sourceTree = "<group>"; };
+		33279CE0707C78BC792C6E7DBE0FF29D /* lang_ee.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ee.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ee.swift; sourceTree = "<group>"; };
+		337018997B36B98884D3F0D3940EA74A /* lang_gl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_gl.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_gl.swift; sourceTree = "<group>"; };
+		37D55EB55102497D1496996B9A79256E /* lang_fa.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fa.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fa.swift; sourceTree = "<group>"; };
+		3832715B6D209FD7475F31F71480F281 /* lang_dsb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_dsb.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_dsb.swift; sourceTree = "<group>"; };
+		3D00395EFA72208443D45A30C57C4682 /* lang_cy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_cy.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_cy.swift; sourceTree = "<group>"; };
+		3D554E8748AC4F54F1DFB4686B0CA2DA /* Pods-ABBYY Test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABBYY Test-acknowledgements.plist"; sourceTree = "<group>"; };
+		3D5DE600E6DE427687479E8F2F6FDF03 /* Date+Math.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Math.swift"; path = "Sources/SwiftDate/Date/Date+Math.swift"; sourceTree = "<group>"; };
+		3EEEA366F1DCF2BD2F9AF236255BF739 /* Region.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Region.swift; path = Sources/SwiftDate/DateInRegion/Region.swift; sourceTree = "<group>"; };
+		408FFD2BB3BD6B248C9F6F799811251C /* IQInvocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQInvocation.swift; path = IQKeyboardManagerSwift/IQToolbar/IQInvocation.swift; sourceTree = "<group>"; };
+		415241F6E3C38D11C94EC04169A2D18F /* lang_bs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_bs.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_bs.swift; sourceTree = "<group>"; };
+		4172E322A22D39A35F8D92AEA89BFD6F /* lang_or.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_or.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_or.swift; sourceTree = "<group>"; };
+		4242B5A47D2E48E7A8FD0E331C7E73CE /* lang_ur.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ur.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ur.swift; sourceTree = "<group>"; };
+		42A93325A4002B0388390B61D29EAB52 /* Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Date.swift; path = Sources/SwiftDate/Date/Date.swift; sourceTree = "<group>"; };
+		431C8D16A15388FEE9D1E20C96B317FB /* lang_te.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_te.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_te.swift; sourceTree = "<group>"; };
+		438B36C2E444FEAE3C54D9F72A03B016 /* SwiftDate-iOS12.2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "SwiftDate-iOS12.2-Info.plist"; path = "../SwiftDate-iOS12.2/SwiftDate-iOS12.2-Info.plist"; sourceTree = "<group>"; };
+		445D64E60F77241D50308D40EBC9EF82 /* Pods-ABBYY Test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABBYY Test-frameworks.sh"; sourceTree = "<group>"; };
+		4499ED2C2F589414ABBA143E25C3B87D /* lang_th.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_th.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_th.swift; sourceTree = "<group>"; };
+		4594B020429ED93BD68D08AC08831B7E /* lang_to.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_to.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_to.swift; sourceTree = "<group>"; };
+		45FEBB1DB47D659035A55D5AE486F2F4 /* TimePeriodChain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriodChain.swift; path = Sources/SwiftDate/TimePeriod/Groups/TimePeriodChain.swift; sourceTree = "<group>"; };
+		4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4B3DB11A8CAA68906ED90D653282AD46 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUITextFieldView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		4B459B52977DC48BA6EF5A194000B684 /* Pods-ABBYY_Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ABBYY_Extension-umbrella.h"; sourceTree = "<group>"; };
+		4EA487911289E00E0DE1A3C19F51C567 /* Calendars.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Calendars.swift; path = Sources/SwiftDate/Supports/Calendars.swift; sourceTree = "<group>"; };
+		4F70A1B391DC325D5FE75BBE0C77670F /* lang_ar_AE.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ar_AE.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ar_AE.swift; sourceTree = "<group>"; };
+		4F7584CCC70A2C72ABE1DF3B2F07FDC5 /* lang_zh_Hans_HK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zh_Hans_HK.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zh_Hans_HK.swift; sourceTree = "<group>"; };
+		4FC196B2369C4A2AD9AEED20AEC9E04A /* lang_es.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_es.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_es.swift; sourceTree = "<group>"; };
+		4FF627A0A1A54F255B49F261B55E1E68 /* lang_mk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_mk.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_mk.swift; sourceTree = "<group>"; };
+		512302FCC464A892B485BCCE710F6B06 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardReturnKeyHandler.swift; path = IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		52C2A8DE010C921E84C80540C862DCF9 /* lang_km.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_km.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_km.swift; sourceTree = "<group>"; };
+		5311F947B3A5D37827AFBB4D5C5B9AA7 /* lang_nl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_nl.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_nl.swift; sourceTree = "<group>"; };
+		536592B9F9A3D9C2EC43299298408925 /* ISOParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISOParser.swift; path = Sources/SwiftDate/Formatters/ISOParser.swift; sourceTree = "<group>"; };
+		53F8D5F874BC4EAFFFFD29850B0DBE4B /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+Hierarchy.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		56B5BC06A63DCB7FF30A79C83100AD24 /* Int+DateComponents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+DateComponents.swift"; path = "Sources/SwiftDate/Foundation+Extras/Int+DateComponents.swift"; sourceTree = "<group>"; };
+		5758AFC4F14FB4CA665ECCD5A09DA7B9 /* SwiftDate-iOS12.2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SwiftDate-iOS12.2.xcconfig"; path = "../SwiftDate-iOS12.2/SwiftDate-iOS12.2.xcconfig"; sourceTree = "<group>"; };
+		59A5D610B1B21E4753ADE0CC7A0C1FE3 /* IQKeyboardManagerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.xcconfig; sourceTree = "<group>"; };
+		5B033EA43CE59E302551119D5F71F830 /* lang_ml.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ml.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ml.swift; sourceTree = "<group>"; };
+		5C58DF012722DB9DA629DB7CCEFB14D4 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQNSArray+Sort.swift"; path = "IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		5CEF5D31CF9F591DBAE3CE997694BFE1 /* DateInRegion+Create.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Create.swift"; path = "Sources/SwiftDate/DateInRegion/DateInRegion+Create.swift"; sourceTree = "<group>"; };
+		60519F617AFFAA3A8334F3320F25C7D4 /* lang_kk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_kk.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_kk.swift; sourceTree = "<group>"; };
+		60746B182FDEF01CDF324005A04AB6DE /* lang_pl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_pl.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_pl.swift; sourceTree = "<group>"; };
+		610F891D9B0841B5624D41B2D5FBF0E5 /* lang_kn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_kn.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_kn.swift; sourceTree = "<group>"; };
+		6294906258FD2BAA4A40C9104EB8284C /* lang_be.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_be.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_be.swift; sourceTree = "<group>"; };
+		63732082824316F7E97244203C9145FC /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTitleBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		639223095BB04CD7D07E133F327C1098 /* IQKeyboardManagerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManagerSwift-dummy.m"; sourceTree = "<group>"; };
+		644E26008B11DE1A0F9DB26F6A4E6BDD /* lang_my.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_my.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_my.swift; sourceTree = "<group>"; };
+		64C628B15F0776755C56DC049B071179 /* DateInRegion+Compare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Compare.swift"; path = "Sources/SwiftDate/DateInRegion/DateInRegion+Compare.swift"; sourceTree = "<group>"; };
+		654F1667D4B752DAA35118DBD3280762 /* lang_nb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_nb.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_nb.swift; sourceTree = "<group>"; };
+		66C1E770D6F26323D66F2120DA577668 /* lang_kok.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_kok.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_kok.swift; sourceTree = "<group>"; };
+		69BA189FBD3CD84934CED1D14C58DE8D /* Pods-ABBYY Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABBYY Test.debug.xcconfig"; sourceTree = "<group>"; };
+		6D85A0970D5357828405CF0E8D436902 /* lang_yue_Hant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_yue_Hant.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_yue_Hant.swift; sourceTree = "<group>"; };
+		6EF458EB8F83139E8CEAABE7CDF6F7F3 /* lang_he.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_he.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_he.swift; sourceTree = "<group>"; };
+		6F25174D253F50589E483E2BB3907C7B /* lang_es_PY.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_es_PY.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_es_PY.swift; sourceTree = "<group>"; };
+		6F5044BE7EA7F9B21E317766A6ECC506 /* lang_si.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_si.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_si.swift; sourceTree = "<group>"; };
+		6F7937D6402881073FC97596F1ACD60D /* IQKeyboardManagerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-umbrella.h"; sourceTree = "<group>"; };
+		6FC527E3642BDBA980E6FF56ECE493CF /* SwiftDate-iOS12.1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "SwiftDate-iOS12.1.modulemap"; sourceTree = "<group>"; };
+		704B25C81C6B037616B30009B383EF20 /* lang_ksh.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ksh.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ksh.swift; sourceTree = "<group>"; };
+		710C03014A76A3A9BE0D917E850849B1 /* Pods-ABBYY Test-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABBYY Test-Info.plist"; sourceTree = "<group>"; };
+		7172D7E30F7C91C1B5673A729FC663DD /* lang_ky.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ky.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ky.swift; sourceTree = "<group>"; };
+		71BA23155C75FF8B7CD38C6C972A2CAE /* Pods-ABBYY_Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ABBYY_Extension.modulemap"; sourceTree = "<group>"; };
+		7371EE574141096836A53AC2E0A418DF /* SwiftDate-iOS12.2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "SwiftDate-iOS12.2.modulemap"; path = "../SwiftDate-iOS12.2/SwiftDate-iOS12.2.modulemap"; sourceTree = "<group>"; };
+		74B4027FB20AD3DC75E1540022E83A8C /* DateInRegion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInRegion.swift; path = Sources/SwiftDate/DateInRegion/DateInRegion.swift; sourceTree = "<group>"; };
+		75E0A89CDE65BC0CA83668272B8E4730 /* lang_es_MX.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_es_MX.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_es_MX.swift; sourceTree = "<group>"; };
+		797B803547C786A09CB36945A2C48BBC /* AssociatedValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssociatedValues.swift; path = Sources/SwiftDate/Supports/AssociatedValues.swift; sourceTree = "<group>"; };
+		79F6C64CE2BB42F997B7A0BCBDD2BBE4 /* lang_es_US.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_es_US.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_es_US.swift; sourceTree = "<group>"; };
+		7C32C69D61A169E15A0C98F87866E79B /* lang_ms.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ms.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ms.swift; sourceTree = "<group>"; };
+		7D4929D2ED6A5A9334C57D28C2B7890A /* IQKeyboardManagerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManagerSwift.modulemap; sourceTree = "<group>"; };
+		7E45759023AD1E15E18008AD183622C4 /* lang_ru.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ru.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ru.swift; sourceTree = "<group>"; };
+		7EB41EFCB43C858DCBD21C6A5B7ACA6D /* TimePeriod+Support.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TimePeriod+Support.swift"; path = "Sources/SwiftDate/TimePeriod/TimePeriod+Support.swift"; sourceTree = "<group>"; };
+		7F9AB9BF0FA44120678F4BE1DF7B068E /* IQKeyboardManagerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-prefix.pch"; sourceTree = "<group>"; };
+		7FD63468A42C9533B0D2AD1E2020A8A7 /* SwiftDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftDate.framework; path = "SwiftDate-iOS12.1.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE9C9BB068B1E59103C9807D5D56995 /* lang_ca.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ca.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ca.swift; sourceTree = "<group>"; };
+		80B27E4B7C9F7946E568528CC8B670A1 /* lang_fur.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fur.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fur.swift; sourceTree = "<group>"; };
+		816CA47569182A75E19148E6D5A3C96A /* SwiftDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftDate.swift; path = Sources/SwiftDate/SwiftDate.swift; sourceTree = "<group>"; };
+		8334B370AC1A8DB03DFF11B6985A41D8 /* lang_lkt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_lkt.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_lkt.swift; sourceTree = "<group>"; };
+		84DCD22D1246098E8E9405CAADEB416E /* lang_fo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fo.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fo.swift; sourceTree = "<group>"; };
+		84F2129E2C1C8885F6F8E2167CF6343C /* lang_bg.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_bg.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_bg.swift; sourceTree = "<group>"; };
+		8579A6A23CBDB8622D3A1B3074788C93 /* lang_sr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sr.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sr.swift; sourceTree = "<group>"; };
+		89E78FD5DACD93B3AD5623C8D5E0312F /* IQPreviousNextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPreviousNextView.swift; path = IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift; sourceTree = "<group>"; };
+		8A3C6D7DA85A8CA23228ED31717BDF3A /* String+Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Parser.swift"; path = "Sources/SwiftDate/Foundation+Extras/String+Parser.swift"; sourceTree = "<group>"; };
+		8A9DFC884A839463250A9FE3053FA707 /* lang_wae.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_wae.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_wae.swift; sourceTree = "<group>"; };
+		8ABCA4D53FC5C4B8B44C7CA7AD60ABF1 /* lang_bsCyrl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_bsCyrl.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_bsCyrl.swift; sourceTree = "<group>"; };
+		8C737BE39BA10905388F0F6360FFABAA /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstants.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		8F845281F72F01231D8FCEBFF90B1D13 /* lang_sq.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sq.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sq.swift; sourceTree = "<group>"; };
+		92E10600F0908CDAC2BCE2A059174CB9 /* lang_da.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_da.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_da.swift; sourceTree = "<group>"; };
+		93CF288D0E1331DF9A0B659F7CEFEA75 /* Pods-ABBYY Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABBYY Test.release.xcconfig"; sourceTree = "<group>"; };
+		94CE6FD8815ADFC97295243FC8E40F54 /* Pods-ABBYY_Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ABBYY_Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		97855E315D59C49A46C72AA30A668817 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstantsInternal.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		9800615D6106F8EA4995B9BA112CB7B0 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIScrollView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		98400796F0818392585C7C2B1B2823A8 /* lang_en.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_en.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_en.swift; sourceTree = "<group>"; };
+		984EBF42A18C117A1F6E88AA43DFBA22 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIViewController+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		9B518F3905BA24E639390100D474B61D /* lang_kea.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_kea.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_kea.swift; sourceTree = "<group>"; };
+		9D21FA052ED95CABD189929EEFAEDEDF /* lang_br.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_br.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_br.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E1F797761572B177AC0FE8A7C1183D5 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManager.swift; path = IQKeyboardManagerSwift/IQKeyboardManager.swift; sourceTree = "<group>"; };
+		9FA47C7F7F66870E3079485A942F7F04 /* lang_zh.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zh.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zh.swift; sourceTree = "<group>"; };
+		A143A5CFFE5BE899DF72A92E07BC7C02 /* lang_uk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_uk.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_uk.swift; sourceTree = "<group>"; };
+		A2B03C8551EC6EFFF5DE4F7C9770E248 /* DotNetParserFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DotNetParserFormatter.swift; path = Sources/SwiftDate/Formatters/DotNetParserFormatter.swift; sourceTree = "<group>"; };
+		A4E94E562B70C3287D8A5DCA1D660971 /* lang_et.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_et.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_et.swift; sourceTree = "<group>"; };
+		A54BB2C2AD1C7BC01B3BA089B2692FB8 /* lang_sl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sl.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sl.swift; sourceTree = "<group>"; };
+		A5B96F06F1748CCD99E8DB49618EF02A /* lang_ps.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ps.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ps.swift; sourceTree = "<group>"; };
+		A6196CCAFD980E6A837655E3591E9C9A /* lang_am.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_am.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_am.swift; sourceTree = "<group>"; };
+		A7E0B5FC35BAFD1B13B41A0C03C8CEE0 /* lang_ga.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ga.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ga.swift; sourceTree = "<group>"; };
+		A83B9F8E1DCE5CDB1C90CE4B40760D75 /* TimePeriodProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriodProtocol.swift; path = Sources/SwiftDate/TimePeriod/TimePeriodProtocol.swift; sourceTree = "<group>"; };
+		A92D52CAED1B845800CBF683FE20AF8D /* lang_lt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_lt.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_lt.swift; sourceTree = "<group>"; };
+		AAB9B37299BC70F41B0616E47BC84491 /* Zones.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Zones.swift; path = Sources/SwiftDate/Supports/Zones.swift; sourceTree = "<group>"; };
+		AC2CBE169D0049B4FFFFD94745BF75DA /* lang_it.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_it.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_it.swift; sourceTree = "<group>"; };
+		AC94FFA375E114F56F57555BE42FBA44 /* lang_hr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_hr.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_hr.swift; sourceTree = "<group>"; };
+		AD2FB8E9B1B1481912D4AAD1282B26E9 /* lang_lv.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_lv.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_lv.swift; sourceTree = "<group>"; };
+		AD8BF84E63CCAECDAA184B97AC43D46E /* lang_lo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_lo.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_lo.swift; sourceTree = "<group>"; };
+		AEF2DCCBCDB4A8F3EF407E1FC575DC9A /* IQTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTextView.swift; path = IQKeyboardManagerSwift/IQTextView/IQTextView.swift; sourceTree = "<group>"; };
+		B1E006C81F54D4BEC461741EAAAB7273 /* lang_as.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_as.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_as.swift; sourceTree = "<group>"; };
+		B2891CC3B17697DD1F25343982C2FC16 /* SwiftDate-iOS12.2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftDate-iOS12.2-umbrella.h"; path = "../SwiftDate-iOS12.2/SwiftDate-iOS12.2-umbrella.h"; sourceTree = "<group>"; };
+		B3A23E08CCBCEFA743B510F8A36623CF /* lang_gu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_gu.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_gu.swift; sourceTree = "<group>"; };
+		B8488C46017D85AFBCF0FB99741B566D /* lang_is.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_is.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_is.swift; sourceTree = "<group>"; };
+		B8A949E10BD32BEB16BD24BD9936C9A8 /* lang_pt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_pt.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_pt.swift; sourceTree = "<group>"; };
+		B9EE22EBEC4A18F9686167C25E2AB951 /* lang_sr_Latn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sr_Latn.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sr_Latn.swift; sourceTree = "<group>"; };
+		BB3C1A1E7F53347B0F6336CB9F68858A /* lang_bn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_bn.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_bn.swift; sourceTree = "<group>"; };
+		BBDC925E13C033E2A1F9BA3BBBB28EC5 /* lang_ur_IN.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ur_IN.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ur_IN.swift; sourceTree = "<group>"; };
+		BC6F3258A69046208A433E6BDFFC76A2 /* lang_uz.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_uz.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_uz.swift; sourceTree = "<group>"; };
+		BD960D35E846C85A9FACE154364B51B5 /* lang_el.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_el.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_el.swift; sourceTree = "<group>"; };
+		BDA93D47CD0371C7556CAD344A7B38BB /* lang_mt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_mt.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_mt.swift; sourceTree = "<group>"; };
+		C136C701BBCE0FC00AD07F50E92C6824 /* Pods-ABBYY_Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABBYY_Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		C1E0F4DD62CBAD31E99B1ADA4703825F /* lang_sw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sw.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sw.swift; sourceTree = "<group>"; };
+		C229C4A66661FD6B7875CD3A33605290 /* Pods_ABBYY_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ABBYY_Extension.framework; path = "Pods-ABBYY_Extension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C23F385D1E6AA40781E9529684FBBADB /* lang_ug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ug.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ug.swift; sourceTree = "<group>"; };
+		C306D7619F58BD6BD4361D4876F5B065 /* SwiftDate-iOS12.2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SwiftDate-iOS12.2-dummy.m"; path = "../SwiftDate-iOS12.2/SwiftDate-iOS12.2-dummy.m"; sourceTree = "<group>"; };
+		C5E7BE67A3971D4EA2F3C47144E42360 /* lang_sv.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sv.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sv.swift; sourceTree = "<group>"; };
+		C65B0B80BDF423D4E97EB2572F61C272 /* lang_tr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_tr.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_tr.swift; sourceTree = "<group>"; };
+		C6D56DC32C9EAD20401F254570E3CA24 /* lang_zh_Hans_MO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zh_Hans_MO.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zh_Hans_MO.swift; sourceTree = "<group>"; };
+		C87F15B303A9A260F6183CC72BB5D294 /* lang_de.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_de.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_de.swift; sourceTree = "<group>"; };
+		C88BA417BDD541E1969C8517EE0366DB /* lang_fi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fi.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fi.swift; sourceTree = "<group>"; };
+		C8A911A90056083ED95BB800C1B23316 /* Locales.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Locales.swift; path = Sources/SwiftDate/Supports/Locales.swift; sourceTree = "<group>"; };
+		C902694DAA7E76064A3DAE2CCCFA8FCF /* lang_zu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zu.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zu.swift; sourceTree = "<group>"; };
+		C9592CFAE70D86DD8A99BBA780A13A85 /* DateComponents+Extras.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateComponents+Extras.swift"; path = "Sources/SwiftDate/Foundation+Extras/DateComponents+Extras.swift"; sourceTree = "<group>"; };
+		CA12F3250C51CCC0B6258F10E68FF909 /* lang_yi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_yi.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_yi.swift; sourceTree = "<group>"; };
+		CA3E4E52D99B3B0B28145E78AF869965 /* lang_pa.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_pa.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_pa.swift; sourceTree = "<group>"; };
+		CA82A63EB8FF88CD9FB4BD69F433AE34 /* TimePeriodCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriodCollection.swift; path = Sources/SwiftDate/TimePeriod/Groups/TimePeriodCollection.swift; sourceTree = "<group>"; };
+		CC48D43D87C76504FC30BEDC7CDE3DA8 /* lang_kl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_kl.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_kl.swift; sourceTree = "<group>"; };
+		CCF9B9F1CA693E1F176D0C9DC84729E3 /* lang_ro.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ro.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ro.swift; sourceTree = "<group>"; };
+		CDB51A553ECB5A8048237C05229E0C08 /* lang_hy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_hy.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_hy.swift; sourceTree = "<group>"; };
+		CFD1C5BC98F87A24242A4ADF2FA81C80 /* lang_es_AR.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_es_AR.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_es_AR.swift; sourceTree = "<group>"; };
+		D1BBFA5966B0AC75184226453BA2D39B /* Pods-ABBYY_Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABBYY_Extension.release.xcconfig"; sourceTree = "<group>"; };
+		D29A5AEFF2B097380661A5BADCAF82FF /* Pods-ABBYY Test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ABBYY Test-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D29D4041E8D34A8C8F695D0945CC7B0C /* lang_se_FI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_se_FI.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_se_FI.swift; sourceTree = "<group>"; };
+		D4981A47593FCEFF2A55D2AE85FAE4B3 /* lang_ko.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ko.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ko.swift; sourceTree = "<group>"; };
+		D52C044A1C0477FCEFA2603BD3351D2E /* lang_hu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_hu.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_hu.swift; sourceTree = "<group>"; };
+		D5C37403F17F6D2015A7C714F1D80609 /* lang_mr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_mr.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_mr.swift; sourceTree = "<group>"; };
+		D647AC7D84091A3255FFE3601F779DBE /* lang_fr_CA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fr_CA.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fr_CA.swift; sourceTree = "<group>"; };
+		D6FB0C2774A17305CFC266F2078159B6 /* lang_zh_Hant_HK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zh_Hant_HK.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zh_Hant_HK.swift; sourceTree = "<group>"; };
+		D75B27A33291C6C85CDA8731129E97B8 /* DateInRegion+Components.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Components.swift"; path = "Sources/SwiftDate/DateInRegion/DateInRegion+Components.swift"; sourceTree = "<group>"; };
+		D81FE0FF7D891AA6B629338E5F8FB60C /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManagerSwift.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD30F7D061B93C14468D2085C6755C6 /* lang_hsb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_hsb.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_hsb.swift; sourceTree = "<group>"; };
+		DB259025960725E15ADEA42DD79BCBA6 /* Commons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Commons.swift; path = Sources/SwiftDate/Supports/Commons.swift; sourceTree = "<group>"; };
+		DD54C764C6B69EC1952232070AE59B91 /* lang_nn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_nn.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_nn.swift; sourceTree = "<group>"; };
+		DEB8A5C92F76E09A6AEFE108F83FE39B /* lang_hi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_hi.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_hi.swift; sourceTree = "<group>"; };
+		DF3EA57A1161C346BAE5C3B55E6533A5 /* lang_mzn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_mzn.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_mzn.swift; sourceTree = "<group>"; };
+		E045BBED871CD444C0CAB3C585E0A29E /* Date+Compare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Compare.swift"; path = "Sources/SwiftDate/Date/Date+Compare.swift"; sourceTree = "<group>"; };
+		E0932D899D341DEE4BF0D663AC816397 /* lang_se.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_se.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_se.swift; sourceTree = "<group>"; };
+		E56FC1E972AFED44D8AB3A9479486390 /* lang_tk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_tk.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_tk.swift; sourceTree = "<group>"; };
+		E60693B9EB7C9520D406B01386377165 /* ISOFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISOFormatter.swift; path = Sources/SwiftDate/Formatters/ISOFormatter.swift; sourceTree = "<group>"; };
+		E637AC3EA0D8703A405977CC888701C5 /* lang_fr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fr.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fr.swift; sourceTree = "<group>"; };
+		E6DFAC4DACAA9B6B9E73D3628FF078BC /* lang_ar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ar.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ar.swift; sourceTree = "<group>"; };
+		E8A068190E30D3DC6788B7C43F1DCEB5 /* SwiftDate-iOS12.2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftDate-iOS12.2-prefix.pch"; path = "../SwiftDate-iOS12.2/SwiftDate-iOS12.2-prefix.pch"; sourceTree = "<group>"; };
+		E94794C2BC0BD573CD1FF8C82DF410D7 /* SwiftDate-iOS12.1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftDate-iOS12.1-dummy.m"; sourceTree = "<group>"; };
+		EAC26E690ACF0B318943C82863DCE012 /* Formatter+Protocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Formatter+Protocols.swift"; path = "Sources/SwiftDate/Formatters/Formatter+Protocols.swift"; sourceTree = "<group>"; };
+		EB1816FA547E00E66ADABFC8603CBC4D /* Pods-ABBYY Test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ABBYY Test.modulemap"; sourceTree = "<group>"; };
+		ED8A2DD4C2B62EC5795FB47F4B2BC05A /* lang_mn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_mn.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_mn.swift; sourceTree = "<group>"; };
+		EDC2FD11C0BA45647917FE304AF84AAF /* lang_sk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sk.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sk.swift; sourceTree = "<group>"; };
+		EEC0E24115EBE374D35B0E83DB5FC4F3 /* RelativeFormatter+Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RelativeFormatter+Style.swift"; path = "Sources/SwiftDate/Formatters/RelativeFormatter/RelativeFormatter+Style.swift"; sourceTree = "<group>"; };
+		F711401DB296DC9A7503E63272903BF6 /* lang_sah.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sah.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sah.swift; sourceTree = "<group>"; };
+		F8DFBE87AD751C71F85452C6C32E7651 /* lang_zh_Hans_SG.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zh_Hans_SG.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zh_Hans_SG.swift; sourceTree = "<group>"; };
+		F9378786CAEB201400746886007D40B2 /* DateInRegion+Math.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Math.swift"; path = "Sources/SwiftDate/DateInRegion/DateInRegion+Math.swift"; sourceTree = "<group>"; };
+		FE8E975955AF3BC49F837A166BD1A582 /* SwiftDate-iOS12.1-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftDate-iOS12.1-Info.plist"; sourceTree = "<group>"; };
+		FF95CA6A10D3677F2A4360F80F5C1DF0 /* Pods-ABBYY_Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ABBYY_Extension-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		757D315B23F24B8865A827A66EA808F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59DC171FA55B3AC72F73B70B49069446 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C469C13B7EF492D6A311803ED9A1693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C060517699C0F8655F80A195DB0FAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B886D41EF763DE44F455CB7E74E9A560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E3E6EC07A4F261D041BA0C4CA258260 /* CoreGraphics.framework in Frameworks */,
+				A380ABE3F1AF1CA7A14F9449BDC0B73F /* Foundation.framework in Frameworks */,
+				30C07F53D870FC78B292E0E4F91FEE9E /* QuartzCore.framework in Frameworks */,
+				E3334CC660C4BD5E41C1061B9DC56FF6 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0C3EB65EDD88061DEB50C035EC5D82A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874325BD866DE69E3A8CB995A9FF4732 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E83221C95CF2C5F743EFB1A408618A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A66ADBBFCC9E3E53A22B107946C114E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14AEAA79685D38F98D5029B3FC682560 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				655DCF250BE9096F945A05245E4A67F2 /* Pods-ABBYY Test */,
+				4D59498EB09D951E3E5FC54D53B18F99 /* Pods-ABBYY_Extension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2D553D5EAEE9C73197D6C1B001D75517 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FC527E3642BDBA980E6FF56ECE493CF /* SwiftDate-iOS12.1.modulemap */,
+				2D72C3C90D9595F1C428DA30E0C43A64 /* SwiftDate-iOS12.1.xcconfig */,
+				E94794C2BC0BD573CD1FF8C82DF410D7 /* SwiftDate-iOS12.1-dummy.m */,
+				FE8E975955AF3BC49F837A166BD1A582 /* SwiftDate-iOS12.1-Info.plist */,
+				2A7867BDF3332A5A3C888C7989A39BBA /* SwiftDate-iOS12.1-prefix.pch */,
+				12DE41ED8C40ACC694BD538813B2B3C9 /* SwiftDate-iOS12.1-umbrella.h */,
+				7371EE574141096836A53AC2E0A418DF /* SwiftDate-iOS12.2.modulemap */,
+				5758AFC4F14FB4CA665ECCD5A09DA7B9 /* SwiftDate-iOS12.2.xcconfig */,
+				C306D7619F58BD6BD4361D4876F5B065 /* SwiftDate-iOS12.2-dummy.m */,
+				438B36C2E444FEAE3C54D9F72A03B016 /* SwiftDate-iOS12.2-Info.plist */,
+				E8A068190E30D3DC6788B7C43F1DCEB5 /* SwiftDate-iOS12.2-prefix.pch */,
+				B2891CC3B17697DD1F25343982C2FC16 /* SwiftDate-iOS12.2-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftDate-iOS12.1";
+			sourceTree = "<group>";
+		};
+		389D3DB4F336F4322F354AA3E824A252 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				2547F2C647B24BCB93B8C72253051C65 /* IQBarButtonItem.swift */,
+				408FFD2BB3BD6B248C9F6F799811251C /* IQInvocation.swift */,
+				9E1F797761572B177AC0FE8A7C1183D5 /* IQKeyboardManager.swift */,
+				8C737BE39BA10905388F0F6360FFABAA /* IQKeyboardManagerConstants.swift */,
+				97855E315D59C49A46C72AA30A668817 /* IQKeyboardManagerConstantsInternal.swift */,
+				512302FCC464A892B485BCCE710F6B06 /* IQKeyboardReturnKeyHandler.swift */,
+				5C58DF012722DB9DA629DB7CCEFB14D4 /* IQNSArray+Sort.swift */,
+				89E78FD5DACD93B3AD5623C8D5E0312F /* IQPreviousNextView.swift */,
+				AEF2DCCBCDB4A8F3EF407E1FC575DC9A /* IQTextView.swift */,
+				63732082824316F7E97244203C9145FC /* IQTitleBarButtonItem.swift */,
+				2AC044213BC8F2CF20ED4AB2189E2E7F /* IQToolbar.swift */,
+				9800615D6106F8EA4995B9BA112CB7B0 /* IQUIScrollView+Additions.swift */,
+				4B3DB11A8CAA68906ED90D653282AD46 /* IQUITextFieldView+Additions.swift */,
+				53F8D5F874BC4EAFFFFD29850B0DBE4B /* IQUIView+Hierarchy.swift */,
+				11832047CBB4CFAE00B4A2A76A25494A /* IQUIView+IQKeyboardToolbar.swift */,
+				984EBF42A18C117A1F6E88AA43DFBA22 /* IQUIViewController+Additions.swift */,
+				725C1869A8F3E8A3374D9E23A3C2FC78 /* Resources */,
+				6C698DFC759F4E1507A18A902780989D /* Support Files */,
+			);
+			name = IQKeyboardManagerSwift;
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		4A49F9370034D3F5B5944806DA5370CB /* SwiftDate */ = {
+			isa = PBXGroup;
+			children = (
+				797B803547C786A09CB36945A2C48BBC /* AssociatedValues.swift */,
+				4EA487911289E00E0DE1A3C19F51C567 /* Calendars.swift */,
+				DB259025960725E15ADEA42DD79BCBA6 /* Commons.swift */,
+				42A93325A4002B0388390B61D29EAB52 /* Date.swift */,
+				E045BBED871CD444C0CAB3C585E0A29E /* Date+Compare.swift */,
+				31E4EB86C5CF4AF5FA0E0AA1B4439D02 /* Date+Components.swift */,
+				0B2B00767763E8273A683E2BB3309BB0 /* Date+Create.swift */,
+				3D5DE600E6DE427687479E8F2F6FDF03 /* Date+Math.swift */,
+				C9592CFAE70D86DD8A99BBA780A13A85 /* DateComponents+Extras.swift */,
+				74B4027FB20AD3DC75E1540022E83A8C /* DateInRegion.swift */,
+				64C628B15F0776755C56DC049B071179 /* DateInRegion+Compare.swift */,
+				D75B27A33291C6C85CDA8731129E97B8 /* DateInRegion+Components.swift */,
+				5CEF5D31CF9F591DBAE3CE997694BFE1 /* DateInRegion+Create.swift */,
+				F9378786CAEB201400746886007D40B2 /* DateInRegion+Math.swift */,
+				02B9685B06EAC05E52B23182830A4D79 /* DateRepresentable.swift */,
+				A2B03C8551EC6EFFF5DE4F7C9770E248 /* DotNetParserFormatter.swift */,
+				EAC26E690ACF0B318943C82863DCE012 /* Formatter+Protocols.swift */,
+				56B5BC06A63DCB7FF30A79C83100AD24 /* Int+DateComponents.swift */,
+				E60693B9EB7C9520D406B01386377165 /* ISOFormatter.swift */,
+				536592B9F9A3D9C2EC43299298408925 /* ISOParser.swift */,
+				14FCB4D6DDD7FCDDFC2D90147D13F54C /* lang_af.swift */,
+				A6196CCAFD980E6A837655E3591E9C9A /* lang_am.swift */,
+				E6DFAC4DACAA9B6B9E73D3628FF078BC /* lang_ar.swift */,
+				4F70A1B391DC325D5FE75BBE0C77670F /* lang_ar_AE.swift */,
+				B1E006C81F54D4BEC461741EAAAB7273 /* lang_as.swift */,
+				03B47DE8330C7237F4D7577DEB22A5A1 /* lang_az.swift */,
+				6294906258FD2BAA4A40C9104EB8284C /* lang_be.swift */,
+				84F2129E2C1C8885F6F8E2167CF6343C /* lang_bg.swift */,
+				BB3C1A1E7F53347B0F6336CB9F68858A /* lang_bn.swift */,
+				9D21FA052ED95CABD189929EEFAEDEDF /* lang_br.swift */,
+				415241F6E3C38D11C94EC04169A2D18F /* lang_bs.swift */,
+				8ABCA4D53FC5C4B8B44C7CA7AD60ABF1 /* lang_bsCyrl.swift */,
+				7FE9C9BB068B1E59103C9807D5D56995 /* lang_ca.swift */,
+				3037448D973408181CFADBCA1189DB14 /* lang_cs.swift */,
+				3D00395EFA72208443D45A30C57C4682 /* lang_cy.swift */,
+				92E10600F0908CDAC2BCE2A059174CB9 /* lang_da.swift */,
+				C87F15B303A9A260F6183CC72BB5D294 /* lang_de.swift */,
+				3832715B6D209FD7475F31F71480F281 /* lang_dsb.swift */,
+				259FBCD6E65741CA42073AFE4BE5FF8C /* lang_dz.swift */,
+				33279CE0707C78BC792C6E7DBE0FF29D /* lang_ee.swift */,
+				BD960D35E846C85A9FACE154364B51B5 /* lang_el.swift */,
+				98400796F0818392585C7C2B1B2823A8 /* lang_en.swift */,
+				4FC196B2369C4A2AD9AEED20AEC9E04A /* lang_es.swift */,
+				CFD1C5BC98F87A24242A4ADF2FA81C80 /* lang_es_AR.swift */,
+				75E0A89CDE65BC0CA83668272B8E4730 /* lang_es_MX.swift */,
+				6F25174D253F50589E483E2BB3907C7B /* lang_es_PY.swift */,
+				79F6C64CE2BB42F997B7A0BCBDD2BBE4 /* lang_es_US.swift */,
+				A4E94E562B70C3287D8A5DCA1D660971 /* lang_et.swift */,
+				2E9DF788A44CF7DE5E83947BA3427247 /* lang_eu.swift */,
+				37D55EB55102497D1496996B9A79256E /* lang_fa.swift */,
+				C88BA417BDD541E1969C8517EE0366DB /* lang_fi.swift */,
+				1F0C9F8F1200B65B3D4E1409111BA9D1 /* lang_fil.swift */,
+				84DCD22D1246098E8E9405CAADEB416E /* lang_fo.swift */,
+				E637AC3EA0D8703A405977CC888701C5 /* lang_fr.swift */,
+				D647AC7D84091A3255FFE3601F779DBE /* lang_fr_CA.swift */,
+				80B27E4B7C9F7946E568528CC8B670A1 /* lang_fur.swift */,
+				2F201E06EF5FADA9293D59545B0B81DB /* lang_fy.swift */,
+				A7E0B5FC35BAFD1B13B41A0C03C8CEE0 /* lang_ga.swift */,
+				2F3FAAC4F4F0830B2B6D7CB2169D7A11 /* lang_gd.swift */,
+				337018997B36B98884D3F0D3940EA74A /* lang_gl.swift */,
+				B3A23E08CCBCEFA743B510F8A36623CF /* lang_gu.swift */,
+				6EF458EB8F83139E8CEAABE7CDF6F7F3 /* lang_he.swift */,
+				DEB8A5C92F76E09A6AEFE108F83FE39B /* lang_hi.swift */,
+				AC94FFA375E114F56F57555BE42FBA44 /* lang_hr.swift */,
+				DAD30F7D061B93C14468D2085C6755C6 /* lang_hsb.swift */,
+				D52C044A1C0477FCEFA2603BD3351D2E /* lang_hu.swift */,
+				CDB51A553ECB5A8048237C05229E0C08 /* lang_hy.swift */,
+				2D70C10D449A97F355BA2A92A084245C /* lang_id.swift */,
+				B8488C46017D85AFBCF0FB99741B566D /* lang_is.swift */,
+				AC2CBE169D0049B4FFFFD94745BF75DA /* lang_it.swift */,
+				10A87C696CD94FE2451EF8D6486FDA2D /* lang_ja.swift */,
+				0B36D27187A3AF5D4DA8CCD67A7CAE3B /* lang_jgo.swift */,
+				2F2BB4505C8C20B58ED67FF2551A93FA /* lang_ka.swift */,
+				9B518F3905BA24E639390100D474B61D /* lang_kea.swift */,
+				60519F617AFFAA3A8334F3320F25C7D4 /* lang_kk.swift */,
+				CC48D43D87C76504FC30BEDC7CDE3DA8 /* lang_kl.swift */,
+				52C2A8DE010C921E84C80540C862DCF9 /* lang_km.swift */,
+				610F891D9B0841B5624D41B2D5FBF0E5 /* lang_kn.swift */,
+				D4981A47593FCEFF2A55D2AE85FAE4B3 /* lang_ko.swift */,
+				66C1E770D6F26323D66F2120DA577668 /* lang_kok.swift */,
+				704B25C81C6B037616B30009B383EF20 /* lang_ksh.swift */,
+				7172D7E30F7C91C1B5673A729FC663DD /* lang_ky.swift */,
+				2BCA3D64D8B5506077543695EF915038 /* lang_lb.swift */,
+				8334B370AC1A8DB03DFF11B6985A41D8 /* lang_lkt.swift */,
+				AD8BF84E63CCAECDAA184B97AC43D46E /* lang_lo.swift */,
+				A92D52CAED1B845800CBF683FE20AF8D /* lang_lt.swift */,
+				AD2FB8E9B1B1481912D4AAD1282B26E9 /* lang_lv.swift */,
+				4FF627A0A1A54F255B49F261B55E1E68 /* lang_mk.swift */,
+				5B033EA43CE59E302551119D5F71F830 /* lang_ml.swift */,
+				ED8A2DD4C2B62EC5795FB47F4B2BC05A /* lang_mn.swift */,
+				D5C37403F17F6D2015A7C714F1D80609 /* lang_mr.swift */,
+				7C32C69D61A169E15A0C98F87866E79B /* lang_ms.swift */,
+				BDA93D47CD0371C7556CAD344A7B38BB /* lang_mt.swift */,
+				644E26008B11DE1A0F9DB26F6A4E6BDD /* lang_my.swift */,
+				DF3EA57A1161C346BAE5C3B55E6533A5 /* lang_mzn.swift */,
+				654F1667D4B752DAA35118DBD3280762 /* lang_nb.swift */,
+				2850AFD1D122DADCDDC1D6BB0B5A2781 /* lang_ne.swift */,
+				5311F947B3A5D37827AFBB4D5C5B9AA7 /* lang_nl.swift */,
+				DD54C764C6B69EC1952232070AE59B91 /* lang_nn.swift */,
+				4172E322A22D39A35F8D92AEA89BFD6F /* lang_or.swift */,
+				CA3E4E52D99B3B0B28145E78AF869965 /* lang_pa.swift */,
+				60746B182FDEF01CDF324005A04AB6DE /* lang_pl.swift */,
+				A5B96F06F1748CCD99E8DB49618EF02A /* lang_ps.swift */,
+				B8A949E10BD32BEB16BD24BD9936C9A8 /* lang_pt.swift */,
+				CCF9B9F1CA693E1F176D0C9DC84729E3 /* lang_ro.swift */,
+				7E45759023AD1E15E18008AD183622C4 /* lang_ru.swift */,
+				F711401DB296DC9A7503E63272903BF6 /* lang_sah.swift */,
+				1C3047F345EBFBA7048B8AA250983A13 /* lang_sd.swift */,
+				E0932D899D341DEE4BF0D663AC816397 /* lang_se.swift */,
+				D29D4041E8D34A8C8F695D0945CC7B0C /* lang_se_FI.swift */,
+				6F5044BE7EA7F9B21E317766A6ECC506 /* lang_si.swift */,
+				EDC2FD11C0BA45647917FE304AF84AAF /* lang_sk.swift */,
+				A54BB2C2AD1C7BC01B3BA089B2692FB8 /* lang_sl.swift */,
+				8F845281F72F01231D8FCEBFF90B1D13 /* lang_sq.swift */,
+				8579A6A23CBDB8622D3A1B3074788C93 /* lang_sr.swift */,
+				B9EE22EBEC4A18F9686167C25E2AB951 /* lang_sr_Latn.swift */,
+				C5E7BE67A3971D4EA2F3C47144E42360 /* lang_sv.swift */,
+				C1E0F4DD62CBAD31E99B1ADA4703825F /* lang_sw.swift */,
+				0D16F8D4095A11E3291B7B0E5F96B05D /* lang_ta.swift */,
+				431C8D16A15388FEE9D1E20C96B317FB /* lang_te.swift */,
+				4499ED2C2F589414ABBA143E25C3B87D /* lang_th.swift */,
+				2B0E9F6CD1FC1CC3E1CD037BD13790F5 /* lang_ti.swift */,
+				E56FC1E972AFED44D8AB3A9479486390 /* lang_tk.swift */,
+				4594B020429ED93BD68D08AC08831B7E /* lang_to.swift */,
+				C65B0B80BDF423D4E97EB2572F61C272 /* lang_tr.swift */,
+				C23F385D1E6AA40781E9529684FBBADB /* lang_ug.swift */,
+				A143A5CFFE5BE899DF72A92E07BC7C02 /* lang_uk.swift */,
+				4242B5A47D2E48E7A8FD0E331C7E73CE /* lang_ur.swift */,
+				BBDC925E13C033E2A1F9BA3BBBB28EC5 /* lang_ur_IN.swift */,
+				BC6F3258A69046208A433E6BDFFC76A2 /* lang_uz.swift */,
+				164D28BB4408CEA0CBF8723961031E9C /* lang_uz_Cyrl.swift */,
+				19B7D5988668C77CBC71D10B9F2AC45D /* lang_vi.swift */,
+				8A9DFC884A839463250A9FE3053FA707 /* lang_wae.swift */,
+				CA12F3250C51CCC0B6258F10E68FF909 /* lang_yi.swift */,
+				23FB84B63E3E913BF496A8241ECBDD86 /* lang_yue_Hans.swift */,
+				6D85A0970D5357828405CF0E8D436902 /* lang_yue_Hant.swift */,
+				9FA47C7F7F66870E3079485A942F7F04 /* lang_zh.swift */,
+				4F7584CCC70A2C72ABE1DF3B2F07FDC5 /* lang_zh_Hans_HK.swift */,
+				C6D56DC32C9EAD20401F254570E3CA24 /* lang_zh_Hans_MO.swift */,
+				F8DFBE87AD751C71F85452C6C32E7651 /* lang_zh_Hans_SG.swift */,
+				1B95851374504ADEC4BDD182CA9F300E /* lang_zh_Hant.swift */,
+				D6FB0C2774A17305CFC266F2078159B6 /* lang_zh_Hant_HK.swift */,
+				19872A79CC3E58FD682092E7038CA54A /* lang_zh_Hant_MO.swift */,
+				C902694DAA7E76064A3DAE2CCCFA8FCF /* lang_zu.swift */,
+				C8A911A90056083ED95BB800C1B23316 /* Locales.swift */,
+				3EEEA366F1DCF2BD2F9AF236255BF739 /* Region.swift */,
+				0BD524FB7F7BACD8653D86027FB1A558 /* RelativeFormatter.swift */,
+				EEC0E24115EBE374D35B0E83DB5FC4F3 /* RelativeFormatter+Style.swift */,
+				8A3C6D7DA85A8CA23228ED31717BDF3A /* String+Parser.swift */,
+				816CA47569182A75E19148E6D5A3C96A /* SwiftDate.swift */,
+				02AA8D57852F31DCE55E52271BE213A9 /* TimeInterval+Formatter.swift */,
+				2814586CE2A63C142A0C73CADF3216D5 /* TimePeriod.swift */,
+				7EB41EFCB43C858DCBD21C6A5B7ACA6D /* TimePeriod+Support.swift */,
+				45FEBB1DB47D659035A55D5AE486F2F4 /* TimePeriodChain.swift */,
+				CA82A63EB8FF88CD9FB4BD69F433AE34 /* TimePeriodCollection.swift */,
+				136AADD8DC981C7096BCB774EAF384FA /* TimePeriodGroup.swift */,
+				A83B9F8E1DCE5CDB1C90CE4B40760D75 /* TimePeriodProtocol.swift */,
+				0473ECD16F839ADA25C01646C0CED218 /* TimeStructures.swift */,
+				AAB9B37299BC70F41B0616E47BC84491 /* Zones.swift */,
+				2D553D5EAEE9C73197D6C1B001D75517 /* Support Files */,
+			);
+			name = SwiftDate;
+			path = SwiftDate;
+			sourceTree = "<group>";
+		};
+		4D59498EB09D951E3E5FC54D53B18F99 /* Pods-ABBYY_Extension */ = {
+			isa = PBXGroup;
+			children = (
+				71BA23155C75FF8B7CD38C6C972A2CAE /* Pods-ABBYY_Extension.modulemap */,
+				94CE6FD8815ADFC97295243FC8E40F54 /* Pods-ABBYY_Extension-acknowledgements.markdown */,
+				06742721D31815C913F8BC0E2089C5FB /* Pods-ABBYY_Extension-acknowledgements.plist */,
+				FF95CA6A10D3677F2A4360F80F5C1DF0 /* Pods-ABBYY_Extension-dummy.m */,
+				177159091FFA0E89BC944AD8065B867E /* Pods-ABBYY_Extension-Info.plist */,
+				4B459B52977DC48BA6EF5A194000B684 /* Pods-ABBYY_Extension-umbrella.h */,
+				C136C701BBCE0FC00AD07F50E92C6824 /* Pods-ABBYY_Extension.debug.xcconfig */,
+				D1BBFA5966B0AC75184226453BA2D39B /* Pods-ABBYY_Extension.release.xcconfig */,
+			);
+			name = "Pods-ABBYY_Extension";
+			path = "Target Support Files/Pods-ABBYY_Extension";
+			sourceTree = "<group>";
+		};
+		51FF3D0F917F224A6B4D30D39CCBB13A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D81FE0FF7D891AA6B629338E5F8FB60C /* IQKeyboardManagerSwift.framework */,
+				C229C4A66661FD6B7875CD3A33605290 /* Pods_ABBYY_Extension.framework */,
+				198057477B8973316EAE8740F60AE1AC /* Pods_ABBYY_Test.framework */,
+				7FD63468A42C9533B0D2AD1E2020A8A7 /* SwiftDate.framework */,
+				1B6419980D972744E42CF95162A85675 /* SwiftDate.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		655DCF250BE9096F945A05245E4A67F2 /* Pods-ABBYY Test */ = {
+			isa = PBXGroup;
+			children = (
+				EB1816FA547E00E66ADABFC8603CBC4D /* Pods-ABBYY Test.modulemap */,
+				D29A5AEFF2B097380661A5BADCAF82FF /* Pods-ABBYY Test-acknowledgements.markdown */,
+				3D554E8748AC4F54F1DFB4686B0CA2DA /* Pods-ABBYY Test-acknowledgements.plist */,
+				04392B6434364B7824E9B997F2B3DEDB /* Pods-ABBYY Test-dummy.m */,
+				445D64E60F77241D50308D40EBC9EF82 /* Pods-ABBYY Test-frameworks.sh */,
+				710C03014A76A3A9BE0D917E850849B1 /* Pods-ABBYY Test-Info.plist */,
+				1F0E0C7DCB9B712EA04CC0CA404E2718 /* Pods-ABBYY Test-umbrella.h */,
+				69BA189FBD3CD84934CED1D14C58DE8D /* Pods-ABBYY Test.debug.xcconfig */,
+				93CF288D0E1331DF9A0B659F7CEFEA75 /* Pods-ABBYY Test.release.xcconfig */,
+			);
+			name = "Pods-ABBYY Test";
+			path = "Target Support Files/Pods-ABBYY Test";
+			sourceTree = "<group>";
+		};
+		68CE2229AEECDF50C4650033B318EC8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				389D3DB4F336F4322F354AA3E824A252 /* IQKeyboardManagerSwift */,
+				4A49F9370034D3F5B5944806DA5370CB /* SwiftDate */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6C698DFC759F4E1507A18A902780989D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D4929D2ED6A5A9334C57D28C2B7890A /* IQKeyboardManagerSwift.modulemap */,
+				59A5D610B1B21E4753ADE0CC7A0C1FE3 /* IQKeyboardManagerSwift.xcconfig */,
+				639223095BB04CD7D07E133F327C1098 /* IQKeyboardManagerSwift-dummy.m */,
+				1BC6307B5D5883A6BAC3DA6C9FAFEA15 /* IQKeyboardManagerSwift-Info.plist */,
+				7F9AB9BF0FA44120678F4BE1DF7B068E /* IQKeyboardManagerSwift-prefix.pch */,
+				6F7937D6402881073FC97596F1ACD60D /* IQKeyboardManagerSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IQKeyboardManagerSwift";
+			sourceTree = "<group>";
+		};
+		725C1869A8F3E8A3374D9E23A3C2FC78 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				218E19384D756836226CA9792A15D604 /* IQKeyboardManager.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD35F57B08FA07466EF52BE52CC46A1D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				68CE2229AEECDF50C4650033B318EC8B /* Pods */,
+				51FF3D0F917F224A6B4D30D39CCBB13A /* Products */,
+				14AEAA79685D38F98D5029B3FC682560 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DD35F57B08FA07466EF52BE52CC46A1D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				17D5053F2A5215D7472A947EDE5B61B6 /* CoreGraphics.framework */,
+				4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */,
+				30C5248F3F8F5DD6FF2489BCA891824D /* QuartzCore.framework */,
+				1B864BFE95FAE118C4C3A52725C9B261 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07134A50963CA5045F7F38B0E158BA1D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD961B1B621C1983270FB0323692CDCE /* SwiftDate-iOS12.2-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51E7D133FA911AB55D30E2F914B9A1D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3738891249B4254E49A1739A7C8FDFD7 /* Pods-ABBYY_Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD2C029FC627D78FBEBD0C3829ACA56 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5677C54BF14ABA45675F2DEB98AFD0D1 /* IQKeyboardManagerSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660E233C349DDE7D19D7C666E94F2DEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92624FB928F2CEF3808544E0EEEFFF4 /* SwiftDate-iOS12.1-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		856B87F8E9A1633AE8196F20DC36E37F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AEEA2A3CAFCE090B28904E52EC794F7 /* Pods-ABBYY Test-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		714CE4676A959AE1C63CB3BB40B60457 /* Pods-ABBYY Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F921932DED74737D14EB47DCB50F178 /* Build configuration list for PBXNativeTarget "Pods-ABBYY Test" */;
+			buildPhases = (
+				856B87F8E9A1633AE8196F20DC36E37F /* Headers */,
+				370BCE6513A41A6BD633A7A2F6C09F1B /* Sources */,
+				E83221C95CF2C5F743EFB1A408618A4B /* Frameworks */,
+				57737ABBA72A88FB5F3D134E387913A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				909DB76F4E0D52562BE885320F7D5EC2 /* PBXTargetDependency */,
+				61D9565AFD4373A232B4F30AD4BCE30F /* PBXTargetDependency */,
+			);
+			name = "Pods-ABBYY Test";
+			productName = "Pods-ABBYY Test";
+			productReference = 198057477B8973316EAE8740F60AE1AC /* Pods_ABBYY_Test.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8BC6630EAE7479C656AE8B020EC5E2FD /* Pods-ABBYY_Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67C97A08F68ECACE03CE8BCB46AB516A /* Build configuration list for PBXNativeTarget "Pods-ABBYY_Extension" */;
+			buildPhases = (
+				51E7D133FA911AB55D30E2F914B9A1D1 /* Headers */,
+				6B9327F0DCE81003445BC1F265957C8D /* Sources */,
+				757D315B23F24B8865A827A66EA808F2 /* Frameworks */,
+				2E31DEC3A376C83B9FDD31BB92F7F945 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D85A461E56F4E8E16799E6E5DCC2DBC /* PBXTargetDependency */,
+			);
+			name = "Pods-ABBYY_Extension";
+			productName = "Pods-ABBYY_Extension";
+			productReference = C229C4A66661FD6B7875CD3A33605290 /* Pods_ABBYY_Extension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F4D61A65A8308C06F8F26A1FABFFB76 /* SwiftDate-iOS12.1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56EBEECA90D8DFA2052EC900231C5AAF /* Build configuration list for PBXNativeTarget "SwiftDate-iOS12.1" */;
+			buildPhases = (
+				660E233C349DDE7D19D7C666E94F2DEA /* Headers */,
+				C1766D937A9888D42F26FAE7C77FD501 /* Sources */,
+				8C469C13B7EF492D6A311803ED9A1693 /* Frameworks */,
+				3C5BC268951A7D2EC7CA2018891906C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftDate-iOS12.1";
+			productName = "SwiftDate-iOS12.1";
+			productReference = 7FD63468A42C9533B0D2AD1E2020A8A7 /* SwiftDate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A8B1D91A5EFBA9F9542F2C7B6299FF04 /* SwiftDate-iOS12.2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BE96E3828828A08CD856566CACBF9C6 /* Build configuration list for PBXNativeTarget "SwiftDate-iOS12.2" */;
+			buildPhases = (
+				07134A50963CA5045F7F38B0E158BA1D /* Headers */,
+				5942752CC0DE7E139F6136A49C80D6E6 /* Sources */,
+				E0C3EB65EDD88061DEB50C035EC5D82A /* Frameworks */,
+				55CE8A55AE6E046277E0D025066D65F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftDate-iOS12.2";
+			productName = "SwiftDate-iOS12.2";
+			productReference = 1B6419980D972744E42CF95162A85675 /* SwiftDate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EFF87187B46551C36797F2B899C54212 /* IQKeyboardManagerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B91B77FBB13EFD33FB1AE6F88ABA7C5 /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */;
+			buildPhases = (
+				5FD2C029FC627D78FBEBD0C3829ACA56 /* Headers */,
+				50CEEDE322708ABF7722F6D79CCF256B /* Sources */,
+				B886D41EF763DE44F455CB7E74E9A560 /* Frameworks */,
+				DC94709994DB7B9EF675DAE0DB5045E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IQKeyboardManagerSwift;
+			productName = IQKeyboardManagerSwift;
+			productReference = D81FE0FF7D891AA6B629338E5F8FB60C /* IQKeyboardManagerSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 51FF3D0F917F224A6B4D30D39CCBB13A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFF87187B46551C36797F2B899C54212 /* IQKeyboardManagerSwift */,
+				714CE4676A959AE1C63CB3BB40B60457 /* Pods-ABBYY Test */,
+				8BC6630EAE7479C656AE8B020EC5E2FD /* Pods-ABBYY_Extension */,
+				9F4D61A65A8308C06F8F26A1FABFFB76 /* SwiftDate-iOS12.1 */,
+				A8B1D91A5EFBA9F9542F2C7B6299FF04 /* SwiftDate-iOS12.2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E31DEC3A376C83B9FDD31BB92F7F945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5BC268951A7D2EC7CA2018891906C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55CE8A55AE6E046277E0D025066D65F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57737ABBA72A88FB5F3D134E387913A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC94709994DB7B9EF675DAE0DB5045E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B178B38FCD7F99B07422484FC7FD6861 /* IQKeyboardManager.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		370BCE6513A41A6BD633A7A2F6C09F1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A91EE8DCB559F3401904247E46975A2 /* Pods-ABBYY Test-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50CEEDE322708ABF7722F6D79CCF256B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A4A7D1BD7C4D59EA0FF0A49163A387 /* IQBarButtonItem.swift in Sources */,
+				B888C49BC46C9A62CBF03A8FAD7126F1 /* IQInvocation.swift in Sources */,
+				633A43974DB81C2CCB1A2C3A7B1BFB37 /* IQKeyboardManager.swift in Sources */,
+				DD420F096096C518F8E6B44583BF6521 /* IQKeyboardManagerConstants.swift in Sources */,
+				D8F4B5841E455F5170B1C2FC30863B05 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				92E9BD908B71CFA1C6EDA2FA86BF1635 /* IQKeyboardManagerSwift-dummy.m in Sources */,
+				BA61F495C0E45AA2A88D21D51575FF02 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				986EF56798DE2C7C65737AD9334E517D /* IQNSArray+Sort.swift in Sources */,
+				F0A9F7366B446EDAE4716768BCCADE6C /* IQPreviousNextView.swift in Sources */,
+				36DD0B1007BF3C7BFE352704D5C415F7 /* IQTextView.swift in Sources */,
+				D3A177F9BCAD7042B46E0A36CEDDBF8E /* IQTitleBarButtonItem.swift in Sources */,
+				D7D49BAE6EAAD5EC2DAF370BCDE783A2 /* IQToolbar.swift in Sources */,
+				DDAC963022C8D96EBAAD2284780E0276 /* IQUIScrollView+Additions.swift in Sources */,
+				4467D1C8AABFA6FC321AC7CD6F327B48 /* IQUITextFieldView+Additions.swift in Sources */,
+				4A3294F2FCFF96D15DA6FD2D5D839788 /* IQUIView+Hierarchy.swift in Sources */,
+				02FB225950EEA73C12B14A3D74A2096E /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				F852C0100AB6D9D2CE3E28FCA487C67E /* IQUIViewController+Additions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5942752CC0DE7E139F6136A49C80D6E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C904500B7200A1ED25F70996517F06 /* AssociatedValues.swift in Sources */,
+				0F7DB8EDE2A56A06C29F1C1A67EE554E /* Calendars.swift in Sources */,
+				C979CC6E15A52E672C5D9EE5FC273520 /* Commons.swift in Sources */,
+				2A96344D2F716AC9535854183EE5AFDC /* Date+Compare.swift in Sources */,
+				01CC3115E253715C36098510EAFDEB2C /* Date+Components.swift in Sources */,
+				1C074E319C132D20A46B12CF623BA926 /* Date+Create.swift in Sources */,
+				4045925801A75242E84AF6DFE9DC731C /* Date+Math.swift in Sources */,
+				E126C413FFAD655A099C8271750388F6 /* Date.swift in Sources */,
+				B8B0ECBF0F607C583F5DEE68BDD862B7 /* DateComponents+Extras.swift in Sources */,
+				8991D2AFA7CB30BDB6DBBE23466E094D /* DateInRegion+Compare.swift in Sources */,
+				B57ED90040A1F9378DE97AE0163A1A1A /* DateInRegion+Components.swift in Sources */,
+				3F4F403D0755FE87CB2F3BDC97164B6C /* DateInRegion+Create.swift in Sources */,
+				79C0080771AF189E6B942F296C3B547A /* DateInRegion+Math.swift in Sources */,
+				9536A11A6CF6D50D55E43A241E5C0883 /* DateInRegion.swift in Sources */,
+				8928094D7D7924FF30F2CA48AFFF7204 /* DateRepresentable.swift in Sources */,
+				8888F3C3FD28681CFBC6EA8A5E3094FB /* DotNetParserFormatter.swift in Sources */,
+				80AFD9ED8B10BF0398535574A5C28633 /* Formatter+Protocols.swift in Sources */,
+				C61348343479D4AECA0886156F3F30F7 /* Int+DateComponents.swift in Sources */,
+				FA03C9ABCF72EFC0B0C94B854B9F61D5 /* ISOFormatter.swift in Sources */,
+				400A9E1B687DE118ABEC26C0072DF8A9 /* ISOParser.swift in Sources */,
+				0CDB9D25BE0B7E8C2CE86F4D5E7C0053 /* lang_af.swift in Sources */,
+				1BCC08C700F9BF33C2A73EBD6DA60CAE /* lang_am.swift in Sources */,
+				F9A943E4C8E78C27B60C85B98723051D /* lang_ar.swift in Sources */,
+				C652AAA0CC1E32E5B9895FE684702835 /* lang_ar_AE.swift in Sources */,
+				45E860A80E984D0940E1A2E02938C1F0 /* lang_as.swift in Sources */,
+				B4251D8CE3A84F46147111F1653C8ACB /* lang_az.swift in Sources */,
+				F8B23047ACF1C5DA81A51153A1DDD244 /* lang_be.swift in Sources */,
+				ED0F57E338AC6C639B259BFE33DDB7FE /* lang_bg.swift in Sources */,
+				66727FF51399AE4AAFE76B5EB014BFEA /* lang_bn.swift in Sources */,
+				214828CD08B8537FEF1928604022E9A9 /* lang_br.swift in Sources */,
+				5DAC05AA4C79732010903574585991B7 /* lang_bs.swift in Sources */,
+				BE68850951F983E71206FA9A82557BD9 /* lang_bsCyrl.swift in Sources */,
+				B563950DF9A543F39E4AC502987F63E9 /* lang_ca.swift in Sources */,
+				D26CBA8E6CB3ADB595E6CDF39CF7C62A /* lang_cs.swift in Sources */,
+				11C232ABB935F69EF8B2DD5F1C38DAC0 /* lang_cy.swift in Sources */,
+				B6F37B07CE79CD4FA4F877362E3E2713 /* lang_da.swift in Sources */,
+				3AD9BDED7D3092F3C5ADE0C9638D6E4F /* lang_de.swift in Sources */,
+				AC158778B7FF3D18F3DFAFFB27D0BB5D /* lang_dsb.swift in Sources */,
+				BD11DEDCFF6FC7DBF844C3C9FC2A56A6 /* lang_dz.swift in Sources */,
+				03890E8A5C0565880913D598BC213BE7 /* lang_ee.swift in Sources */,
+				B00B068E0BBA97531A03381B26B92D72 /* lang_el.swift in Sources */,
+				79A02C2108EBC3E71850924F2ECD5CC1 /* lang_en.swift in Sources */,
+				6DAC7D3D5F36F721C0053E39BA0C44C9 /* lang_es.swift in Sources */,
+				A6A07795B6DB871F7794CC387E542D1B /* lang_es_AR.swift in Sources */,
+				7998776E4B46B081A4C8AFD802B53EBD /* lang_es_MX.swift in Sources */,
+				0E150A91D86284BB4337ED6E2C6D2405 /* lang_es_PY.swift in Sources */,
+				E6D7D756F7F5C547687C6E4F5D32718E /* lang_es_US.swift in Sources */,
+				7C6C891F052511BAC128D49A3F2DACA5 /* lang_et.swift in Sources */,
+				AC8AB6AEDBE84BBE0962F41FEAF38032 /* lang_eu.swift in Sources */,
+				EF80D8640F0249C035FB1CC977CAD7BF /* lang_fa.swift in Sources */,
+				116C10ED9EE22CDAEBDAEB0DF5A611F7 /* lang_fi.swift in Sources */,
+				511FD86AB13DA4211EE307D91F625A2B /* lang_fil.swift in Sources */,
+				9C4067703DF463C0A9430D76216832A7 /* lang_fo.swift in Sources */,
+				91A4BC0C287DC7C30F4FC41A6EAB1DA9 /* lang_fr.swift in Sources */,
+				5A5375415B2E9743A84063907DDFB72F /* lang_fr_CA.swift in Sources */,
+				03D4689D09B6A544E6768D83EC1A1E0D /* lang_fur.swift in Sources */,
+				814B5BCB854B7F18F06594D74BEE6F4D /* lang_fy.swift in Sources */,
+				24AE45BE57E9F7A7EB25DE8CFB03E8F5 /* lang_ga.swift in Sources */,
+				20A9452A36B8076D3D62A25C1AA9BF1B /* lang_gd.swift in Sources */,
+				0DAE7287FFACC7283EB46310AAAB3ACC /* lang_gl.swift in Sources */,
+				427AA1E679DD9B4EAF210C822651D3C6 /* lang_gu.swift in Sources */,
+				0C22176E6A7A7DAE6B26ECFDD0E614C1 /* lang_he.swift in Sources */,
+				28754233CF94790C8282B55F21E2AF47 /* lang_hi.swift in Sources */,
+				F92015EA0BFBF1A9DF329B77B68F57BA /* lang_hr.swift in Sources */,
+				4D520A7B617DCCAB09301BCB0A9A8CD7 /* lang_hsb.swift in Sources */,
+				F5B5ED9A3FBD438758304F2E9CC80EE2 /* lang_hu.swift in Sources */,
+				447B4E4F9087459BEA1C2B601BAB368D /* lang_hy.swift in Sources */,
+				A7CB763EDFC6A036935EBCCC32124226 /* lang_id.swift in Sources */,
+				C3C18C0953DE0DB9F9DB8FAEB686706B /* lang_is.swift in Sources */,
+				B6C2004AC2608646164BE54A1CBEB906 /* lang_it.swift in Sources */,
+				5DAC022CAE530A9CEE2032BFEF12AD37 /* lang_ja.swift in Sources */,
+				6519B3F7105299F0E3C35CD49A06ECC5 /* lang_jgo.swift in Sources */,
+				E40444BF419265D91E82A006BA90C320 /* lang_ka.swift in Sources */,
+				7DCAB1BE3B38CCEDD51D0B77C46E2348 /* lang_kea.swift in Sources */,
+				7F1A4F0907937662A870F01091035803 /* lang_kk.swift in Sources */,
+				FF22FE6728551289831F8C6D3B4E09F2 /* lang_kl.swift in Sources */,
+				87243B266EE029B78BF2B90D72ED9511 /* lang_km.swift in Sources */,
+				FAFF57FD765D31AF5DD02783FD2FE7C0 /* lang_kn.swift in Sources */,
+				5584DE21EB19B5785A375ECBF767D63F /* lang_ko.swift in Sources */,
+				19C6041B5981C3015EDADDD72DF0AD13 /* lang_kok.swift in Sources */,
+				3DCB9306A764A45B6C4DD6556D6F92F5 /* lang_ksh.swift in Sources */,
+				ED3F58753A472624DA482AE1021FE5DA /* lang_ky.swift in Sources */,
+				4FBEB2229EEFB19D061639BDACADE569 /* lang_lb.swift in Sources */,
+				2EBA02A7CA5DD4B40FDCB0398AEE4ED9 /* lang_lkt.swift in Sources */,
+				5F645CF5CAF8BD0C1BF8E662C820C878 /* lang_lo.swift in Sources */,
+				F5F3B652F561200FB35A7087125B4C22 /* lang_lt.swift in Sources */,
+				FE452F1DAD9E837A174404D6D5EF8759 /* lang_lv.swift in Sources */,
+				CB41E9BEE645609CCDA7B2F614ADCEBD /* lang_mk.swift in Sources */,
+				D2766FFD261A9FAB1238080A20CA47F8 /* lang_ml.swift in Sources */,
+				7968ECB2B8A5A61E07527111ADAD291C /* lang_mn.swift in Sources */,
+				5AC0D209B6337977386ACE13E53CA390 /* lang_mr.swift in Sources */,
+				00CE85008186CEB755440558D7DEDDE1 /* lang_ms.swift in Sources */,
+				1075E86648577D56BD8C4D299350F4CB /* lang_mt.swift in Sources */,
+				DE3CBB238803C1981CD7833A4DF6AF3F /* lang_my.swift in Sources */,
+				6A26438D1EDA175B5E7F260FEB86478F /* lang_mzn.swift in Sources */,
+				B86B88C8932213EF381C535656A99A43 /* lang_nb.swift in Sources */,
+				B6DB97FE99739F49A1925E6F3D77A6F5 /* lang_ne.swift in Sources */,
+				0EBC5DA49B2F23872DE92B8C33BDC529 /* lang_nl.swift in Sources */,
+				6A19A86B0DEF799143C8B3CF2D96F42E /* lang_nn.swift in Sources */,
+				4EC758B77C34312B2AADE039F113295B /* lang_or.swift in Sources */,
+				F72B5E6D00556C1C220A92A82EC9BCBD /* lang_pa.swift in Sources */,
+				6BF0773089D9318C6959FC9136F1B697 /* lang_pl.swift in Sources */,
+				C43443879230AE9A1ADE403BA6C6B26C /* lang_ps.swift in Sources */,
+				E5182F039A2251FCFE3E51E34F62F7D9 /* lang_pt.swift in Sources */,
+				1F79F31318B4386EA86D82E6D7CB0D52 /* lang_ro.swift in Sources */,
+				49147CC85E43FBE64C84FCFD9BA167C7 /* lang_ru.swift in Sources */,
+				E6F520E0D3F93446B9470E2D0853A094 /* lang_sah.swift in Sources */,
+				1F5599F1FF3D848BD1342387B8165723 /* lang_sd.swift in Sources */,
+				A08A3EC5A3E781FBECA335D3A9210BD3 /* lang_se.swift in Sources */,
+				9B1712A0C7AB464B3FB95E0F6C45157F /* lang_se_FI.swift in Sources */,
+				5E6DF0F937FAEC555EFC7C4E83546004 /* lang_si.swift in Sources */,
+				8B73BFD66526A5B789CA2419C5629D48 /* lang_sk.swift in Sources */,
+				4F37284113E3D6E4FE12911637D12B79 /* lang_sl.swift in Sources */,
+				27272B55AA95B8B0D4D34F02FF4B72C1 /* lang_sq.swift in Sources */,
+				1E930735FC687A2C1DBF173D643BA376 /* lang_sr.swift in Sources */,
+				CFE51C63863E4351E2E3661BB8E816F5 /* lang_sr_Latn.swift in Sources */,
+				A54FF9FCF6A575FD4F0D519915708E9D /* lang_sv.swift in Sources */,
+				589011AD7FE5D29D7D2648579930AC7C /* lang_sw.swift in Sources */,
+				352122C41B22AF9BCAC7693692079889 /* lang_ta.swift in Sources */,
+				CAE4EC23568BEC384CBF61988EF5851F /* lang_te.swift in Sources */,
+				E0DFB9A934DD3BB079EF686DD2141926 /* lang_th.swift in Sources */,
+				C250300D68B1AB2383B1D808E2951CA7 /* lang_ti.swift in Sources */,
+				8DE64FF49B8806599F8BD88CD28C1BB2 /* lang_tk.swift in Sources */,
+				17F3C4E77E046B99A39F60264BA0BB5C /* lang_to.swift in Sources */,
+				A7FADB8FB926C2AF4A90E4354A65FCE2 /* lang_tr.swift in Sources */,
+				94BAADFAAD1293620B97FC501D4263DF /* lang_ug.swift in Sources */,
+				9B954045D3BF6697A3D5C51A8E0B330A /* lang_uk.swift in Sources */,
+				7268CEE26C0450BDBD5EAFCBFC5E6A97 /* lang_ur.swift in Sources */,
+				523323EC5391F54ED9A25A8D1DF5D7B2 /* lang_ur_IN.swift in Sources */,
+				A6DA90A3B072822A2FA381B450970A5D /* lang_uz.swift in Sources */,
+				FB465D11A0A987B9B769A385FD8A715B /* lang_uz_Cyrl.swift in Sources */,
+				EE3AE0525BC96C4F64771E9C44B7BAA4 /* lang_vi.swift in Sources */,
+				430D9B807BF2E004D46406411F5C6345 /* lang_wae.swift in Sources */,
+				3978C0C1721C62371EC85E175AC2EC5C /* lang_yi.swift in Sources */,
+				DA094E46DC3EF85088437776AC315552 /* lang_yue_Hans.swift in Sources */,
+				F18D974FFEBCFEF2FF074FAC2C51AA9B /* lang_yue_Hant.swift in Sources */,
+				F1676A322B14EC2098FBE5A4C557AD33 /* lang_zh.swift in Sources */,
+				75E9BFADCA7DB0B44418472612B4DADC /* lang_zh_Hans_HK.swift in Sources */,
+				80D184759336F98D0638DFBAE30F6E02 /* lang_zh_Hans_MO.swift in Sources */,
+				31E7F0F752A6E1576C8057C95F32FDC5 /* lang_zh_Hans_SG.swift in Sources */,
+				E772B13551CCD9C3E4FBDA9BB4C1D5DB /* lang_zh_Hant.swift in Sources */,
+				F8B254B1A23C7DC9184B1B7D54C59044 /* lang_zh_Hant_HK.swift in Sources */,
+				A7E50292B20B46FF662DE554409F1A15 /* lang_zh_Hant_MO.swift in Sources */,
+				48B39CADE78407830C210F06BE77B2A4 /* lang_zu.swift in Sources */,
+				BE9D7FD9C60E1FDE67553F321405E7E4 /* Locales.swift in Sources */,
+				6568F247DB99CB31A01224676BAD7FFE /* Region.swift in Sources */,
+				7B308CA88759CC59F07C955791248035 /* RelativeFormatter+Style.swift in Sources */,
+				584BB36156C7D442E6234029311F2803 /* RelativeFormatter.swift in Sources */,
+				EBDB488BE6E24310A7EAA94E7B7A3419 /* String+Parser.swift in Sources */,
+				D19F649C97479668776EF0D2FCB3E5C7 /* SwiftDate-iOS12.2-dummy.m in Sources */,
+				6D06567942E43C468E00FFF7DC47528A /* SwiftDate.swift in Sources */,
+				1874EA22D8FCB7E615A27FF6F62C985C /* TimeInterval+Formatter.swift in Sources */,
+				FF7C26959D03B838F61ABAEA0E9C4D6E /* TimePeriod+Support.swift in Sources */,
+				622335E67001D66C9400408F5A77BDE0 /* TimePeriod.swift in Sources */,
+				293AD090B69B090FC5E78A1B63287199 /* TimePeriodChain.swift in Sources */,
+				0471B6E3F1CF65F9CFF6E5F3F5DF4A97 /* TimePeriodCollection.swift in Sources */,
+				96907B11FB2793CAA2DC59EF9FDFE106 /* TimePeriodGroup.swift in Sources */,
+				2C9C5649205F98BE3ACE8DFDF2C66D0F /* TimePeriodProtocol.swift in Sources */,
+				E30295609F76DE18B7E3DA59A3954E47 /* TimeStructures.swift in Sources */,
+				EA93E12D1710E116B002D175B93B9725 /* Zones.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B9327F0DCE81003445BC1F265957C8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F90D1E64AB9BD01CEA612AD90A3770 /* Pods-ABBYY_Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1766D937A9888D42F26FAE7C77FD501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C36CA0F3B7E8D68257071B70FAE5BF /* AssociatedValues.swift in Sources */,
+				99FEAB7C5CCE488C4BF33BF13FC56570 /* Calendars.swift in Sources */,
+				4639C1444CC8ABDA95428FC559AC3CBA /* Commons.swift in Sources */,
+				CC0DAF4DB4170BC61ED9D564C6896964 /* Date+Compare.swift in Sources */,
+				402FC27BB79DF8C0B66B0698A9167F67 /* Date+Components.swift in Sources */,
+				BFDA8BBCE110C28A848720DC7BD8E8F7 /* Date+Create.swift in Sources */,
+				86EE2AE4C40F144FDA469D191952A63D /* Date+Math.swift in Sources */,
+				3FEBF029A1C1EE8494694501EFB3F943 /* Date.swift in Sources */,
+				0378853963F3F4D24C2CDA70280B6D1A /* DateComponents+Extras.swift in Sources */,
+				00C7FF21DBCF82C34BF3B85FF1F40E02 /* DateInRegion+Compare.swift in Sources */,
+				CC6CF8891848577C70BDE1F761B3427B /* DateInRegion+Components.swift in Sources */,
+				06715CC446474BD3C1FF11D2FBF3DBBA /* DateInRegion+Create.swift in Sources */,
+				3DA61309D3675461123EBC6A23106640 /* DateInRegion+Math.swift in Sources */,
+				B1ADF4B21B4E6BA4162F8A0D74AAB024 /* DateInRegion.swift in Sources */,
+				C57C79DC37C8183D0DB68BF9FC5AD6A3 /* DateRepresentable.swift in Sources */,
+				03E7AA8FEF1808D3B46C131986998A3E /* DotNetParserFormatter.swift in Sources */,
+				05A92D05279C303E4EA9086CDE0412D2 /* Formatter+Protocols.swift in Sources */,
+				4AF071CA5B1640544E26EEB7E571E754 /* Int+DateComponents.swift in Sources */,
+				BC1D569324895ED223DBB462E2016F8D /* ISOFormatter.swift in Sources */,
+				C649BA576BDA2E69554DB26CA49EC520 /* ISOParser.swift in Sources */,
+				12D575ED8FDF197827BB71EF9EC17AB8 /* lang_af.swift in Sources */,
+				C10E06ABF5554850EF30EAF739F2FDD2 /* lang_am.swift in Sources */,
+				36F3A30F660FE9FB840A6B71590C24BD /* lang_ar.swift in Sources */,
+				0F24B59FAA2B27E2CE46848B9E652A56 /* lang_ar_AE.swift in Sources */,
+				B28A60F920E9E6BD8E51583B561A9744 /* lang_as.swift in Sources */,
+				7FB128E91974C04C1B074F62578C7360 /* lang_az.swift in Sources */,
+				5FAD882C47ED44564CC67AD25D2DCF97 /* lang_be.swift in Sources */,
+				6A7AA72A9FF20EF3DA5B6AB0887704A0 /* lang_bg.swift in Sources */,
+				908BBAEF8B8768D8E4A0B8DD7AF14982 /* lang_bn.swift in Sources */,
+				CBE89D799B45FB2A6E8B53EAEB23A886 /* lang_br.swift in Sources */,
+				3C50C5A0E0593E9CC832FECEFE6E432E /* lang_bs.swift in Sources */,
+				275276E8262EFD83EDDE3630E68EAE99 /* lang_bsCyrl.swift in Sources */,
+				DFF0D11A371373B119ADA5504CD627C1 /* lang_ca.swift in Sources */,
+				C7B357C6B600B571D525FF1ABD394CFD /* lang_cs.swift in Sources */,
+				812CDC8D17362171AF66AEDE8304A6B8 /* lang_cy.swift in Sources */,
+				4B57F5C8BE5D4B2532CABFC23C422EF6 /* lang_da.swift in Sources */,
+				0A23F7B5D82BBCDB7267298DF7E910B6 /* lang_de.swift in Sources */,
+				CF51B38A0B75120F9605723F63B84EF9 /* lang_dsb.swift in Sources */,
+				F7FF5EC7DC576B37AB1F683225E304DA /* lang_dz.swift in Sources */,
+				3D237135D14B5C2980A7C676303A33C9 /* lang_ee.swift in Sources */,
+				96C7BB217A8859A5B85A9081D799CED2 /* lang_el.swift in Sources */,
+				E312329A9CD2F429C3F52B039147934F /* lang_en.swift in Sources */,
+				5EEC80714C8098E50D1038BF7710BD08 /* lang_es.swift in Sources */,
+				EDF155B30ADFB9C8322569BC3328E125 /* lang_es_AR.swift in Sources */,
+				B89489FEFC70E88457F50F8E10FDD78A /* lang_es_MX.swift in Sources */,
+				C8CF99675B892B1A07A190875FC20778 /* lang_es_PY.swift in Sources */,
+				970F59265051DE9C0080CEDDA75A0F4B /* lang_es_US.swift in Sources */,
+				E87A3854E55D7D70F8F05C93E1666251 /* lang_et.swift in Sources */,
+				525F8A762572A4DBB7279BD20ABEB0D1 /* lang_eu.swift in Sources */,
+				D10FE911831D9160E5CC8CEECB32B0C0 /* lang_fa.swift in Sources */,
+				A89774CBBF660A8289727B684EC87FD2 /* lang_fi.swift in Sources */,
+				B1774B2B64C03687ADA9947070343D5B /* lang_fil.swift in Sources */,
+				614D93A539CF11C627F3054CCDE7D6D1 /* lang_fo.swift in Sources */,
+				1772B449ECC67CEBB93FE439CEFBDE70 /* lang_fr.swift in Sources */,
+				AD332F996B2D41DC3B351F9281518B26 /* lang_fr_CA.swift in Sources */,
+				409C239702BCD76B1BA62CD31E5ABBE1 /* lang_fur.swift in Sources */,
+				8A0E2CB6B41A9E4C58D36A05BE3419BD /* lang_fy.swift in Sources */,
+				1A266A03DED8AB218186D7FCA7C8DE61 /* lang_ga.swift in Sources */,
+				99AE0F71703DFB15F8000F4E1C3A9A55 /* lang_gd.swift in Sources */,
+				1B6EF832D2B574256A65A52017B83D06 /* lang_gl.swift in Sources */,
+				69065960086AFC34C80063AABFA9D7E9 /* lang_gu.swift in Sources */,
+				58422BB612E515C3E96F4F8EEB181DC8 /* lang_he.swift in Sources */,
+				736F8F0F500F5C6EF06F93D49759DB9C /* lang_hi.swift in Sources */,
+				D8B40587AB8EBF94BB298196356CDC18 /* lang_hr.swift in Sources */,
+				AAF623DE231FD268997F135DF8D505B1 /* lang_hsb.swift in Sources */,
+				3503197FC60524B67CCB0C30167E4973 /* lang_hu.swift in Sources */,
+				61083F7F228C8AECDB9D693680478F2A /* lang_hy.swift in Sources */,
+				F41CD24054E587E39C5DB406D460A1F8 /* lang_id.swift in Sources */,
+				E7AC0785C28D05F3A4B6FBD130EA2BDB /* lang_is.swift in Sources */,
+				4C923A657D50809DCA35D2CD2DA5625D /* lang_it.swift in Sources */,
+				4ADFD1CFDDF3BEAF11FB90C47718F3B5 /* lang_ja.swift in Sources */,
+				38E50D5F6CC9B3AB27D165AF49D73555 /* lang_jgo.swift in Sources */,
+				97FC0D9A2F6E7DB60FC888D555D8ACB4 /* lang_ka.swift in Sources */,
+				12C5329585140BB3481457693BF56E73 /* lang_kea.swift in Sources */,
+				7E663CC982529014647AC78B43AE38BD /* lang_kk.swift in Sources */,
+				91735B81331918ADD3E0B5DCEE8AE12E /* lang_kl.swift in Sources */,
+				86AD3861A93810A6341EB8B4F04509D8 /* lang_km.swift in Sources */,
+				75AAD95C28B5A75C9D1EC8CD4964DB4C /* lang_kn.swift in Sources */,
+				B9EB7147279843AE1558E24AF2C63F4D /* lang_ko.swift in Sources */,
+				2EA7DC31DF4CF0905FEB56BE481EDC6C /* lang_kok.swift in Sources */,
+				FC410337A54492683754A216226D6C0F /* lang_ksh.swift in Sources */,
+				448CC5CA71AF0C4E20F0A83F5DA9EA80 /* lang_ky.swift in Sources */,
+				30E38CA94EA588C2200968C3AE90E4AC /* lang_lb.swift in Sources */,
+				54C3F214334D4291544379969E78DE4A /* lang_lkt.swift in Sources */,
+				827C76A5A269F3A50CAE4B10E14D0D3F /* lang_lo.swift in Sources */,
+				4922000A88A0DF5F034A0F1A73CCB68D /* lang_lt.swift in Sources */,
+				C10D3FBD19750B2A41BF3234E80B0313 /* lang_lv.swift in Sources */,
+				1E76F8E0C9223DDD232C48CC055EB897 /* lang_mk.swift in Sources */,
+				495C8BE02299F5CBC23538B98FE4E685 /* lang_ml.swift in Sources */,
+				E6E8889F75F1A8E3064FC06510C16222 /* lang_mn.swift in Sources */,
+				52D6DD07C29BCB54AA565D5077DD0BD8 /* lang_mr.swift in Sources */,
+				20B87A6C364622CE50FF774E673364E7 /* lang_ms.swift in Sources */,
+				FB0C7FDF01A9AF47101FA797B1B8A30F /* lang_mt.swift in Sources */,
+				146B769497CB8FBA15D5FBA38A458467 /* lang_my.swift in Sources */,
+				D43FAB9AB307F04C6737C705B6885AC2 /* lang_mzn.swift in Sources */,
+				1761BA4620DF5E29E34C2B7DC567B341 /* lang_nb.swift in Sources */,
+				D309544B0A8197493054A47544EE5C5F /* lang_ne.swift in Sources */,
+				C585856755BCF68B71D1D7B0F3F57CDC /* lang_nl.swift in Sources */,
+				C3142B70E08C94A5BD216C4962F13D98 /* lang_nn.swift in Sources */,
+				70BCAE80CE8EE86A0FF0C0649319DFA0 /* lang_or.swift in Sources */,
+				9CFC49AC1EFD2E1CB6205FB152F3C38E /* lang_pa.swift in Sources */,
+				5B43CCB233A3BAF715F9C3CE65F58D03 /* lang_pl.swift in Sources */,
+				D2A4940F81AD3455E1D30E78A4754141 /* lang_ps.swift in Sources */,
+				6A19BB15199DA665662C202C7A9ACD4E /* lang_pt.swift in Sources */,
+				15F7DE147AED18EBBC43DB1E171487D3 /* lang_ro.swift in Sources */,
+				87B63511C7E22270BCD29065F40919F4 /* lang_ru.swift in Sources */,
+				A79B40482A1FFEDBBD989240A2A5C876 /* lang_sah.swift in Sources */,
+				5F1F04583726E59F62A993490161CC6B /* lang_sd.swift in Sources */,
+				59D872A87F46DA332CE8235CE148AD76 /* lang_se.swift in Sources */,
+				DDB4CF2EBBC71C1E3E7845CF465DDAC3 /* lang_se_FI.swift in Sources */,
+				11F2D9786F5B350EC5F2F92E78998AEE /* lang_si.swift in Sources */,
+				8DE41C7D048FBCB88416C5F70C73451C /* lang_sk.swift in Sources */,
+				E9BCE126E093C22DA67717D816C55F0B /* lang_sl.swift in Sources */,
+				C64DC048E1493C34565697AF3675E9EB /* lang_sq.swift in Sources */,
+				C8E825C6D0B7DE99B242562BBF152530 /* lang_sr.swift in Sources */,
+				D8B49C215747F9A430B0DE70F0508D88 /* lang_sr_Latn.swift in Sources */,
+				7FD5D58A6B36326CB458121DF96A9B33 /* lang_sv.swift in Sources */,
+				C4729A6C5DA09EFD1A71904751208496 /* lang_sw.swift in Sources */,
+				544D29AB6D3B9B7906F1A657B6729D62 /* lang_ta.swift in Sources */,
+				19232E37942CEA6BE6CCBF68F9748862 /* lang_te.swift in Sources */,
+				BD18BF52AF50EF2B8A605988D3D7BA3B /* lang_th.swift in Sources */,
+				192FA3342317BB7754505BF63CA1DA2D /* lang_ti.swift in Sources */,
+				3975E2A36DFE221E61ECF6EA07C5053E /* lang_tk.swift in Sources */,
+				9D7F6225AD24E3B0DF4BC03FAB15F031 /* lang_to.swift in Sources */,
+				C956BAD277BB56C7C912CA8A66F24C85 /* lang_tr.swift in Sources */,
+				F972EE616A144F58E368FA5DB4842FBE /* lang_ug.swift in Sources */,
+				A0D20D81D23A55B6E90B9578226062A5 /* lang_uk.swift in Sources */,
+				79EA6FCCF87F66FC2C3091C74936E79C /* lang_ur.swift in Sources */,
+				E725C678945A64C0F17C4F712EB2C799 /* lang_ur_IN.swift in Sources */,
+				1FE528A62918635F42165A3A65A33B49 /* lang_uz.swift in Sources */,
+				BF689F445D4B849FAF88F6E474FF1A9C /* lang_uz_Cyrl.swift in Sources */,
+				F87B405B1BAE6331C44D04AAEC23493F /* lang_vi.swift in Sources */,
+				FA1171C417BD5EA94B813F645610AB34 /* lang_wae.swift in Sources */,
+				861131727D2A969E0DAF770F093509EC /* lang_yi.swift in Sources */,
+				ED7C9A397DDDE250E407378761EAC918 /* lang_yue_Hans.swift in Sources */,
+				B410B64A26DE5FEA19E7ECB698662A79 /* lang_yue_Hant.swift in Sources */,
+				97279175659486E83FDEF67D6723EA5B /* lang_zh.swift in Sources */,
+				B8CEE667EC8AB3BF2B00DC1F9EEEA886 /* lang_zh_Hans_HK.swift in Sources */,
+				F1E37C2ED9CD4199CC15B55AB3661581 /* lang_zh_Hans_MO.swift in Sources */,
+				AA72D163F5EA164C82CCEF7409309A31 /* lang_zh_Hans_SG.swift in Sources */,
+				C271CB6D7C5EF48AA7ECF8FECBD4F6C8 /* lang_zh_Hant.swift in Sources */,
+				2B8F30800A73858E88F7610934CA99DE /* lang_zh_Hant_HK.swift in Sources */,
+				2235CE6A08C669375D68F74AFB1AB2BF /* lang_zh_Hant_MO.swift in Sources */,
+				187BAC831A787A9A57851178475C5BDE /* lang_zu.swift in Sources */,
+				BD75675562AB1F316D2AD7DA35CDCAC2 /* Locales.swift in Sources */,
+				7677170B28DDC56E9858FE3787759018 /* Region.swift in Sources */,
+				770679AF608D1A20E5AD7FBE181D85D3 /* RelativeFormatter+Style.swift in Sources */,
+				C653A0850F3E17C9806504490DBE738C /* RelativeFormatter.swift in Sources */,
+				C815A737A1F8E76DF67724906493804A /* String+Parser.swift in Sources */,
+				9CB4B96103F441890D931E30FA99A0FA /* SwiftDate-iOS12.1-dummy.m in Sources */,
+				0EC0D0AC2FF92A25BD505D53D6B720FE /* SwiftDate.swift in Sources */,
+				FAD7322924A63404E074B2FF4CF3F09F /* TimeInterval+Formatter.swift in Sources */,
+				0E6373F3F2652CA3377532942BB5DD45 /* TimePeriod+Support.swift in Sources */,
+				8670D36290C565C0756F1F856B3BF1C7 /* TimePeriod.swift in Sources */,
+				1BB15B41F6C5CC89DC05B8146715E8DC /* TimePeriodChain.swift in Sources */,
+				558A716C8BF29F556B2EA7091E0918B5 /* TimePeriodCollection.swift in Sources */,
+				281A29431C7F3C4DB22BF814117EEEC6 /* TimePeriodGroup.swift in Sources */,
+				B31154C717CFCB85FBDD59B3E9416A9B /* TimePeriodProtocol.swift in Sources */,
+				BED3FEDC27A7DDB842D9C234170543F7 /* TimeStructures.swift in Sources */,
+				01C24C69C417503E2B14B31F269C45EE /* Zones.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D85A461E56F4E8E16799E6E5DCC2DBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftDate-iOS12.2";
+			target = A8B1D91A5EFBA9F9542F2C7B6299FF04 /* SwiftDate-iOS12.2 */;
+			targetProxy = 66C2F34C93DE8F8C83FA1FF505575412 /* PBXContainerItemProxy */;
+		};
+		61D9565AFD4373A232B4F30AD4BCE30F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftDate-iOS12.1";
+			target = 9F4D61A65A8308C06F8F26A1FABFFB76 /* SwiftDate-iOS12.1 */;
+			targetProxy = 9328C535A0D231CBB89095F5D015D92B /* PBXContainerItemProxy */;
+		};
+		909DB76F4E0D52562BE885320F7D5EC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManagerSwift;
+			target = EFF87187B46551C36797F2B899C54212 /* IQKeyboardManagerSwift */;
+			targetProxy = 79DBC824F1E2328C50E82EB95CDD329D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2DED2D20E4035559AF1F11F2C4336CEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D72C3C90D9595F1C428DA30E0C43A64 /* SwiftDate-iOS12.1.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftDate-iOS12.1/SwiftDate-iOS12.1-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftDate-iOS12.1/SwiftDate-iOS12.1-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftDate-iOS12.1/SwiftDate-iOS12.1.modulemap";
+				PRODUCT_MODULE_NAME = SwiftDate;
+				PRODUCT_NAME = SwiftDate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3843ABC1D24605311F0250915196AE43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C136C701BBCE0FC00AD07F50E92C6824 /* Pods-ABBYY_Extension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ABBYY_Extension/Pods-ABBYY_Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ABBYY_Extension/Pods-ABBYY_Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		417119BC55F15CD1131FF2FF88B5FE53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59A5D610B1B21E4753ADE0CC7A0C1FE3 /* IQKeyboardManagerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManagerSwift;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		82A213DA09DAE5F93B330571045F01B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69BA189FBD3CD84934CED1D14C58DE8D /* Pods-ABBYY Test.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ABBYY Test/Pods-ABBYY Test-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ABBYY Test/Pods-ABBYY Test.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C8FF7B7B608C8C93DA8BA8F542F4DC87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D72C3C90D9595F1C428DA30E0C43A64 /* SwiftDate-iOS12.1.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftDate-iOS12.1/SwiftDate-iOS12.1-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftDate-iOS12.1/SwiftDate-iOS12.1-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftDate-iOS12.1/SwiftDate-iOS12.1.modulemap";
+				PRODUCT_MODULE_NAME = SwiftDate;
+				PRODUCT_NAME = SwiftDate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D18FF0836C6A3A6136DB2357AF70C9FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5758AFC4F14FB4CA665ECCD5A09DA7B9 /* SwiftDate-iOS12.2.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftDate-iOS12.2/SwiftDate-iOS12.2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftDate-iOS12.2/SwiftDate-iOS12.2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftDate-iOS12.2/SwiftDate-iOS12.2.modulemap";
+				PRODUCT_MODULE_NAME = SwiftDate;
+				PRODUCT_NAME = SwiftDate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3BE6698EBD3B8947C196337EA7B0D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1BBFA5966B0AC75184226453BA2D39B /* Pods-ABBYY_Extension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ABBYY_Extension/Pods-ABBYY_Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ABBYY_Extension/Pods-ABBYY_Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4DCA30CDA737069A58870182F14AD7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5758AFC4F14FB4CA665ECCD5A09DA7B9 /* SwiftDate-iOS12.2.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftDate-iOS12.2/SwiftDate-iOS12.2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftDate-iOS12.2/SwiftDate-iOS12.2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftDate-iOS12.2/SwiftDate-iOS12.2.modulemap";
+				PRODUCT_MODULE_NAME = SwiftDate;
+				PRODUCT_NAME = SwiftDate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EBA41C2F94158BC32DC1C2E799ED4B08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59A5D610B1B21E4753ADE0CC7A0C1FE3 /* IQKeyboardManagerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManagerSwift;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F94228A376C6A0E5CE5E26CA9389151B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93CF288D0E1331DF9A0B659F7CEFEA75 /* Pods-ABBYY Test.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ABBYY Test/Pods-ABBYY Test-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ABBYY Test/Pods-ABBYY Test.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BE96E3828828A08CD856566CACBF9C6 /* Build configuration list for PBXNativeTarget "SwiftDate-iOS12.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D18FF0836C6A3A6136DB2357AF70C9FB /* Debug */,
+				E4DCA30CDA737069A58870182F14AD7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B91B77FBB13EFD33FB1AE6F88ABA7C5 /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417119BC55F15CD1131FF2FF88B5FE53 /* Debug */,
+				EBA41C2F94158BC32DC1C2E799ED4B08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1391485F05B41BD35738A433056B7FA /* Debug */,
+				A105C1752A0A49B30ED621B71E226CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56EBEECA90D8DFA2052EC900231C5AAF /* Build configuration list for PBXNativeTarget "SwiftDate-iOS12.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DED2D20E4035559AF1F11F2C4336CEE /* Debug */,
+				C8FF7B7B608C8C93DA8BA8F542F4DC87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67C97A08F68ECACE03CE8BCB46AB516A /* Build configuration list for PBXNativeTarget "Pods-ABBYY_Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3843ABC1D24605311F0250915196AE43 /* Debug */,
+				D3BE6698EBD3B8947C196337EA7B0D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F921932DED74737D14EB47DCB50F178 /* Build configuration list for PBXNativeTarget "Pods-ABBYY Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82A213DA09DAE5F93B330571045F01B3 /* Debug */,
+				F94228A376C6A0E5CE5E26CA9389151B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

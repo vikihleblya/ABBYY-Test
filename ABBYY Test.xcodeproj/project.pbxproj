@@ -19,6 +19,7 @@
 		708C872322789E400099EEF8 /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7007AD1322749FD80080BBFD /* Task+CoreDataProperties.swift */; };
 		708C872422789E430099EEF8 /* Task+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7007AD1222749FD80080BBFD /* Task+CoreDataClass.swift */; };
 		708C87282278E9610099EEF8 /* ABBYY_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70FAAC8422747EC800A3C6E0 /* ABBYY_Test.xcdatamodeld */; };
+		708C87382279BAB80099EEF8 /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FD6C0022765085000A8A43 /* NSDateExtension.swift */; };
 		70C8CF7622751E8F0022C9E3 /* InfoTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C8CF7522751E8F0022C9E3 /* InfoTaskViewController.swift */; };
 		70FAAC7E22747EC800A3C6E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FAAC7D22747EC800A3C6E0 /* AppDelegate.swift */; };
 		70FAAC8322747EC800A3C6E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70FAAC8122747EC800A3C6E0 /* Main.storyboard */; };
@@ -29,6 +30,8 @@
 		70FAAC95227485CE00A3C6E0 /* AddNewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FAAC94227485CE00A3C6E0 /* AddNewTaskViewController.swift */; };
 		70FAAC972274887200A3C6E0 /* MainTaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FAAC962274887200A3C6E0 /* MainTaskTableViewCell.swift */; };
 		70FD6C0122765085000A8A43 /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FD6C0022765085000A8A43 /* NSDateExtension.swift */; };
+		C810A6B2AEE6E6DDDAF12272 /* Pods_ABBYY_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 708C872E2279B7320099EEF8 /* Pods_ABBYY_Test.framework */; };
+		EEF069A816D99C1C22551C6A /* Pods_ABBYY_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C1976F911A70B8CC04D45A /* Pods_ABBYY_Extension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		472A098E007F2AAC9D8BC081 /* Pods-ABBYY_Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABBYY_Extension.debug.xcconfig"; path = "Target Support Files/Pods-ABBYY_Extension/Pods-ABBYY_Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		4CF987C6CCB0DAABCD55D27B /* Pods-ABBYY_Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABBYY_Extension.release.xcconfig"; path = "Target Support Files/Pods-ABBYY_Extension/Pods-ABBYY_Extension.release.xcconfig"; sourceTree = "<group>"; };
 		7007AD1222749FD80080BBFD /* Task+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataClass.swift"; sourceTree = "<group>"; };
 		7007AD1322749FD80080BBFD /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		7007AD162274A38C0080BBFD /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
@@ -66,7 +71,7 @@
 		708C87142277A1FB0099EEF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		708C871C2277A2680099EEF8 /* ABBYY Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ABBYY Test.entitlements"; sourceTree = "<group>"; };
 		708C871D2277A2700099EEF8 /* ABBYY_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ABBYY_Extension.entitlements; sourceTree = "<group>"; };
-		708C87262278C1360099EEF8 /* SwiftDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		708C872E2279B7320099EEF8 /* Pods_ABBYY_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_ABBYY_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C8CF7522751E8F0022C9E3 /* InfoTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTaskViewController.swift; sourceTree = "<group>"; };
 		70FAAC7A22747EC800A3C6E0 /* ABBYY Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ABBYY Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70FAAC7D22747EC800A3C6E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +84,7 @@
 		70FAAC94227485CE00A3C6E0 /* AddNewTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTaskViewController.swift; sourceTree = "<group>"; };
 		70FAAC962274887200A3C6E0 /* MainTaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTaskTableViewCell.swift; sourceTree = "<group>"; };
 		70FD6C0022765085000A8A43 /* NSDateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSDateExtension.swift; sourceTree = "<group>"; };
+		73C1976F911A70B8CC04D45A /* Pods_ABBYY_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABBYY_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B91F1692D81C1666404F787 /* Pods_ABBYY_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABBYY_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE2F7ECC72BC08E3AC162D3A /* Pods-ABBYY Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABBYY Test.release.xcconfig"; path = "Target Support Files/Pods-ABBYY Test/Pods-ABBYY Test.release.xcconfig"; sourceTree = "<group>"; };
 		DE93F6262E5B0ACF7060A1A8 /* Pods-ABBYY Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABBYY Test.debug.xcconfig"; path = "Target Support Files/Pods-ABBYY Test/Pods-ABBYY Test.debug.xcconfig"; sourceTree = "<group>"; };
@@ -90,6 +96,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				708C870D2277A1FB0099EEF8 /* NotificationCenter.framework in Frameworks */,
+				EEF069A816D99C1C22551C6A /* Pods_ABBYY_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +105,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07F7EEE2EEF9115B5B4A124A /* Pods_ABBYY_Test.framework in Frameworks */,
+				C810A6B2AEE6E6DDDAF12272 /* Pods_ABBYY_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +234,8 @@
 			children = (
 				DE93F6262E5B0ACF7060A1A8 /* Pods-ABBYY Test.debug.xcconfig */,
 				AE2F7ECC72BC08E3AC162D3A /* Pods-ABBYY Test.release.xcconfig */,
+				472A098E007F2AAC9D8BC081 /* Pods-ABBYY_Extension.debug.xcconfig */,
+				4CF987C6CCB0DAABCD55D27B /* Pods-ABBYY_Extension.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -233,9 +243,10 @@
 		DF19DA36CAFB08B89D36FC4F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				708C87262278C1360099EEF8 /* SwiftDate.framework */,
+				708C872E2279B7320099EEF8 /* Pods_ABBYY_Test.framework */,
 				8B91F1692D81C1666404F787 /* Pods_ABBYY_Test.framework */,
 				708C870C2277A1FB0099EEF8 /* NotificationCenter.framework */,
+				73C1976F911A70B8CC04D45A /* Pods_ABBYY_Extension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -247,6 +258,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 708C871A2277A1FB0099EEF8 /* Build configuration list for PBXNativeTarget "ABBYY_Extension" */;
 			buildPhases = (
+				D7A2CA33340BB6CB9B6802F6 /* [CP] Check Pods Manifest.lock */,
 				708C87072277A1FB0099EEF8 /* Sources */,
 				708C87082277A1FB0099EEF8 /* Frameworks */,
 				708C87092277A1FB0099EEF8 /* Resources */,
@@ -361,7 +373,7 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ABBYY Test/Pods-ABBYY Test-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate-iOS12.1/SwiftDate.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -397,6 +409,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D7A2CA33340BB6CB9B6802F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ABBYY_Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -404,6 +438,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				708C87382279BAB80099EEF8 /* NSDateExtension.swift in Sources */,
 				708C872222789E3C0099EEF8 /* CoreDataManager.swift in Sources */,
 				708C87282278E9610099EEF8 /* ABBYY_Test.xcdatamodeld in Sources */,
 				708C872322789E400099EEF8 /* Task+CoreDataProperties.swift in Sources */,
@@ -469,6 +504,7 @@
 /* Begin XCBuildConfiguration section */
 		708C87182277A1FB0099EEF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 472A098E007F2AAC9D8BC081 /* Pods-ABBYY_Extension.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = ABBYY_Extension/ABBYY_Extension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -490,6 +526,7 @@
 		};
 		708C87192277A1FB0099EEF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CF987C6CCB0DAABCD55D27B /* Pods-ABBYY_Extension.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = ABBYY_Extension/ABBYY_Extension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
