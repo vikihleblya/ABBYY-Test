@@ -1,0 +1,20 @@
+PODS:
+  - IQKeyboardManagerSwift (6.2.1)
+  - SwiftDate (5.1.0)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - SwiftDate (~> 5.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IQKeyboardManagerSwift
+    - SwiftDate
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: 0f0ae8935360b4003e6ea1ac7c19898f01e2f7c7
+  SwiftDate: 6329e58969a2de31cea7f1ee1143b247693196e7
+
+PODFILE CHECKSUM: fa91d9f9c577c24dda3e2cbb01987f11d5dbd01e
+
+COCOAPODS: 1.6.0
