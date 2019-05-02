@@ -13,7 +13,7 @@
         <!--Planner-->
         <scene sceneID="mQs-xH-5CQ">
             <objects>
-                <tableViewController id="YWt-DW-6k2" customClass="MainTableViewController" customModule="ABBYY_Test" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="main" id="YWt-DW-6k2" customClass="MainTableViewController" customModule="ABBYY_Test" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Z0i-mD-HTw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -49,7 +49,6 @@
                                         <constraint firstItem="lKx-LG-gVz" firstAttribute="leading" secondItem="lXg-r5-NvM" secondAttribute="leadingMargin" id="5GA-7c-8Ei"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="rW0-3h-0hN" secondAttribute="trailing" id="Z3i-ix-o3W"/>
                                         <constraint firstItem="rW0-3h-0hN" firstAttribute="centerY" secondItem="lXg-r5-NvM" secondAttribute="centerY" id="cJi-Qk-DmG"/>
-                                        <constraint firstItem="rW0-3h-0hN" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="lKx-LG-gVz" secondAttribute="trailing" constant="16" id="cUA-2E-2nu"/>
                                         <constraint firstItem="lKx-LG-gVz" firstAttribute="top" secondItem="lXg-r5-NvM" secondAttribute="topMargin" id="hd5-xU-SNA"/>
                                         <constraint firstItem="ELU-Sr-QCb" firstAttribute="bottom" secondItem="lXg-r5-NvM" secondAttribute="bottomMargin" id="qB5-bI-ism"/>
                                         <constraint firstItem="ELU-Sr-QCb" firstAttribute="leading" secondItem="lXg-r5-NvM" secondAttribute="leadingMargin" id="yOw-Y6-bTT"/>

@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  ABBYY Test
-//
-//  Created by Victor on 27/04/2019.
-//  Copyright © 2019 com.example.LoD. All rights reserved.
-//
-
 import UIKit
 import CoreData
 import IQKeyboardManagerSwift
@@ -14,10 +6,9 @@ import IQKeyboardManagerSwift
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    let mainStoryBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
         IQKeyboardManager.shared.enable = true
         
         return true
@@ -42,10 +33,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
-        // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-        // Saves changes in the application's managed object context before the application terminates.
+        CoreDataManager.instance.saveContext()
     }
 
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        if url.scheme == "openInfo"{
+            let mainStoryboardIpad : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let infoTaskViewController = mainStoryboardIpad.instantiateViewController(withIdentifier: "infoTask") as! InfoTaskViewController
+            if let navigationController = self.window?.rootViewController as? UINavigationController{
+                navigationController.pushViewController(infoTaskViewController, animated: true)
+            }
+            else{
+                print("Navigation Controller not Found")
+            }
+        }
+        return true
+    }
 
 
 }

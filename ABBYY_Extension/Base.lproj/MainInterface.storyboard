@@ -30,13 +30,26 @@
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DSE-nm-LjX">
+                                <rect key="frame" x="0.0" y="84" width="320" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Info">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToInfoViewController:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="yxy-1r-ECe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <constraints>
                             <constraint firstItem="zK0-ma-FD4" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" id="6PX-Mt-jgS"/>
+                            <constraint firstItem="ssy-KU-ocm" firstAttribute="trailing" secondItem="DSE-nm-LjX" secondAttribute="trailing" id="LKP-uY-bed"/>
                             <constraint firstAttribute="trailing" secondItem="zK0-ma-FD4" secondAttribute="trailing" id="LlK-pC-I0f"/>
+                            <constraint firstItem="DSE-nm-LjX" firstAttribute="leading" secondItem="ssy-KU-ocm" secondAttribute="leading" id="RQ2-rl-SN1"/>
                             <constraint firstItem="zK0-ma-FD4" firstAttribute="top" secondItem="Ixl-4b-1Gp" secondAttribute="bottom" constant="16" id="Rpm-MB-9Uo"/>
                             <constraint firstAttribute="trailing" secondItem="Ixl-4b-1Gp" secondAttribute="trailing" id="bdd-19-JpP"/>
                             <constraint firstItem="Ixl-4b-1Gp" firstAttribute="top" secondItem="S3S-Oj-5AN" secondAttribute="top" constant="16" id="cfX-sJ-anM"/>
+                            <constraint firstItem="DSE-nm-LjX" firstAttribute="top" secondItem="zK0-ma-FD4" secondAttribute="bottom" constant="8" id="e3L-zK-2yG"/>
                             <constraint firstItem="Ixl-4b-1Gp" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" id="ziN-q7-Ri1"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ssy-KU-ocm"/>
@@ -46,6 +59,7 @@
                     <size key="freeformSize" width="320" height="150"/>
                     <connections>
                         <outlet property="dateTaskLabel" destination="zK0-ma-FD4" id="vtY-qE-IfT"/>
+                        <outlet property="infoTaskButton" destination="DSE-nm-LjX" id="HEg-Ev-8SK"/>
                         <outlet property="nameTaskLabel" destination="Ixl-4b-1Gp" id="Ojb-pb-J0u"/>
                     </connections>
                 </viewController>

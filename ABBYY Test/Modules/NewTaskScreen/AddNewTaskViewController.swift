@@ -71,6 +71,7 @@ extension AddNewTaskViewController{
         task?.date = datePicker.date as NSDate
         task?.comment = commentTextView.text
         task?.name = nameTextField.text
+        CoreDataManager.instance.saveContext()
     }
     
     func saveNewData(){

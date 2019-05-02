@@ -16,6 +16,6 @@ class InfoTaskViewController: UIViewController {
         nameLabel.text = task?.name
         statusLabel.text = task?.status
         commentTextView.text = task?.comment
-        dateLabel.text = task?.date?.description
+        dateLabel.text = task?.date?.convertToLocalDate()
     }
 }
