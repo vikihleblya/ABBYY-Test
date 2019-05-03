@@ -50,12 +50,16 @@ class AddNewTaskViewController: UIViewController {
 
 extension AddNewTaskViewController{
     func isDataForSaveCorrect() -> Bool{
-        if commentTextView.text.isEmpty || nameTextField.text == ""{
-            showError(with: "Fill all empty fields")
+        if nameTextField.text!.isEmpty{
+            showError(with: "Fill name field")
             return false
         }
         if datePicker.date.isInPast{
             showError(with: "Date cannot be in the past")
+            return false
+        }
+        if commentTextView.text.isEmpty{
+            showError(with: "Fill comment field")
             return false
         }
         return true
