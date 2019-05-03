@@ -12,16 +12,14 @@ class TodayViewController: UIViewController, NCWidgetProviding {
     }
     
     private var context = CoreDataManager.instance.persistentContainer.viewContext
-    private var fetchedResultsController = CoreDataManager.instance.fetchedResultsController(entityName: "Task", keyForSort: "date", ascending: true)
     private var tasks: [Task] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        fetchData()
+        tasks = CoreDataManager.instance.performFetchTasks(entityName: "Task", keyForSort: "date", ascending: true) as! [Task]
         guard let task = getNearestTaskByDate() else {
             nameTaskLabel.text = "No task"
             dateTaskLabel.text?.removeAll()
@@ -34,21 +32,9 @@ class TodayViewController: UIViewController, NCWidgetProviding {
         view.snapshotView(afterScreenUpdates: true)
      }
     
-    func fetchData(){
-        do {
-            try fetchedResultsController.performFetch()
-            tasks = fetchedResultsController.fetchedObjects as? [Task] ?? tasks
-        } catch {
-            print(error)
-        }
-    }
-    
+
     func getNearestTaskByDate() -> Task? {
-        let nearestDateTask = tasks.filter({$0.status != "Done"}).max { (task1, task2) -> Bool in
-            let date1 = task1.date! as Date
-            let date2 = task2.date! as Date
-            return date1 > date2
-        }
+        let nearestDateTask = tasks.filter({$0.status != "Done"}).first
         return nearestDateTask
     }
     

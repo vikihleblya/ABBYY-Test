@@ -42,7 +42,21 @@ class CoreDataManager {
         }
     }
     
+    func performFetchTasks(entityName: String, keyForSort: String, ascending: Bool) -> [Task?] {
+        var tasks: [Task?] = []
+        let resultsController = fetchedResultsController(entityName: entityName, keyForSort: keyForSort, ascending: ascending)
+        do {
+            try resultsController.performFetch()
+            tasks = resultsController.fetchedObjects as? [Task] ?? []
+        } catch {
+            print(error)
+        }
+        return tasks
+    }
+    
 }
+
+// MARK: - Container to work with App Groups
 
 class PersistentContainer: NSPersistentContainer{
     override class func defaultDirectoryURL() -> URL{

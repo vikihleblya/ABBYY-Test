@@ -11,6 +11,7 @@
 		7007AD1422749FD80080BBFD /* Task+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7007AD1222749FD80080BBFD /* Task+CoreDataClass.swift */; };
 		7007AD1522749FD80080BBFD /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7007AD1322749FD80080BBFD /* Task+CoreDataProperties.swift */; };
 		7007AD172274A38C0080BBFD /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7007AD162274A38C0080BBFD /* CoreDataManager.swift */; };
+		700E63D2227C3505009C9C13 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708C870F2277A1FB0099EEF8 /* TodayViewController.swift */; };
 		708C870D2277A1FB0099EEF8 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 708C870C2277A1FB0099EEF8 /* NotificationCenter.framework */; };
 		708C87102277A1FB0099EEF8 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708C870F2277A1FB0099EEF8 /* TodayViewController.swift */; };
 		708C87132277A1FB0099EEF8 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 708C87112277A1FB0099EEF8 /* MainInterface.storyboard */; };
@@ -169,9 +170,9 @@
 		708C870E2277A1FB0099EEF8 /* ABBYY_Extension */ = {
 			isa = PBXGroup;
 			children = (
-				708C871D2277A2700099EEF8 /* ABBYY_Extension.entitlements */,
 				708C870F2277A1FB0099EEF8 /* TodayViewController.swift */,
 				708C87112277A1FB0099EEF8 /* MainInterface.storyboard */,
+				708C871D2277A2700099EEF8 /* ABBYY_Extension.entitlements */,
 				708C87142277A1FB0099EEF8 /* Info.plist */,
 			);
 			path = ABBYY_Extension;
@@ -208,13 +209,13 @@
 		70FAAC7C22747EC800A3C6E0 /* ABBYY Test */ = {
 			isa = PBXGroup;
 			children = (
-				708C871C2277A2680099EEF8 /* ABBYY Test.entitlements */,
 				70FD6BFF22765067000A8A43 /* Extensions */,
 				7007AD192274CE790080BBFD /* Settings */,
 				7007AD182274CE410080BBFD /* Resources */,
 				7007AD1A2274CE8C0080BBFD /* Modules */,
 				7007AD0D22749FB90080BBFD /* Database */,
 				70FAAC8C22747EC900A3C6E0 /* Info.plist */,
+				708C871C2277A2680099EEF8 /* ABBYY Test.entitlements */,
 			);
 			path = "ABBYY Test";
 			sourceTree = "<group>";
@@ -459,6 +460,7 @@
 				7007AD172274A38C0080BBFD /* CoreDataManager.swift in Sources */,
 				70C8CF7622751E8F0022C9E3 /* InfoTaskViewController.swift in Sources */,
 				70FAAC7E22747EC800A3C6E0 /* AppDelegate.swift in Sources */,
+				700E63D2227C3505009C9C13 /* TodayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

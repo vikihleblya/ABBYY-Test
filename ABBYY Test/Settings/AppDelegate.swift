@@ -7,6 +7,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     let mainStoryBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+    private var fetchedResultsController = CoreDataManager.instance.fetchedResultsController(entityName: "Task", keyForSort: "date", ascending: true)
+    var task: Task?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         IQKeyboardManager.shared.enable = true
@@ -40,16 +42,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if url.scheme == "openInfo"{
             let mainStoryboardIpad : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
             let infoTaskViewController = mainStoryboardIpad.instantiateViewController(withIdentifier: "infoTask") as! InfoTaskViewController
+            infoTaskViewController.task = fetchData()
             if let navigationController = self.window?.rootViewController as? UINavigationController{
                 navigationController.pushViewController(infoTaskViewController, animated: true)
             }
-            else{
-                print("Navigation Controller not Found")
-            }
+            else {print("Navigation Controller not Found")}
         }
         return true
     }
 
+    func fetchData() -> Task? {
+        let tasks: [Task] = CoreDataManager.instance.performFetchTasks(entityName: "Task", keyForSort: "date", ascending: true) as! [Task]
+        let task = tasks.filter({$0.status != "Done"}).first
+        return task
+    }
 
 }
 

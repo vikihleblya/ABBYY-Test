@@ -2,6 +2,7 @@ import UIKit
 import SwiftDate
 
 class MainTableViewController: UITableViewController {
+    // MARK: - Properties
     private let heightForCell: CGFloat = 73.0
     private var keysForSort = ["date", "name", "status"]
     private var fetchedResultsController = CoreDataManager.instance.fetchedResultsController(entityName: "Task", keyForSort: "date", ascending: true)
@@ -91,6 +92,8 @@ class MainTableViewController: UITableViewController {
 
 
 }
+
+// MARK: - Swipe Actions in Cells
 
 extension MainTableViewController{
     override func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
